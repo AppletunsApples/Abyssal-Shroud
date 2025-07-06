@@ -249,8 +249,6 @@ class PokemonLoadScreen
       end
       commands = []
       cmd_continue     = -1
-      cmd_new_game     = -1
-      cmd_new_game_plus = -1
       cmd_controls     = -1
       cmd_options      = -1
       cmd_language     = -1
@@ -266,8 +264,6 @@ class PokemonLoadScreen
           commands[cmd_mystery_gift = commands.length] = _INTL('Mystery Gift') # Honestly I have no idea how to make Mystery Gift work well with this.
         end
       end
-      commands[cmd_new_game = commands.length]  = _INTL('New Game')
-      commands[cmd_new_game_plus = commands.length] = _INTL("New Game+") if NewGamePlus.ngplus_data_valid?
       commands[cmd_saveFolder = commands.length] = _INTL("Open Save Folder")
       commands[cmd_controls = commands.length]  = _INTL('Controls')
       commands[cmd_options = commands.length]   = _INTL('Options')
@@ -296,14 +292,6 @@ class PokemonLoadScreen
         when cmd_continue
           @scene.pbEndScene
           Game.load(@save_data)
-          return
-        when cmd_new_game
-          @scene.pbEndScene
-          Game.start_new
-          return
-        when cmd_new_game_plus
-          @scene.pbEndScene
-          NewGamePlus.load_ngplus
           return
         when cmd_controls
           System.show_settings
