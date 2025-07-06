@@ -1,0 +1,97 @@
+#-------------------------------#
+Battler Sprites:
+[*]Gen 1-5 Pokemon Sprites - veekun
+[*]Gen 6 Pokemon Sprites - All Contributors to the Smogon X/Y Sprite Project
+[*]Gen 7 Pokemon Sprites - All Contributors to the Smogon Sun/Moon Sprite Project
+[*]Gen 8 Pokemon Sprites - All Contributors to the Smogon  Sword/Shield Sprite Project
+[*]PLA Pokemon Sprites		- Smogon Gen8 Sprite Project
+(https://www.smogon.com/forums/threads/smogon-sprite-project.3647722/)
+[*]Pokemon Gen 9 Battler Sprites - Abnayami, ace_stryfe AshnixsLaw, Azria, Caruban, Clara, Divaruta 666, jinxed, JordanosArt, Katten, KingOfThe-X-Roads, leParagon, Mak, Mashirosakura, OldSoulja, Skyflyer, Sopita_Yorita,
+[*]Battler Sprites QC - leParagon
+
+Overworld Sprites:
+[*]Gen 1-5 Pokemon Overworlds - 2and2makes5, Chocosrawlooid, cSc-A7X, Fernandojl, Gallanty, Getsuei-H, Gizamimi-Pichu, help-14, kdiamo11, Kid1513, Kymoyonian, Kyt666, LarryTurbo, Milomilotic11, MissingLukey, Pokegirl4ever, Silver-Skies, spritesstealer, Syledude, TyranitarDark, Zyon17
+[*]Gen 6+ Berry Tree Overworlds	- Anarlaurendil
+[*]Gen 6 Pokemon Overworlds - LunarDusk, piphybuilder88, princess-pheonix, TintjeMadelintje101, Wolfang62
+[*]Gen 7 Pokemon Overworlds - LarryTurbo, princess-pheonix
+[*]Gen 8 Pokemon Overworlds - LarryTurbo, SageDeoxys, tammyclaydon, Wolfang62
+[*]PLA Pokemon Overworlds - Boonzeet, DarkusShadow, Ezeart, princess-phoenix, WolfPP
+[*]Gen 9 Pokemon Overworlds - Azria, Carmanekko, Caruban DarkusShadow, EduarPokeN, StarWolff
+
+Icons:
+[*]Gen 1-6 Icon Sprites - Alaguesia, harveydentmd
+[*]Gen 7 Icon Sprites - MapleBranchWing, Marin, Contributors to the DS Styled Gen 7+ Repository
+[*]Gen 8 Icon Sprites - LarryTurbo, Leparagon
+[*]PLA Icon Sprites - Cesare_CBass, Cesare_Cbass, JWNutz leParagon, LuigiTKO, MultiDiegoDani, Pikafan2000, Vent
+[*]Gen 9 Icon Sprites - ezerart, JordanosArt
+[*]Shiny Icon Sprites - StarrWolf, Pokemon Shattered Light Team
+
+Item sprites:
+[*]PLA Items - 3DJackArt, AztecCroc, Caruban, lichenprincess
+[*]Gen 9 Items - Caruban, jinxed, lichenprincess
+
+Cries:
+[*]Gen 1-6 Pokemon Cries - Rhyden
+[*]Gen 7 Pokemon Cries - Marin, Rhyden
+[*]Gen 8 Pokemon Cries - Zeak6464, Morningdew
+
+Footprints:
+[*]Gen PLA-9 Pokemon Footprints - Caruban
+
+PBS:
+[*]Gen 9 PBS - Caruban, DJChaos, Futuresushi, PurousMist, Lucidious89
+
+Scripts:
+[*]Gen 8 Scripts - Golisopod User, Maruno, Vendily, TheToxic, HM100, Aioross, WolfPP, MFilice, lolface, KyureJL, DarrylBD99, Turn20Negate, TheKandinavian, ErwanBeurier
+[*]Gen 9 & PLA Scripts - Caruban
+
+Compilation of Resources:
+[*]Gen 8 Pack - Golisopod User, UberDunsparce
+[*]Gen 9 Pack - Caruban
+[*]Resized Sprites - http404error
+
+Other Graphics:
+[*]Poke Ball Summary Icons & Battle Animations - Caruban, WolfPP
+
+Special Links:
+[*]Gen 9 Cries - https://www.youtube.com/watch?v=KV6k3G62oT0 (Edited from Lightblade's Absol Gen 9 Cries compilation video)
+[*]Walking Wake and Iron Leaves Cries video - https://www.youtube.com/watch?v=weH2W3mQ35Y (Edited from HeroLinik's Pokemon Scarlet and Violet)
+[*]Teal Mask Cries - https://www.youtube.com/watch?v=pQr9z4ryE40 - (Edited from HeroLinik's Pokemon Scarlet and Violet - All Teal Mask Cries video)
+[*]Indigo Disk Cries - https://www.youtube.com/watch?v=2Qqr9IzgcKE (Edited from Joya in UK's Indigo Disk Cries video)
+
+[*]PLA-Gen 9 Sprites - https://docs.google.com/spreadsheets/d/1T-KC-4XDOeFKq0Z6tfN6Sz4JIlpaK7B8A0lbmBg9fNY/edit?usp=sharing
+[*]Full Sprite Credits - https://docs.google.com/spreadsheets/d/1T-KC-4XDOeFKq0Z6tfN6Sz4JIlpaK7B8A0lbmBg9fNY/edit?usp=sharing
+[*]Shiny Icon Sprites - Alaguesia, Marin, MapleBranchWing, Larry Turbo, Leparagon, Starwolff, ezerart, LuigiTKO, AvatarMonkeyKirby, Marin, Boushy, MiDas Mike, Brother1440, Near Fantastica, FL., PinkMan, Genzai Kawakami, Popper, Golisopod User, Rataime, help-14, Savordez, IceGod64, SoundSpawn, Jacob O. Wobbrock, the__end, KitsuneKouta, Venom12, Lisa Anthony, Wachunga
+#-------------------------------#
+Other Graphicss:
+[*]Darkness Intro - Wallpaper Cave
+
+Battle Graphics:
+
+Tileset Graphics:
+[*]Snowy City - Ekat, Vurtax, Cinna
+
+Overworld Graphics:
+
+Trainer Graphics:
+
+Public Scripts & Plugins:
+[*]Alphabetized Bag - Nineage
+[*]Arcky's Region Map - Arcky
+[*]Arcky's Utilities - Arcky
+[*]Auto-Multi Save - http404error
+[*]Bag Screen with Interactable Party - DiegoWT
+[*]Customizable Level Caps - IndianAnimator, Yewchung, Vendily, ClaraDragon, Aiur Jordan & Golisopod User
+[*]Delta Speed Up - Marin, phantombass, Mashirosakura, Golisopod User, D0vid, Manurocker95
+[*]Encounter List UI - ThatWelshOne_,raZ,Marin,Maruno,Nuri Yuri,PurpleZaffre,Savordez,Vendily
+[*]Following Pokemon Ex - Akizakura16, Armin, Golisopod User, Help-14, Maruno, Nononever, PurpleZaffre, Rayd12smitty, Thundaga, Venom12, mej71, zingzags
+[*]Game Updater - dpertierra, iansson
+[*]Gen 9 Pack - Caruban
+[*]Infinite Backups - DemICE
+[*]Infinite Repels - dptierra
+[*]Marin's Map Exporter - Marin
+[*]Marin's Script Utilities - Marin
+[*]Modern Quest System + UI - ThatWelshOne_, mej71, derFischae, Marin
+[*]SwSh Style Item Descriptions - Boonzeet, IndianAnimator
+[*]Tutor.net - DemICE
+[*]Type Icons in Battle - Golisopod User, Hubercioch
