@@ -1,0 +1,20 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[WORKAPPLICATION]
+Name = Work Application
+NamePlural = Work Applications
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = An application for your newfound job at Styx Island.
+#-------------------------------
+[PLANETICKET]
+Name = Plane Ticket
+NamePlural = Plane Tickets
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A ticket that allows you to fly to Styx Island through its airplane.
+#-------------------------------
