@@ -1,13 +1,13 @@
 # See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[WORKAPPLICATION]
-Name = Work Application
-NamePlural = Work Applications
-Pocket = 8
+[FLUTTERBALL]
+Name = Flutter Ball
+NamePlural = Flutter Ball
+Pocket = 3
 Price = 0
-FieldUse = Direct
-Flags = KeyItem
-Description = An application for your newfound job at Styx Island.
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A Ball with an increaed catch rate on Pokémon native to Styx Island.
 #-------------------------------
 [PLANETICKET]
 Name = Plane Ticket

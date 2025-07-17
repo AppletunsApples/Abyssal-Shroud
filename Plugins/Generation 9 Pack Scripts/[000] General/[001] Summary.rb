@@ -96,7 +96,7 @@ class PokemonSummary_Scene
       commands[cmdCheckMoves = commands.length] = _INTL("Check Moves") if !@pokemon.moves.empty?
       commands[cmdLearnMoves = commands.length] = _INTL("Remember Moves") if @pokemon.can_relearn_move?
       commands[cmdForgetMove = commands.length] = _INTL("Forget Moves") if @pokemon.moves.length > 1
-      commands[cmdTeachTMs   = commands.length] = _INTL("Use TM's")
+      commands[cmdTeachTMs   = commands.length] = _INTL("Use TMs")
     else
       if !@pokemon.egg?
         commands[cmdGiveItem = commands.length] = _INTL("Give item")
