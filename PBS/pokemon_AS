@@ -1,0 +1,32 @@
+#-------------------------------
+[BUNEARY,1]
+FormName = Styxian
+Types = NORMAL,STEEL
+BaseStats = 50,71,44,90,44,51
+Abilities = LIMBER,KLUTZ
+HiddenAbilities = FILTER
+Moves = 1,RETURN
+TutorMoves = RETURN
+EggMoves = COUNTER,FINALGAMBIT,FURYSWIPES,MEFIRST,REVENGE,REVERSAL,SNATCH,STOCKPILE,SWALLOW,SWITCHEROO,UPROAR
+Weight = 3.8
+Color = Gray
+Pokedex = With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds.
+Generation = 0
+Flags = InheritFormWithEverStone
+WildItemUncommon = METALCOAT
+Evolutions = LOPUNNY,HasMove,WORKUP
+#-------------------------------
+[LOPUNNY,1]
+FormName = Styxian
+Types = NORMAL,STEEL
+BaseStats = 65,106,74,100,54,81
+Abilities = LIMBER,KLUTZ
+HiddenAbilities = FILTER
+TutorMoves = RETURN
+Weight = 25.5
+Color = Gray
+Pokedex = .
+Generation = 0
+Flags = InheritFormWithEverStone
+WildItemUncommon = METALCOAT
+#-------------------------------
