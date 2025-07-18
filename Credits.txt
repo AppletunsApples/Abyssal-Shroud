@@ -63,10 +63,8 @@ Special Links:
 [*]Full Sprite Credits - https://docs.google.com/spreadsheets/d/1T-KC-4XDOeFKq0Z6tfN6Sz4JIlpaK7B8A0lbmBg9fNY/edit?usp=sharing
 [*]Shiny Icon Sprites - Alaguesia, Marin, MapleBranchWing, Larry Turbo, Leparagon, Starwolff, ezerart, LuigiTKO, AvatarMonkeyKirby, Marin, Boushy, MiDas Mike, Brother1440, Near Fantastica, FL., PinkMan, Genzai Kawakami, Popper, Golisopod User, Rataime, help-14, Savordez, IceGod64, SoundSpawn, Jacob O. Wobbrock, the__end, KitsuneKouta, Venom12, Lisa Anthony, Wachunga
 #-------------------------------#
-Other Graphicss:
+Other Graphics:
 [*]Darkness Intro - Wallpaper Cave
-
-Battle Graphics:
 
 Tileset Graphics:
 [*]Snowy City - Ekat, Vurtax, Cinna
@@ -74,6 +72,7 @@ Tileset Graphics:
 Overworld Graphics:
 
 Trainer Graphics:
+[*]ORAS Pokeranger - Aveontrainer, DiegoWT
 
 Public Scripts & Plugins:
 [*]Alphabetized Bag - Nineage

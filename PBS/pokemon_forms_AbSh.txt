@@ -14,7 +14,7 @@ Pokedex = .
 Generation = 0
 Flags = InheritFormWithEverStone
 WildItemUncommon = METALCOAT
-Evolutions = LOPUNNY,HasMove,METACLAW
+Evolutions = LOPUNNY,HasMove,METALCLAW
 #-------------------------------
 [LOPUNNY,1]
 FormName = Styxian
