@@ -198,6 +198,26 @@ Name = Lass
 Gender = Female
 BaseMoney = 16
 #-------------------------------
+[ISLANDNATIVE_M]
+Name = Island Native
+Gender = Male
+BaseMoney = 8
+#-------------------------------
+[ISLANDNATIVE_F]
+Name = Island Native
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[DOCTOR]
+Name = Doctor
+Gender = Male
+BaseMoney = 70
+#-------------------------------
+[NURSE]
+Name = Nurse
+Gender = Female
+BaseMoney = 70
+#-------------------------------
 [POKEMONRANGER_M]
 Name = Pokémon Ranger
 Gender = Male
