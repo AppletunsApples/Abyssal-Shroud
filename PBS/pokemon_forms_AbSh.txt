@@ -12,9 +12,9 @@ Weight = 3.8
 Color = Gray
 Pokedex = .
 Generation = 0
-Flags = InheritFormWithEverStone
-WildItemUncommon = METALCOAT,Styxian
+WildItemUncommon = METALCOAT
 Evolutions = LOPUNNY,Level,18
+Flags = InheritFormWithEverStone,Styxian
 #-------------------------------
 [LOPUNNY,1]
 FormName = Styxian
