@@ -3,30 +3,16 @@
 [001]   # Intro
 Name = Intro
 #-------------------------------
-[002]   # Lappet Town
-Name = Lappet Town
-Outdoor = true
-ShowArea = true
-MapPosition = 0,13,12
-BattleBack = field
-#-------------------------------
-[003]   # Other Maps
-Name = \PN's house
-HealingSpot = 2,8,8
-MapPosition = 0,13,12
-#-------------------------------
 [004]   # Styx Main Base
 Name = Pokémon Lab
 MapPosition = 0,13,12
 #-------------------------------
-[005]   # Poké Center Placeholders
-Name = Route 1
-Outdoor = true
-ShowArea = true
-MapPosition = 0,13,11
-BattleBack = field
-#-------------------------------
 [006]   # Styx Airplane
 Name = Styx Airplane
 ShowArea = true
+#-------------------------------
+[007]   # Styx Airport
+Name = Styx Airport
+ShowArea = true
+SnapEdges = true
 #-------------------------------
