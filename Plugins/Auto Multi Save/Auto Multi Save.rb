@@ -1,4 +1,3 @@
-
 # Auto Multi Save by http404error
 # For Pokemon Essentials v21.1
 
@@ -249,13 +248,14 @@ class PokemonLoadScreen
       end
       commands = []
       cmd_continue     = -1
+      cmd_new_game     = -1
       cmd_controls     = -1
       cmd_options      = -1
       cmd_language     = -1
+      cmd_discord      = -1
       cmd_mystery_gift = -1
       cmd_saveFolder   = -1
       cmd_debug        = -1
-      cmd_discord      = -1
       cmd_quit         = -1
       show_continue = !@save_data.empty?
       if show_continue
@@ -264,11 +264,12 @@ class PokemonLoadScreen
           commands[cmd_mystery_gift = commands.length] = _INTL('Mystery Gift') # Honestly I have no idea how to make Mystery Gift work well with this.
         end
       end
-      commands[cmd_saveFolder = commands.length] = _INTL("Open Save Folder")
+      commands[cmd_new_game = commands.length]  = _INTL('New Game')
       commands[cmd_controls = commands.length]  = _INTL('Controls')
       commands[cmd_options = commands.length]   = _INTL('Options')
       commands[cmd_language = commands.length]  = _INTL('Language') if Settings::LANGUAGES.length >= 2
       commands[cmd_discord = commands.length]     = _INTL('Discord')
+      commands[cmd_saveFolder = commands.length] = _INTL("Open Save Folder")
       commands[cmd_debug = commands.length]     = _INTL('Debug') if $DEBUG
       commands[cmd_quit = commands.length]      = _INTL('Quit Game')
       cmd_left = -3
@@ -293,6 +294,10 @@ class PokemonLoadScreen
           @scene.pbEndScene
           Game.load(@save_data)
           return
+        when cmd_new_game
+          @scene.pbEndScene
+          Game.start_new
+          return
         when cmd_controls
           System.show_settings
         when cmd_mystery_gift
@@ -316,10 +321,10 @@ class PokemonLoadScreen
         when cmd_saveFolder
           folderpath = RTP.getSaveFolder
           system("explorer #{folderpath}")
-        when cmd_debug
-          pbFadeOutIn { pbDebugMenu(false) }
         when cmd_discord
           System.launch("https://discord.gg/RG8HBGxVpw")
+        when cmd_debug
+          pbFadeOutIn { pbDebugMenu(false) }
         when cmd_quit
           pbPlayCloseMenuSE
           @scene.pbEndScene

@@ -3,7 +3,7 @@
 [FLUTTERBALL]
 Name = Flutter Ball
 NamePlural = Flutter Ball
-Pocket = 3
+Pocket = 4
 Price = 0
 BattleUse = OnFoe
 Flags = PokeBall
@@ -12,7 +12,7 @@ Description = A Ball with an increaed catch rate on Pokémon unique to Styx Isla
 [PLANETICKET]
 Name = Plane Ticket
 NamePlural = Plane Tickets
-Pocket = 8
+Pocket = 6
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
