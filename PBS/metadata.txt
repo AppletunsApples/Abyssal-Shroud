@@ -1,7 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [0]
-StartMoney = 3000
+StartMoney = 5000
 StartItemStorage = POTION
 Home = 3,7,5,8
 StorageCreator = Bill
@@ -13,8 +13,8 @@ SurfBGM = Surfing
 BicycleBGM = Bicycle
 #-------------------------------
 [1]
-TrainerType = POKEMONTRAINER_Red
-WalkCharset = trainer_POKEMONTRAINER_Red
+TrainerType = POKEMONTRAINER_Galen
+WalkCharset = trainer_POKEMONTRAINER_Galen
 RunCharset = boy_run
 CycleCharset = boy_bike
 SurfCharset = boy_surf
@@ -23,8 +23,8 @@ FishCharset = boy_fish_offset
 SurfFishCharset = boy_fish_offset
 #-------------------------------
 [2]
-TrainerType = POKEMONTRAINER_Leaf
-WalkCharset = trainer_POKEMONTRAINER_Leaf
+TrainerType = POKEMONTRAINER_Abigail
+WalkCharset = trainer_POKEMONTRAINER_Abigail
 RunCharset = girl_run
 CycleCharset = girl_bike
 SurfCharset = girl_surf
