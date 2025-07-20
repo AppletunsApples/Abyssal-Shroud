@@ -1,0 +1,52 @@
+#-------------------------------
+[SNUNI]
+Name = Snuni
+Types = WATER,DARK
+BaseStats = 30,25,35,20,45,30
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 37
+EVs = SPECIAL_ATTACK,1
+CatchRate = 190
+Happiness = 50
+Abilities = CLEARBODY
+HiddenAbilities = FILTER
+Moves = 1,WATERGUN,1,BITE,6,HARDEN,12,SPIKES
+TutorMoves = CHILLINGWATER,FACADE,FLING,FAIRYWIND,IRONDEFENSE,PAYBACK,POUNCE,PROTECT,REST,SUBSTITUTE,SURF,SPIKES
+EggMoves = BITE,FAIRYWIND,COUNTER,SPIKES
+EggGroups = Water1,Water2
+HatchSteps = 5120
+Height = 0.6
+Weight = 4.4
+Color = Purple
+Shape = Head
+Habitat = Mountain
+Category = Urchin
+Pokedex = While it appears similar to Snom, it is a different species entirely. It seldom moves on its own, instead using its spikes to stick to passers-by.
+WildItemRare = STICKYBARB
+Evolution = FROBU,HasMove,SURF
+#-------------------------------
+[FROBU]
+Name = Frobu
+Types = WATER,DARK
+BaseStats = 70,65,60,65,125,90
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 168
+EVs = SPECIAL_ATTACK,2
+CatchRate = 75
+Happiness = 50
+Abilities = CLEARBODY
+HiddenAbilities = FILTER
+Moves = 0,BUBBLE,1,POUNCE,1,BITE,1,ATTRACT,1,BUBBLEBEAM,8,WATERSPORT,12,AQUAJET,16,WHIRLPOOL,21,CHILLINGWATER,24,BUBBLEBEAM,28,RAINDANCE,32,DAZZLINGGLEAM,36,AQUARING,40,DARKPULSE,44,TAILWIND,48,WIDEGUARD,52,SURF
+TutorMoves = AIRSLASH,ACROBATICS,AQUAJET,CHILLINGWATER,DAZZLINGGLEAM,DARKPULSE,DUALWINGBEAT,FACADE,FLING,HYDROPUMP,IRONDEFENSE,PAYBACK,POUNCE,PROTECT,RAINDANCE,REST,SHADOWBALL,SUBSTITUTE,SURF,TAILWIND,TRIPLEAXEL,WATERFALL,WATERPULSE
+EggGroups = Water1,Water2
+HatchSteps = 5120
+Height = 1.3
+Weight = 42.0
+Color = Purple
+Shape = MultiWinged
+Habitat = Sea
+Category = Flying Fish
+Pokedex = It glides through the air with its winglike fins, but it is ultimately incapable of true flight. It compensates by swimming at high speed and then leaping out of the water.
+#-------------------------------

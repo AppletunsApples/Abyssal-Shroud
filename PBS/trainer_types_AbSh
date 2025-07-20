@@ -1,0 +1,20 @@
+#-------------------------------
+[POKEMONTRAINER_Galen]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Abigail]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[ISLANDNATIVE_M]
+Name = Island Native
+Gender = Male
+BaseMoney = 8
+#-------------------------------
+[ISLANDNATIVE_F]
+Name = Island Native
+Gender = Female
+BaseMoney = 60
