@@ -1713,8 +1713,15 @@ def pbBagUseItem(bag, item, scene, screen, chosen, bagscene=nil)
     end
     qty = 1
     ret = false
+    max_at_once = ItemHandlers.triggerUseOnPokemonMaximum(item, pkmn)
+    max_at_once = [max_at_once, $bag.quantity(item)].min
+      if max_at_once > 1
+        qty = pbChooseNumber(
+          _INTL("How many {1} do you want to use?", GameData::Item.get(item).portion_name_plural), max_at_once
+        )
+      end
     screen.pbRefresh
-    if pbCheckUseOnPokemon(item, pkmn, screen)
+    if pbCheckUseOnPokemon(item, pkmn, screen) && qty > 0
       ret = ItemHandlers.triggerUseOnPokemon(item, qty, pkmn, screen)
       if ret && useType == 1 # Usable on Pokémon, consumed
         $bag.remove(item, qty)  if itm.consumed_after_use? { screen.pbRefresh }
