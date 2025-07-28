@@ -24,7 +24,7 @@ Habitat = Sea
 Category = Urchin
 Pokedex = While it appears similar to Snom, it is a different species entirely. It seldom moves on its own, instead using its spikes to stick to passers-by.
 WildItemRare = STICKYBARB
-Evolution = FROBU,HasMove,SURF
+Evolution = FROBU,HasMove,SPIKES
 #-------------------------------
 [FROBU]
 Name = Frobu
