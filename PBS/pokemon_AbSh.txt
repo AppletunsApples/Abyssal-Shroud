@@ -23,6 +23,8 @@ Shape = Head
 Habitat = Sea
 Category = Urchin
 Pokedex = While it appears similar to Snom, it is a different species entirely. It seldom moves on its own, instead using its spikes to stick to passers-by.
+WildItemCommon = STICKYBARB
+WildItemCommon = STICKYBARB
 WildItemRare = STICKYBARB
 Evolution = FROBU,HasMove,SPIKES
 #-------------------------------
