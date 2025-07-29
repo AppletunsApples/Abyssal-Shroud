@@ -18,3 +18,43 @@ BaseMoney = 8
 Name = Island Native
 Gender = Female
 BaseMoney = 60
+#-------------------------------
+[WEATHERQUARTET_Hagel]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[WEATHERQUARTET_Solomon]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[WEATHERQUARTET_Lorraine]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[WEATHERQUARTET_Sandra]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[WEATHERQUARTETCORRUPT_Hagel]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[WEATHERQUARTETCORRUPT_Solomon]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[WEATHERQUARTETCORRUPT_Lorraine]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[WEATHERQUARTETCORRUPT_Sandra]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
