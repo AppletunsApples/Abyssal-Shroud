@@ -5,7 +5,7 @@
     # Play random cry
     species_keys = GameData::Species.keys
     species_data = GameData::Species.get(species_keys.sample)
-    Pokemon.play_cry(:CELEBI)
+    Pokemon.play_cry(:ZYGARDE)
     @pic.moveXY(0, 20, 0, 0)   # Adds 20 ticks (1 second) pause
     pictureWait
     # Fade out
@@ -16,3 +16,18 @@
     pictureWait
     scene.dispose   # Close the scene
   end
+
+  MenuHandlers.add(:pause_menu, :encounters, {
+  "name"      =>  _INTL("Encounters"),
+  "order"     => 50,
+  "effect"    => proc { |menu|
+    pbPlayDecisionSE
+    pbFadeOutIn {
+      scene = EncounterList_Scene.new
+      screen = EncounterList_Screen.new(scene)
+      screen.pbStartScreen
+      menu.pbRefresh
+    }
+    next false
+  }
+})

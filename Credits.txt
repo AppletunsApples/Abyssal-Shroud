@@ -83,14 +83,9 @@ Public Scripts & Plugins:
 [*]Customizable Level Caps - IndianAnimator, Yewchung, Vendily, ClaraDragon, Aiur Jordan & Golisopod User
 [*]Delta Speed Up - Marin, phantombass, Mashirosakura, Golisopod User, D0vid, Manurocker95
 [*]Encounter List UI - ThatWelshOne_,raZ,Marin,Maruno,Nuri Yuri,PurpleZaffre,Savordez,Vendily
-[*]Following Pokemon Ex - Akizakura16, Armin, Golisopod User, Help-14, Maruno, Nononever, PurpleZaffre, Rayd12smitty, Thundaga, Venom12, mej71, zingzags
-[*]Game Updater - dpertierra, iansson
 [*]Gen 9 Pack - Caruban
 [*]Infinite Backups - DemICE
-[*]Infinite Repels - dptierra
-[*]Marin's Map Exporter - Marin
-[*]Marin's Script Utilities - Marin
-[*]Modern Quest System + UI - ThatWelshOne_, mej71, derFischae, Marin
-[*]SwSh Style Item Descriptions - Boonzeet, IndianAnimator
+[*]Marin's Map Exporter & Marin's Script Utilities - Marin
+[*]SwSh Style Item Descriptions - Boonzeet
+[*]Thieving into Bag - Hedgie, IndianAnimator
 [*]Tutor.net - DemICE
-[*]Type Icons in Battle - Golisopod User, Hubercioch
