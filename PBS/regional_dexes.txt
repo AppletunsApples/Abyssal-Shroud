@@ -1,6 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[0]
+[0] # Overall
 TREECKO,GROVYLE,SCEPTILE
 FUECOCO,CROCALOR,SKELEDIRGE
 MUDKIP,MARSHTOMP,SWAMPERT
@@ -11,24 +11,37 @@ SANDSHREW,SANDSLASH
 #SANDSTRIKE
 #LARVESTA,VOLCARONA
 #-------------------------------
-[1]
-BRAMBLIN,BRAMBLEGHAST
-LITLEO,PYROAR
-TYMPOLE,PALPITOAD,SEISMITOAD
+[1] # Desert
 SANDSHREW,SANDSLASH
 #SANDSTRIKE
 #LARVESTA,VOLCARONA
+BRAMBLIN,BRAMBLEGHAST
+LITLEO,PYROAR
+TYMPOLE,PALPITOAD,SEISMITOAD
 #-------------------------------
-[2]
+[2] # Tundra
+AMAURA,AURORUS
+#LARVESTA,VOLCARONA
+SNOM,FROSMOTH
+SCATTERBUG,SPEWPA,VIVILLON
+#SWABLU,ALTARIA
+CETODDLE,CETITAN
 #-------------------------------
-[3]
+[3] # Forest
+#BRAMBLIND,BRAMBLEGHASTE
+SEWADDLE,SWADLOON,LEAVANNY
+#PHALEFFA,PHALAIRY,PHELABLE
+WOOLOO,DUBWOOL
+BUNEARY,LOPUNNY
+IMPIDIMP,MORGREM,GRIMMSNARL
+TREECKO,GROVYLE,SCEPTILE
 #-------------------------------
-[4]
+[4] # Marsh
 #-------------------------------
-[5]
+[5] # River
 #-------------------------------
-[6]
+[6] # Cave
 #-------------------------------
-[7]
+[7] # Ruins
 #-------------------------------
-[8]
+[8] # Volcano
