@@ -54,7 +54,7 @@ Pokedex = It glides through the air with its winglike fins, but it is ultimately
 #-------------------------------
 [CHAOS]
 Name = CHAOS
-Types = ???
+Types = QMARKS
 BaseStats = 120,120,120,120,120,120
 GenderRatio = Female50Percent
 GrowthRate = Medium
