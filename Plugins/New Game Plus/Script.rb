@@ -7,6 +7,14 @@
 #===============================================================================
 # Core New Game+ Logic
 #===============================================================================
+if defined?(PluginManager) && !PluginManager.installed?("New Game Plus")
+  PluginManager.register({
+    :name    => "New Game Plus",
+    :version => "1.0.0",
+    :credits => "Hedgie"
+  })
+end
+
 module NewGamePlus
   DATA_FILE = "Data/NewGamePlus.dat"
   VERSION = "1"
@@ -16,7 +24,7 @@ module NewGamePlus
   end
 
   def self.save_ngplus_data(player)
-   return false unless player && player.party.any?
+    return false unless player && player.party.any?
     data = {
       name: player.name,
       trainer_type: player.trainer_type,
@@ -28,14 +36,31 @@ module NewGamePlus
           ability_index: pkmn.ability_index,
           nature_id: pkmn.nature_id,
           form: pkmn.form
-       }
+        }
       end
     }
     save_data(data, DATA_FILE)
+    true
   end
 
   def self.ngplus_data_valid?
-    File.exist?(DATA_FILE) && (load_data(DATA_FILE)[:party].any? rescue false)
+    return false unless ngplus_data_exists?
+    begin
+      data = load_data(DATA_FILE)
+      return false unless data.is_a?(Hash)
+      return false unless data.key?(:party) && data[:party].is_a?(Array) && !data[:party].empty?
+
+      data[:party].each do |pkmn|
+        return false unless pkmn.is_a?(Hash) &&
+                            pkmn[:species] &&
+                            (pkmn[:species].is_a?(Symbol) || pkmn[:species].is_a?(String))
+      end
+
+      return false unless data.key?(:money) && data.key?(:trainer_type)
+
+      true
+    rescue
+      false
     end
   end
 
@@ -56,6 +81,8 @@ module NewGamePlus
       Game.start_new
       $PokemonStorage = PokemonStorage.new unless $PokemonStorage
 
+      $player.party.clear  # Clear current party first
+
       ng_data[:party].each do |pkmn_data|
         next unless pkmn_data[:species]
 
@@ -63,26 +90,27 @@ module NewGamePlus
         new_pkmn.shiny = true if pkmn_data[:shiny]
 
         # Set ability
-        if pkmn_data[:ability_index]
-          new_pkmn.ability_index = pkmn_data[:ability_index]
-        end
+        new_pkmn.ability_index = pkmn_data[:ability_index] if pkmn_data[:ability_index]
 
+        # Set nature if valid
         if pkmn_data[:nature_id]
           begin
             new_pkmn.nature = GameData::Nature.get(pkmn_data[:nature_id]).id
           rescue
-            # Invalid nature_id; skip setting it
+            # Invalid nature_id; skip
           end
         end
 
+        # Set form if valid
         if pkmn_data[:form]
           begin
-            new_pkmn.form_simple = pkmn_data[:form]
+            new_pkmn.form = pkmn_data[:form]
           rescue
             # Invalid form; skip
           end
         end
 
+        $player.party << new_pkmn         # Add to player's active party
         $PokemonStorage.pbStoreCaught(new_pkmn)
       end
     end
@@ -90,28 +118,6 @@ module NewGamePlus
 
   def self.clear_ngplus_data
     File.delete(DATA_FILE) if File.exist?(DATA_FILE)
-  end
-
-  def self.ngplus_data_valid?
-    return false unless ngplus_data_exists?
-
-    begin
-      data = load_data(DATA_FILE)
-      return false unless data.is_a?(Hash)
-      return false unless data.key?(:party) && data[:party].is_a?(Array) && !data[:party].empty?
-
-      data[:party].each do |pkmn|
-        return false unless pkmn.is_a?(Hash) &&
-                            pkmn[:species] &&
-                            (pkmn[:species].is_a?(Symbol) || pkmn[:species].is_a?(String))
-      end
-
-      return false unless data.key?(:money) && data.key?(:trainer_type)
-
-      true
-    rescue
-      false
-    end
   end
 
   def self.create_blank_ngplus_data
@@ -123,8 +129,9 @@ module NewGamePlus
     }
     save_data(data, DATA_FILE)
   end
+end
 
-# Modify PokemonTemp to support NG+ data
+# Extend PokemonTemp to support NG+ data
 class PokemonTemp
   attr_accessor :ngplus_data
 end
