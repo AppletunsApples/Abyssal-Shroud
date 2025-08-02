@@ -786,7 +786,7 @@ Weight = 255.0
 Pokedex = Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.
 Generation = 6
 #-------------------------------
-[SCEPTILE,1]
+[SCEPTILE,2]
 FormName = Mega Sceptile
 MegaStone = SCEPTILITE
 Types = GRASS,DRAGON
@@ -806,7 +806,7 @@ BaseExp = 315
 Abilities = SPEEDBOOST
 Generation = 6
 #-------------------------------
-[SWAMPERT,1]
+[SWAMPERT,2]
 FormName = Mega Swampert
 MegaStone = SWAMPERTITE
 BaseStats = 100,150,110,70,95,110

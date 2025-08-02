@@ -1,49 +1,18 @@
-# to add the weather Ball variant forms changes for Castform
-class Battle::Battler
+#===============================================================================
+# Regional forms
+# These species don't have visually different regional forms, but they need to
+# evolve into different forms depending on the location where they evolve.
+#===============================================================================
+# Styxian Forms
+MultipleForms.register(:PIKACHU, {
+  "getForm" => proc { |pkmn|
+    next if pkmn.form_simple >= 2
+    if $game_map
+      map_pos = $game_map.metadata&.town_map_position
+      next 1 if map_pos && map_pos[0] == 0   # Styx Isles region
+    end
+    next 0
+  }
+})
 
-def pbCheckFormOnWeatherChange(ability_changed = false)
-    return if fainted? || @effects[PBEffects::Transform]
-    # Castform - Forecast
-    if isSpecies?(:CASTFORM)
-      if hasActiveAbility?(:FORECAST)
-        newForm = 0
-        case effectiveWeather
-        when :Sun, :HarshSun   then newForm = 1
-        when :Rain, :HeavyRain then newForm = 2
-        when :Hail             then newForm = 3
-        end 
-        case @pokemon.poke_ball
-        when :DROUGHTBALL      then newForm = 1
-        when :DRIZZLEBALL      then newForm = 2
-        when :HAILBALL         then newForm = 3
-        end
-        if @form != newForm
-          @battle.pbShowAbilitySplash(self, true)
-          @battle.pbHideAbilitySplash(self)
-          pbChangeForm(newForm, _INTL("{1} transformed!", pbThis))
-        end
-      else
-        pbChangeForm(0, _INTL("{1} transformed!", pbThis))
-      end
-    end
-    # Cherrim - Flower Gift
-    if isSpecies?(:CHERRIM)
-      if hasActiveAbility?(:FLOWERGIFT)
-        newForm = 0
-        newForm = 1 if [:Sun, :HarshSun].include?(effectiveWeather)
-        if @form != newForm
-          @battle.pbShowAbilitySplash(self, true)
-          @battle.pbHideAbilitySplash(self)
-          pbChangeForm(newForm, _INTL("{1} transformed!", pbThis))
-        end
-      else
-        pbChangeForm(0, _INTL("{1} transformed!", pbThis))
-      end
-    end
-    # Eiscue - Ice Face
-    if !ability_changed && isSpecies?(:EISCUE) && self.ability == :ICEFACE &&
-       @form == 1 && effectiveWeather == :Hail
-      @canRestoreIceFace = true   # Changed form at end of round
-    end
-  end
-end
+MultipleForms.copy(:GROVYLE, :MARSHTOMP, :CROCALOR)

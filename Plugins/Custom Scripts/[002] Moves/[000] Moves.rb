@@ -1,5 +1,5 @@
 #===============================================================================
-# Spirit Slam
+# Psyche Slam
 #===============================================================================
 class Battle::Move::UseUserSpDefenseInsteadOfUserSpAttack < Battle::Move
   def pbGetAttackStats(user, target)

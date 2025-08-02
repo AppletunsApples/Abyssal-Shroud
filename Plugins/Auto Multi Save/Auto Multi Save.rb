@@ -267,7 +267,7 @@ class PokemonLoadScreen
         end
       end
       commands[cmd_new_game = commands.length]  = _INTL('New Game')
-      commands[cmd_new_game_plus = commands.length] = _INTL("New Game+") if NewGamePlus.ngplus_data_valid?
+      #commands[cmd_new_game_plus = commands.length] = _INTL("New Game+") if NewGamePlus.ngplus_data_valid?
       commands[cmd_saveFolder = commands.length] = _INTL("Open Save Folder")
       commands[cmd_controls = commands.length]  = _INTL('Controls')
       commands[cmd_options = commands.length]   = _INTL('Options')

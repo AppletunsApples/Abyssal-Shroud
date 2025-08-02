@@ -35,8 +35,8 @@ FunctionCode = LowerUserSpAtkSpDef1
 Flags = CanProtect,CanMirrorMove
 Description = The user uses a lot of psychic energy in a large blast, lowering the user's Special Defense and Special Attack.
 #-------------------------------
-[SPIRITSLAM]
-Name = Spirit Slam
+[PSYCHESLAM]
+Name = Psyche Slam
 Type = PSYCHIC
 Category = Special
 Power = 80
