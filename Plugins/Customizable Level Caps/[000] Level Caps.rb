@@ -63,10 +63,7 @@ def pbGainExpOne(idxParty, defeatedBattler, numPartic, expShare, expAll, showMes
         thispoke = pkmn
     end
       levelCap=LEVEL_CAPS[$game_variables[27]]
-        exp = 0 if pkmn.level>=levelCap || $player.has_exp_all == true && pkmn.level>=levelCap
-      else
-        exp = (exp*1)
-    end
+      exp = 0 if pkmn.level>=levelCap || $player.has_exp_all == true && pkmn.level>=levelCap
 #==================================================================================================#
     # Foreign Pokémon gain more Exp
     isOutsider = (pkmn.owner.id != pbPlayer.id ||

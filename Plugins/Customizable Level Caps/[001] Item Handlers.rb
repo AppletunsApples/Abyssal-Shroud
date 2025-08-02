@@ -2,11 +2,8 @@
 # Item Handlers
 #==================================================================================================#
 ItemHandlers::UseOnPokemonMaximum.add(:COMMONCANDY, proc { |item, pkmn|
-  max_lv = $game_variables[27] || GameData::GrowthRate.max_level
-  next max_lv - pkmn.level
-  else
-    next GameData::GrowthRate.max_level - pkmn.level
-  end
+  level_cap = $game_variables[27] ? LEVEL_CAPS[$game_variables[27]] : GameData::GrowthRate.max_level
+  next level_cap - pkmn.level
 })
 
 ItemHandlers::UseOnPokemon.add(:COMMONCANDY, proc { |item, qty, pkmn, scene|

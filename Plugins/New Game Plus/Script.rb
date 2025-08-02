@@ -3,7 +3,7 @@
 # Carries over Pokémon (base form at level 5) and money while removing items
 # Shininess, ability, nature kept, and max IVs set
 # Adds "New Game+" to the load screen
-# Call at a specific spot with NewGamePlus.prepare_ngplus_data($player).
+# Call at a specific spot with NewGamePlus.save_ngplus_data($player).
 #===============================================================================
 # Core New Game+ Logic
 #===============================================================================
@@ -17,31 +17,38 @@ end
 
 module NewGamePlus
   DATA_FILE = "Data/NewGamePlus.dat"
-  VERSION = "1"
 
   def self.ngplus_data_exists?
     File.exist?(DATA_FILE)
   end
 
-  def self.save_ngplus_data(player)
-    return false unless player && player.party.any?
-    data = {
-      name: player.name,
-      trainer_type: player.trainer_type,
-      money: player.money,
-      party: player.party.map do |pkmn|
-        {
-          species: pkmn.species,
-          shiny: pkmn.shiny?,
-          ability_index: pkmn.ability_index,
-          nature_id: pkmn.nature_id,
-          form: pkmn.form
-        }
-      end
-    }
-    save_data(data, DATA_FILE)
-    true
+def self.save_ngplus_data(player)
+  return false unless player
+
+  party_data = if player.respond_to?(:party) && player.party.is_a?(Array)
+    player.party.map do |pkmn|
+      {
+        species:        pkmn.species,
+        shiny:          pkmn.shiny?,
+        ability_index:  pkmn.ability_index,
+        nature_id:      pkmn.nature_id,
+        form:           pkmn.form
+      }
+    end
+  else
+    []
   end
+
+  data = {
+    name:         player.name,
+    trainer_type: player.trainer_type,
+    money:        4000,
+    party:        party_data
+  }
+
+  save_data(data, DATA_FILE)
+  return true
+end
 
   def self.ngplus_data_valid?
     return false unless ngplus_data_exists?
@@ -120,33 +127,22 @@ module NewGamePlus
     File.delete(DATA_FILE) if File.exist?(DATA_FILE)
   end
 
-  def self.create_blank_ngplus_data
-    data = {
-      trainer_type: :POKEMONTRAINER_Red,
-      character_ID: 758691,
-      money: 3000,
-      party: []
-    }
-    save_data(data, DATA_FILE)
-  end
-end
-
 # Extend PokemonTemp to support NG+ data
-class PokemonTemp
-  attr_accessor :ngplus_data
-end
+  class PokemonTemp
+    attr_accessor :ngplus_data
+    end
+  end
 
 #===============================================================================
 # Modify Game module to apply NG+ data on new game start
 #===============================================================================
 module Game
   class << self
-    alias original_start_new start_new
+    alias_method :start_new_original, :start_new
 
     def start_new
-      original_start_new
-
-      if $PokemonTemp&.ngplus_data && $Trainer
+      start_new_original
+      if $PokemonTemp&.ngplus_data && $player
         ng_data = $PokemonTemp.ngplus_data
 
         $player.name = ng_data[:name] if ng_data[:name]
@@ -165,8 +161,11 @@ module Game
             end
 
             # Determine species for party member
-            species_id = species.id
-            species_id = species.get_baby_species if NewGamePlusSettings::RESET_PARTY_FIRST_STAGE
+            if !NewGamePlusSettings::RESET_PARTY_TO_FIRST_STAGE
+              species_id = species.id
+            else 
+              species_id = species.get_baby_species
+            end
             
             new_pkmn = Pokemon.new(species_id, NewGamePlusSettings::START_LEVEL)
 
@@ -204,16 +203,15 @@ end
 #===============================================================================
 # Global helper for event scripts to save NG+ data
 #===============================================================================
-def prepare_ngplus_data(player = $player)
-  return unless player&.party&.any?
-  NewGamePlus.save_ngplus_data(player)
-end
+  def prepare_ngplus_data(player = $player)
+    return unless player&.party&.any?
+    NewGamePlus.save_ngplus_data(player)
+  end
 
 #===============================================================================
 # Add "New Game+" option to Load Screen
 #===============================================================================
 class PokemonLoadScreen
-  alias original_pbStartLoadScreen pbStartLoadScreen
  
   def pbStartLoadScreen
     created_ngplus = false
@@ -298,7 +296,7 @@ class PokemonLoadScreen
       return
     else
       pbPlayBuzzerSE
-    end
+      end
     end
   end
 end
@@ -307,7 +305,6 @@ end
 # Debug Menu additions scripts to save NG+ data
 #===============================================================================
 # Add NG+ commands to the debug menu
-
 MenuHandlers.add(:debug_menu, :save_ngplus, {
   "name"        => _INTL("Save NG+ Data"),
   "parent"      => :field_menu,
