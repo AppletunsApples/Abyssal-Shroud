@@ -1,18 +1,27 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [005] # Rasus Ruins
-Water,2
-    60,TENTACOOL,14,19
-    30,MANTYKE,15,16
-    10,REMORAID,14,16
-OldRod
-    100,MAGIKARP,16,19
+45,KLINK,38,40
+25,GOLETT,39,41
+21,TINKATINK,39,44
+10,DUNSPARCE,42,45
+9,FALINKS,40,42
 #-------------------------------
 [005,1] # Rasus Ruins
+40,KLINK,38,40
+25,GOLETT,37,41
+21,TINKATINK,39,41
+10,DUNSPARCE,42,45
+9,FALINKS,40,42
+5,FUECOCO,43,46
 #-------------------------------
 [006] # Vulcanus Volcano
-#-------------------------------
-[006,1] # Vulcanus Volcano
+35,SLUGMA,47,51
+25,KOFFING,47,50
+20,NUMEL,49,51
+15,CUBONE,48,50
+6,LARVITAR,48,52
+4,TORKOAL,50,54
 #-------------------------------
 [008] # Selene Savanna
 #-------------------------------
@@ -34,6 +43,3 @@ OldRod
 #-------------------------------
 [014,1] # Mania Mountain
 #-------------------------------
-[015] # Vulcanus Volcano
-#-------------------------------
-[015,1] # Vulcanus Volcano
