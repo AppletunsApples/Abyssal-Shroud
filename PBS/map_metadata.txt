@@ -7,12 +7,45 @@ Name = Intro
 Name = Pokémon Lab
 MapPosition = 0,13,12
 #-------------------------------
-[006]   # Styx Airplane
-Name = Styx Airplane
+[005] # Rasus Ruins
 ShowArea = true
+#-------------------------------
+[006]   # Vulcanus Volcano
+ShowArea = false
 #-------------------------------
 [007]   # Styx Airport
 Name = Styx Airport
 ShowArea = true
+Outdoor = true
 SnapEdges = true
 #-------------------------------
+[008]   # Selene Savanna
+ShowArea = true
+Outdoor = true
+#-------------------------------
+[009]   # Triton Tundra
+ShowArea = true
+Outdoor = true
+#-------------------------------
+[010]   # Research Base
+ShowArea = true
+Outdoor = false
+#-------------------------------
+[012]   # Minerva Marsh
+ShowArea = true
+Outdoor = true
+#-------------------------------
+[013] # Rasus Ruins
+ShowArea = false
+#-------------------------------
+[014]   # Mania Mountain
+ShowArea = true
+Outdoor = true
+#-------------------------------
+[015]   # Vulcanus Volcano
+ShowArea = true
+Outdoor = true
+#-------------------------------
+[021]   # Research Base
+ShowArea = true
+Outdoor = false

@@ -71,14 +71,3 @@ FunctionCode = RaiseUserSpeed1
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 100
 Description = The user cloaks hops past water a few times. Building up more power, it raises the user's Speed stat.
-#-------------------------------
-[STATICSHIELD]
-Name = Static Shield
-Type = ELECTRIC
-Category = Status
-Accuracy = 0
-TotalPP = 10
-Target = User
-Priority = 4
-FunctionCode = ProtectUserFromDamagingMovesStaticShield
-Description = Protects itself from damage. It also harshly paralyzes attackers that make contact.

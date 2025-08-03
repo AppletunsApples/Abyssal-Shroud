@@ -43,7 +43,7 @@ SLUGMA,MAGCARGO
 TORKOAL
 # WIP
 #-------------------------------
-[1] # Desert
+[1] # Savanna
 SANDSHREW,SANDSLASH
 #SANDSTRIKE
 #LARVESTA,VOLCARONA
