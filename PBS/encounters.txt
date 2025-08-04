@@ -46,6 +46,19 @@
 #SWABLU_1
 #LARVESTA_1
 #-------------------------------
+[011] # Flora Forest
+40,SEWADDLE,6,9
+25,WOOLOO,6,9
+20,BUNEARY_1,8,10
+15,IMPIDIMP,8,11
+#-------------------------------
+[011,1] # Flora Forest
+35,SEWADDLE,6,9
+25,WOOLOO,6,9
+20,BUNEARY_1,8,10
+15,IMPIDIMP,8,11
+5,TREECKO,8,12
+#-------------------------------
 [012] # Minerva Marsh
 #-------------------------------
 [012,1] # Minerva Marsh
