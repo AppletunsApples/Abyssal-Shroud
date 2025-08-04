@@ -24,12 +24,27 @@
 4,TORKOAL,50,54
 #-------------------------------
 [008] # Selene Savanna
+30,BRAMBLIN,5,7
+30,LITLEO,5,7
+30,TYMPOLE,5,7
+10,SANDSHREW,4,6
 #-------------------------------
 [008,1] # Selene Savanna
+25,BRAMBLIN,5,7
+25,LITLEO,5,7
+25,TYMPOLE,5,7
+16,SANDSHREW,4,6
+3,TREECKO,5,9
+3,FUECOCO,5,9
+3,MUDKIP,5,9
 #-------------------------------
 [009] # Triton Tundra
-#-------------------------------
-[009,1] # Triton Tundra
+40,SCATTERBUG,4,6
+30,SNOM,5,7
+20,CETODDLE,5,8
+10,AMAURA,4,8
+#SWABLU_1
+#LARVESTA_1
 #-------------------------------
 [012] # Minerva Marsh
 #-------------------------------
