@@ -64,9 +64,8 @@ Special Links:
 [*]Shiny Icon Sprites - Alaguesia, Marin, MapleBranchWing, Larry Turbo, Leparagon, Starwolff, ezerart, LuigiTKO, AvatarMonkeyKirby, Marin, Boushy, MiDas Mike, Brother1440, Near Fantastica, FL., PinkMan, Genzai Kawakami, Popper, Golisopod User, Rataime, help-14, Savordez, IceGod64, SoundSpawn, Jacob O. Wobbrock, the__end, KitsuneKouta, Venom12, Lisa Anthony, Wachunga
 #-------------------------------#
 Other Graphics:
-[*]Darkness Intro - Wallpaper Cave
 [*]Fogs - Spritemight
-
+[*]Loaky's Modern Type Icons - Loaky
 
 Tileset Graphics:
 [*]Snowy City - Ekat, Vurtax, Cinna
@@ -78,16 +77,20 @@ Trainer Graphics:
 
 Public Scripts & Plugins:
 [*]Alphabetized Bag - Nineage
-[*]Arcky's Region Map - Arcky
-[*]Arcky's Utilities - Arcky
+[*]Arcky's Region Map & Utilities - Arcky
 [*]Auto-Multi Save - http404error
 [*]Bag Screen with Interactable Party - DiegoWT
 [*]Customizable Level Caps - IndianAnimator, Yewchung, Vendily, ClaraDragon, Aiur Jordan & Golisopod User
+[*]Default Player Names - Hedgie, TechSkylander1518
 [*]Delta Speed Up - Marin, phantombass, Mashirosakura, Golisopod User, D0vid, Manurocker95
 [*]Encounter List UI - ThatWelshOne_,raZ,Marin,Maruno,Nuri Yuri,PurpleZaffre,Savordez,Vendily
 [*]Gen 9 Pack - Caruban
 [*]Infinite Backups - DemICE
+[*]Hidden Abilities by Percentage - Mashirosakura, Scyl, NettoHikari, Marin], [Maq47, StarWolff, Kotaro
 [*]Marin's Map Exporter & Marin's Script Utilities - Marin
 [*]SwSh Style Item Descriptions - Boonzeet
 [*]Thieving into Bag - Hedgie, IndianAnimator
 [*]Tutor.net - DemICE
+[*]Rainefall Portraits & Utilities - Rainefall
+[*]V21.1 Hotfixes - Maruno
+
