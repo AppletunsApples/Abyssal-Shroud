@@ -39,7 +39,7 @@ ShowArea = true
 Outdoor = false
 BattleBack = indoor1
 #-------------------------------
-[009]   # Flora Forest
+[011]   # Flora Forest
 ShowArea = true
 Outdoor = true
 Environment = ForestGrass
