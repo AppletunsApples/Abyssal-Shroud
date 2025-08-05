@@ -68,12 +68,20 @@ Other Graphics:
 [*]Loaky's Modern Type Icons - Loaky
 
 Tileset Graphics:
-[*]Snowy City - Ekat, Vurtax, Cinna
-
-Overworld Graphics:
+[*]Airport - Aveontrainer, Ekat
+[*]Main Base exterior + Main building - Rejuvenation dev team
+[*]Secondary base buildings - Ekat
+[*]Desert - Rejuvenation dev team
+[*]Tundra - Ekat, Vurtax, Cinna
+[*]Forest - Rejuvenation dev team
+[*]Marsh - Rejuvenation dev team
+[*]Ruins exterior & interior - Ekat, Vurtax, HeartlessDragoon
+[*]Volcano - Rejuvenation dev team
+[*]Gates - AnonArceus
 
 Trainer Graphics:
-[*]ORAS Pokeranger - Aveontrainer, DiegoWT
+[*]XY Breeders - Aveontrainer
+[*]ORAS Pokerangers - Aveontrainer, DiegoWT
 
 Public Scripts & Plugins:
 [*]Alphabetized Bag - Nineage
