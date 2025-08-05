@@ -6,12 +6,15 @@ Name = Intro
 [004]   # Styx Main Base
 Name = Pokémon Lab
 MapPosition = 0,13,12
+Battleback = indoor1
 #-------------------------------
 [005] # Rasus Ruins
 ShowArea = true
+Outdoor = true
 #-------------------------------
 [006]   # Vulcanus Volcano
 ShowArea = false
+Outdoor = false
 #-------------------------------
 [007]   # Styx Airport
 Name = Styx Airport
@@ -22,30 +25,39 @@ SnapEdges = true
 [008]   # Selene Savanna
 ShowArea = true
 Outdoor = true
+Battleback = sand
 #-------------------------------
 [009]   # Triton Tundra
 ShowArea = true
 Outdoor = true
+Battleback = snow
 #-------------------------------
 [010]   # Research Base
 ShowArea = true
 Outdoor = false
+Battleback = indoor1
+#-------------------------------
+[009]   # Flora Forest
+ShowArea = true
+Outdoor = true
 #-------------------------------
 [012]   # Minerva Marsh
 ShowArea = true
 Outdoor = true
 #-------------------------------
 [013] # Rasus Ruins
-ShowArea = false
-#-------------------------------
-[014]   # Mania Mountain
 ShowArea = true
-Outdoor = true
+Outdoor = false
 #-------------------------------
 [015]   # Vulcanus Volcano
 ShowArea = true
 Outdoor = true
 #-------------------------------
+[016]   # Calypso Cavern
+ShowArea = true
+Outdoor = false
+#-------------------------------
 [021]   # Research Base
 ShowArea = true
 Outdoor = false
+Battleback = indoor1
