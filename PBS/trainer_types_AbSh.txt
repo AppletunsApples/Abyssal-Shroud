@@ -23,38 +23,46 @@ BaseMoney = 60
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
+BattleBGM = VS Weather Gang
 #-------------------------------
 [WEATHERQUARTET_Solomon]
 Name = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
+BattleBGM = VS Weather Gang
 #-------------------------------
 [WEATHERQUARTET_Lorraine]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
+BattleBGM = VS Weather Gang
 #-------------------------------
 [WEATHERQUARTET_Sandra]
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
+BattleBGM = VS Weather Gang
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Hagel]
 Name = Pokémon Trainer
 Gender = Male
-BaseMoney = 60
+BaseMoney = 80
+BattleBGM = VS Weather Gang
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Solomon]
 Name = Pokémon Trainer
 Gender = Male
-BaseMoney = 60
+BaseMoney = 80
+BattleBGM = VS Weather Gang
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Lorraine]
 Name = Pokémon Trainer
 Gender = Female
-BaseMoney = 60
+BaseMoney = 80
+BattleBGM = VS Weather Gang
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Sandra]
 Name = Pokémon Trainer
 Gender = Female
-BaseMoney = 60
+BaseMoney = 80
+BattleBGM = VS Sandra (Possessed)
