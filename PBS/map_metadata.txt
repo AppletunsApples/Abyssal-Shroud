@@ -14,6 +14,7 @@ Outdoor = true
 [006]   # Vulcanus Volcano
 ShowArea = false
 Outdoor = false
+Environment = Volcano
 #-------------------------------
 [007]   # Styx Airport
 Name = Styx Airport
@@ -57,7 +58,7 @@ ShowArea = true
 Outdoor = true
 Weather = Sun
 Bicycle = true
-Environment = Cave
+Environment = Volcano
 #-------------------------------
 [016]   # Calypso Cavern
 ShowArea = true
