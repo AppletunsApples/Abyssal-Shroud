@@ -45,44 +45,66 @@ Land,21
 #-------------------------------
 [009] # Triton Tundra
 Land,21
-40,SCATTERBUG,4,6
+35,POLIWAG,4,6
 30,SNOM,5,7
 20,CETODDLE,5,8
-10,AMAURA,4,8
+15,AMAURA,4,8
 #SWABLU_1
 #LARVESTA_1
+Water,10
+35,POLIWAG,5,8
+30,WAILMER,5,8
+20,SEEL,5,8
+15,SHELLDER,5,8
 #-------------------------------
 [011] # Flora Forest
-Land,16
-40,SEWADDLE,6,9
-25,WOOLOO,6,9
-20,BUNEARY_1,8,10
-15,IMPIDIMP,8,11
-#-------------------------------
-[011,1] # Flora Forest
 Land,16
 35,SEWADDLE,6,9
 25,WOOLOO,6,9
 20,BUNEARY_1,8,10
 15,IMPIDIMP,8,11
+5,LOTAD,8,11
+#-------------------------------
+[011,1] # Flora Forest
+Land,16
+30,SEWADDLE,6,9
+25,WOOLOO,6,9
+20,BUNEARY_1,8,10
+15,IMPIDIMP,8,11
 5,TREECKO,8,12
+5,LOTAD,8,12
+Water,10
+45,LOTAD,5,8
+25,WAILMER,5,8
+20,TYMPOLE,5,8
+10,BASCULIN_2,5,8
 #-------------------------------
 [012] # Minerva Marsh
 Land,16
-35,BUIZEL,6,9
+35,WOOPER,6,9
 25,ODDISH,6,9
-20,AZURILL,8,10
+20,TYMPOLE,8,10
 15,CROAGUNK,8,11
 5,MURKROW,8,12
+Water,10
+45,WOOPER,5,8
+25,MURKROW,5,8
+20,TYMPOLE,5,8
+10,BASCULIN_2,5,8
 #-------------------------------
 [012,1] # Minerva Marsh
 Land,16
-35,BUIZEL,6,9
+35,WOOPER,6,9
 25,ODDISH,6,9
-20,AZURILL,8,10
+20,TYMPOLE,8,10
 12,CROAGUNK,8,11
 5,MURKROW,8,12
 3,MUDKIP,8,12
+Water,10
+45,WOOPER,5,8
+25,MURKROW,5,8
+20,TYMPOLE,5,8
+10,BASCULIN_2,5,8
 #-------------------------------
 [013] # Rasus Ruins
 Cave,10
@@ -91,6 +113,11 @@ Cave,10
 21,TINKATINK,39,44
 10,DUNSPARCE,42,45
 9,FALINKS,40,42
+Water,10
+45,WOOPER,5,8
+25,MURKROW,5,8
+20,TYMPOLE,5,8
+10,BASCULIN_2,5,8
 #-------------------------------
 [013,1] # Rasus Ruins
 Cave,10
@@ -101,6 +128,10 @@ Cave,10
 9,FALINKS,40,42
 5,FUECOCO,43,46
 Water,10
+45,WOOPER,5,8
+25,MURKROW,5,8
+20,TYMPOLE,5,8
+10,BASCULIN_2,5,8
 #-------------------------------
 [016] # Calypso Cavern
 Cave,10
@@ -111,5 +142,3 @@ Cave,10
 9,DUNSPARCE,40,42
 5,LARVITAR,43,46
 #-------------------------------
-
- tundra, cave, forest, marsh
