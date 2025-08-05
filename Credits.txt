@@ -65,6 +65,8 @@ Special Links:
 #-------------------------------#
 Other Graphics:
 [*]Darkness Intro - Wallpaper Cave
+[*]Fogs - Spritemight
+
 
 Tileset Graphics:
 [*]Snowy City - Ekat, Vurtax, Cinna
