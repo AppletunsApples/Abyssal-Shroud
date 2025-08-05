@@ -12,7 +12,6 @@ ShowArea = true
 Outdoor = true
 #-------------------------------
 [006]   # Vulcanus Volcano
-ShowArea = false
 Outdoor = false
 Environment = Volcano
 #-------------------------------
@@ -56,7 +55,7 @@ Environment = Cave
 [015]   # Vulcanus Volcano
 ShowArea = true
 Outdoor = true
-Weather = Sun
+Weather = Sun,100
 Bicycle = true
 Environment = Volcano
 #-------------------------------
