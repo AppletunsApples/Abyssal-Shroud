@@ -4,7 +4,7 @@
 Name = Flutter Ball
 NamePlural = Flutter Ball
 Pocket = 4
-Price = 0
+Price = 200
 BattleUse = OnFoe
 Flags = PokeBall
 Description = A Ball with an increaed catch rate on Pokémon unique to Styx Island.
