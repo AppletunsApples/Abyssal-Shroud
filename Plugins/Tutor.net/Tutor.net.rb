@@ -930,7 +930,7 @@ def pbTutorNetAdd(move,cost=0,currency="$")
 			found=true
 			if ($player.tutorlist[i][1]!=cost || $player.tutorlist[i][2]!=currency) && $player.tutorlist[i][1]>0 
 				if cost ==0
-					Kernel.pbMessage(_INTL("{1} is now free on your Tutor.net account!",GameData::Move.get(move).name))
+					Kernel.pbMessage(_INTL("{1} is now free on your Tutor.net account!",GameData::Move.get(move).name)) 
 					$player.tutorlist[i][1]=cost      
 					$player.tutorlist[i][2]=currency       
 				elsif $player.tutorlist[i][1]>0
@@ -965,9 +965,9 @@ def pbTutorNetAdd(move,cost=0,currency="$")
 	if !found
 		$player.tutorlist.push([move,cost,currency])
 		if cost==0
-			Kernel.pbMessage(_INTL("{1} is now available on your Tutor.net account!",GameData::Move.get(move).name))
+			Kernel.pbMessage(_INTL("{1} is now available on your Tutor.net account!",GameData::Move.get(move).name)) if !$game_switches[90]
 		else  
-			Kernel.pbMessage(_INTL("{1} has been added to your Tutor.net wishlist!",GameData::Move.get(move).name))
+			Kernel.pbMessage(_INTL("{1} has been added to your Tutor.net wishlist!",GameData::Move.get(move).name)) if !$game_switches[90]
 		end  
 		return true             
 	end
