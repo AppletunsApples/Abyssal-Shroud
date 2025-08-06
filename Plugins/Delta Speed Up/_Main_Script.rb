@@ -8,7 +8,7 @@ end
 # Speed-up config
 #===============================================================================#
 SPEEDUP_STAGES = [1, 2, 3]
-$GameSpeed = 1
+$GameSpeed = 0
 $CanToggle = true
 $RefreshEventsForTurbo = false
 #===============================================================================#
@@ -29,10 +29,16 @@ end
 # Handle incrementing speed stages if $CanToggle allows it
 #===============================================================================#
 module Input
+
+  unless defined?(update_speedup)
+    class << Input
+      alias update_speedup update
+    end
+  end
+
   def self.update
-    update_KGC_ScreenCapture
-    pbScreenCapture if trigger?(Input::F8)
-    if $CanToggle && trigger?(Input::AUX1)
+    update_speedup
+    if $CanToggle && trigger?(Input::F8)
       $GameSpeed += 1
       $GameSpeed = 0 if $GameSpeed >= SPEEDUP_STAGES.size
       $PokemonSystem.battle_speed = $GameSpeed if $PokemonSystem && $PokemonSystem.only_speedup_battles == 1
@@ -136,7 +142,7 @@ class Game_Map
 
   def update
     if $RefreshEventsForTurbo
-      echoln "UNSCALED #{System.unscaled_uptime} * #{SPEEDUP_STAGES[$GameSpeed]} - #{$GameSpeed}"
+      #echoln "UNSCALED #{System.unscaled_uptime} * #{SPEEDUP_STAGES[$GameSpeed]} - #{$GameSpeed}"
       if $game_map&.events
         $game_map.events.each_value { |event| event.pbResetInterpreterWaitCount }
       end
@@ -207,30 +213,3 @@ class PokemonSystem
     @battle_speed = 0 # Depends on the SPEEDUP_STAGES array size
   end
 end
-#===============================================================================#
-# Options menu handlers
-#===============================================================================#
-MenuHandlers.add(:options_menu, :only_speedup_battles, {
-  "name" => _INTL("Speed Up Settings"),
-  "order" => 25,
-  "type" => EnumOption,
-  "parameters" => [_INTL("Always"), _INTL("Only Battles")],
-  "description" => _INTL("Choose which aspect is sped up."),
-  "get_proc" => proc { next $PokemonSystem.only_speedup_battles },
-  "set_proc" => proc { |value, scene|
-    $GameSpeed = 0 if value != $PokemonSystem.only_speedup_battles
-    $PokemonSystem.only_speedup_battles = value
-    $CanToggle = value == 0
-  }
-})
-MenuHandlers.add(:options_menu, :battle_speed, {
-  "name" => _INTL("Battle Speed"),
-  "order" => 26,
-  "type" => EnumOption,
-  "parameters" => [_INTL("x#{SPEEDUP_STAGES[0]}"), _INTL("x#{SPEEDUP_STAGES[1]}"), _INTL("x#{SPEEDUP_STAGES[2]}")],
-  "description" => _INTL("Choose the battle speed when the battle speed-up is set to 'Battles Only'."),
-  "get_proc" => proc { next $PokemonSystem.battle_speed },
-  "set_proc" => proc { |value, scene|
-    $PokemonSystem.battle_speed = value
-  }
-})
