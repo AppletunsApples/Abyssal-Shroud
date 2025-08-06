@@ -66,6 +66,8 @@ Special Links:
 Other Graphics:
 [*]Fogs - Spritemight
 [*]Loaky's Modern Type Icons - Loaky
+[*]Battle Backgrounds - carchagui
+[*]Volcano Background Base - Rejuvenation dev team
 
 Tileset Graphics:
 [*]Airport - Aveontrainer, Ekat
