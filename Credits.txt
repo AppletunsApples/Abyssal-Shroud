@@ -69,6 +69,7 @@ Other Graphics:
 [*]Battle Backgrounds - carchagui
 [*]Volcano Background Base - Rejuvenation dev team
 [*]Pokegear Icons - AnonAlpaca
+[*]FINAL BOSS -	Shadow56bomb
 
 Tileset Graphics:
 [*]Airport - Aveontrainer, Ekat
