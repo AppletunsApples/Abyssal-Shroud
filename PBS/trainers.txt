@@ -17,7 +17,12 @@ Ability = BLAZE
 #-------------------------------
 [WEATHERQUARTET_Sandra]
 LoseText = ???
-Pokemon = SANDSHREW,7
-Moves = POISONSTING,RAPIDSPIN
+Pokemon = SANDSHREW,8
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
 Ability = SANDVEIL
-
+#-------------------------------
+[VILLAINCHAOS,Chaos]
+LoseText = ???
+Pokemon = CHAOS,50
+Moves = EXTREMESPEED,PLAYROUGH,ZENHEADBUTT,BULKUP
+#-------------------------------
