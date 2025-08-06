@@ -101,4 +101,29 @@ Public Scripts & Plugins:
 [*]Tutor.net - DemICE
 [*]Rainefall Portraits & Utilities - Rainefall
 [*]V21.1 Hotfixes - Maruno
+#-------------------------------#
+OTHER:
+"Pokémon Essentials" was created by:
+Poccil (Peter O.)
+Maruno
+Inspired by work by Flameguru
 
+With contributions from:
+AvatarMonkeyKirby, Boushy, Brother1440, FL., Genzai Kawakami,
+Golisopod User, help-14, IceGod64, Jacob O. Wobbrock, KitsuneKouta,
+Lisa Anthony, Luka S.J., Marin, MiDas Mike, Near Fantastica,
+PinkMan, Popper, Rataime, Savordez, SoundSpawn,
+the__end, Venom12, Wachunga
+and everyone else who helped out
+
+"mkxp-z" by:
+Roza
+Based on \mkxp\ by Ancurio et al.
+
+"RPG Maker XP" by:
+Enterbrain
+
+Pokémon is owned by:
+The Pokémon Company
+Nintendo
+Affiliated with Game Freak
