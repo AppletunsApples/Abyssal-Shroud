@@ -118,7 +118,8 @@
         # - Name of the graphic, found in the Graphics/Pictures folder.
         # - The graphic will always (true), never (false) or only when the switch is ON (nil) be shown on a wall map.
         RegionMapExtras = [
-          [], #last option is set to nil
+          [0, 51, 16, 15, "mapHiddenBerth"], #last option is set to nil
+          [0, 52, 20, 14, "mapHiddenFaraday", true] #last option is set to true
         ]
 
       #======================== Location Search Settings ========================#
@@ -167,8 +168,13 @@
         # - Name of the graphic, found in the Graphics/Pictures.
         # - false if you want it to render below. (true by default).
         RegionMapDecoration = [
+          [0, nil, 8, 6, "mapTrees"],
+          [0, 51, 16, 15, "mapTrees"]
         ]
-        
+        #RegionMapDecoration = [
+
+        #]
+
       #======================== Region District Settings ========================#
 
         # true = enabled: Allows you to change the Region Name on certain parts of the Region Map
@@ -182,32 +188,32 @@
         #    example: [0, 10]; when the cursor is between 0 and 10 (including 0 and 10) the name of the region changes (depending on the X value as well).
         # - Region District Name; this is the name the script will use only when the cursor is inside X and Y range.
         RegionDistricts = [
-          [0, [9, 19],  [4, 6],   _INTL("North Hibernia")],
-          [0, [15, 15], [7, 7],   _INTL("North Hibernia")],
-          [0, [16, 19], [7, 7],  _INTL("East Hibernia")],
-          [0, [15, 19], [8, 11],  _INTL("East Hibernia")],
-          [0, [9, 19],  [12, 15], _INTL("South Hibernia")],
-          [0, [9, 12],  [7, 11],  _INTL("West Hibernia")],
-          [0, [13, 14], [7, 11],  _INTL("Central Hibernia")],
+          [0, [9, 19],  [4, 6],   _INTL("North Essen")],
+          [0, [15, 15], [7, 7],   _INTL("North Essen")],
+          [0, [16, 19], [7, 7],  _INTL("East Essen")],
+          [0, [15, 19], [8, 11],  _INTL("East Essen")],
+          [0, [9, 19],  [12, 15], _INTL("South Essen")],
+          [0, [9, 12],  [7, 11],  _INTL("West Essen")],
+          [0, [13, 14], [7, 11],  _INTL("Central Essen")],
           [1, [10, 20], [5, 15],  _INTL("Central Tiall")]
         ]
 
         # Link a switch ID to each District (if used). This switch will be turned ON once it's at 100%.
         # You'll need to add a script command containing switchesForDistricts in an event before checking if any switches are turned ON.
         ProgressSwitches = {
-          "Hibernia" => 106,
-          "North Hibernia" => 99,
-          "East Hibernia" => 100,
-          "South Hibernia" => 101,
-          "West Hibernia" => 102,
-          "Central Hibernia" => 103,
+          "Essen" => 106,
+          "North Essen" => 99,
+          "East Essen" => 100,
+          "South Essen" => 101,
+          "West Essen" => 102,
+          "Central Essen" => 103,
           "Central Tiall" => 104
         }
       #========================= Region Map Connecting =========================#
 
       # true = enabled: Region Conncting is enabled.
       # false = disabled.
-      UseRegionConnecting = false
+      UseRegionConnecting = true
 
       RegionConnections = {
         "Region2" => {
@@ -233,6 +239,7 @@
       CanFlyFromTownMap = true
 
       # true or 0 = enabled: This Feature can be used.
+    
       # false or -1 = disabled.
       # Switch ID = enabled if this Switch is ON.
       CanQuickFly = true
@@ -253,14 +260,14 @@
 
       # Set to which Regions you can fly from the current Region. (Use the name of the region)
       FlyToRegions = {
-        :Hibernia => [1, 3], # You can fly from Hibernia to Tial, Kanto or Johto.
-        :Tiall => [0, 3] # You can fly from Tial to Hibernia only.
+        :Essen => [1, 3], # You can fly from Essen to Tial, Kanto or Johto.
+        :Tiall => [0, 3] # You can fly from Tial to Essen only.
       }
 
       # Set from which locations on a Region you can fly to another Region.
       # If you don't want to use this then make this eaqual to LocationFlyToOtherRegion = {}.
       LocationFlyToOtherRegion = {
-        :Hibernia => {
+        :Essen => {
           "Route 8" => [1, 3],
           "Ingido Plateau" => [3]
         },
@@ -274,7 +281,7 @@
       QuickTravelInsteadOfFly = false
 
     #================================ Mode Settings ===============================#
-      # Choose which button needs to be pressed to change the map mode. ACTION is the default one in Hiberniatials.
+      # Choose which button needs to be pressed to change the map mode. ACTION is the default one in essentials.
       # ATTENTION: if you set this to the same button that has been asigned for quick fly and/or quest preview then you won't be able to change modes anymore.
       ChangeModeButton = Input::ACTION
 
@@ -318,7 +325,8 @@
 
         # Set for each Region if you want the Player Icon to be visible (true) or invisible (false).
         ShowPlayerOnRegion = {
-          Hibernia: true
+          Essen: true,
+          Tiall: true
         }
 
         # true = enabled: The script will change the Region Map based on the Current Time in the Game
@@ -643,7 +651,7 @@
           :WaterEvening => "Surfing (Evening)",
           :WaterNight => "Surfing (Night)",
           :OldRod => "Fishing (Old Rod)",
-          :GoodRod => "Fishing",
+          :GoodRod => "Fishing (Good Rod)",
           :SuperRod => "Fishing (Super Rod)",
           :RockSmash => "Rock Smash",
           :HeadbuttLow => "Headbutt (Rare)",

@@ -35,14 +35,14 @@ module APMSettings
 
   StockItems = {
     :normalStore => [
-      :FLUTTEBALL, :GREATBALL, :ULTRABALL,
+      :FLUTTERBALL, :GREATBALL, :ULTRABALL,
       :POTION, :SUPERPOTION, :HYPERPOTION, :MAXPOTION,
       :FULLRESTORE, :REVIVE, :COMMONCANDY,
       :REPEL, :SUPERREPEL, :MAXREPEL,
       :ANTIDOTE, :BURNHEAL, :ICEHEAL, :AWAKENING, :PARALYZEHEAL, :FULLHEAL
     ],
     :limitStore => ["daily",
-      [:FLUTTEBALL, 10, 18], [:GREATBALL, 12, 16], [:ULTRABALL, 8, 15],
+      [:FLUTTERBALL, 10, 18], [:GREATBALL, 12, 16], [:ULTRABALL, 8, 15],
       :POTION, :SUPERPOTION, :HYPERPOTION, :MAXPOTION,
       [:FULLRESTORE, 20, 25], :REVIVE,
       :REPEL, [:SUPERREPEL, 20], :MAXREPEL
@@ -63,7 +63,7 @@ module APMSettings
         nickname: "Doggo", # nickname of the species 
         gender: 0, # male or 0, female or 1, genderless = 2
         item: :MASTERBALL, # held item
-        FLUTTEBALL: :CHERISHBALL, # pokemon species is caught in 
+        FLUTTERBALL: :CHERISHBALL, # pokemon species is caught in 
         nature: :RELAXED, # nature of the species 
         form: 0, # form of the species (if you provide this, make sure the name parameter matches)
         obtain: { # obtain details
@@ -329,7 +329,7 @@ def pbSomeMart
     :ANTIDOTE, :PARALYZEHEAL, :AWAKENING, :BURNHEAL, :ICEHEAL,
     :FULLHEAL,
     :REPEL, :SUPERREPEL, :MAXREPEL,
-    :ESCAPEROPE, :TM11
+    :ESCAPEROPE
   ], speech: "ProSeller", discount: 29, useCat: true, billEnd: true)
 end
 
@@ -339,7 +339,7 @@ end
 
 def pbSomeShelf
   pbShelfMart(["daily",:POTION, :SUPERPOTION,
-    :FLUTTEBALL, :GREATBALL,
+    :FLUTTERBALL, :GREATBALL,
     :REPEL,
     :ANTIDOTE, :BURNHEAL, :ICEHEAL, :AWAKENING, :PARALYZEHEAL
   ], speech: "ShelfOne", discount: 29)
@@ -347,7 +347,7 @@ end
 
 def pbSomeShelf2
   pbShelfMart([:POTION,
-    :FLUTTEBALL, :REPEL
+    :FLUTTERBALL, :REPEL
   ], discount: 26, currency: "Coins")
 end
 

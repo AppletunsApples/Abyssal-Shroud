@@ -41,10 +41,16 @@ class PokemonRegionMap_Scene
         image: getImagePosition(@mapPoints.clone, mapData.clone),
       }
       unless position[:image].nil?
-        existPos = @mapInfo[mapKey][:positions].find { |p| p[:image][:name] == position[:image][:name] } if @mapInfo[mapKey][:positions].any? { |p| p[:image] }
-        unless existPos.nil?
-          position[:image][:x] = existPos[:image][:x]
-          position[:image][:y] = existPos[:image][:y]
+        imageName = position[:image][:name]
+        posWithSameImage = @mapInfo[mapKey][:positions].select do |p|
+          p[:image] && p[:image][:name] == imageName
+        end
+        minImageCoords = posWithSameImage.map { |p| [p[:image][:x], p[:image][:y]] }.min
+        if (minImageCoords)
+          minImageCoords = [[position[:image][:x], position[:image][:y]], minImageCoords].min
+        end
+        posWithSameImage.each do |p|
+          p[:image][:x], p[:image][:y] = minImageCoords
         end
       end
       # Add flyspot details
