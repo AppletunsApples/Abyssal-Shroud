@@ -3,13 +3,21 @@
 [PROFESSOR,Lotus]
 LoseText = Your potential is fascinating!
 Pokemon = MUDKIP,5
+Ability = TORRENT
 #-------------------------------
 [PROFESSOR,Lotus,1]
 LoseText = Your potential is fascinating!
 Pokemon = TREECKO,5
+Ability = OVERGROW
 #-------------------------------
 [PROFESSOR,Lotus,2]
 LoseText = Your potential is fascinating!
 Pokemon = FUECOCO,5
+Ability = BLAZE
 #-------------------------------
+[WEATHERQUARTET_Sandra]
+LoseText = ???
+Pokemon = SANDSHREW,7
+Moves = POISONSTING,RAPIDSPIN
+Ability = SANDVEIL
 
