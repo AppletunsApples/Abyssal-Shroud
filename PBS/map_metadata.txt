@@ -4,13 +4,15 @@
 Name = Intro
 #-------------------------------
 [004]   # Styx Main Base
-MapPosition = 0,13,12
+MapPosition = 0,15,11
 Battleback = indoor1
 #-------------------------------
 [005] # Rasus Ruins
+MapPosition = 0,12,7
 ShowArea = true
 Outdoor = true
 SnapEdges = true
+Battleback = forest
 #-------------------------------
 [006]   # Vulcanus Volcano
 Outdoor = false
@@ -24,38 +26,43 @@ Outdoor = true
 SnapEdges = true
 #-------------------------------
 [008]   # Selene Savanna
+MapPosition = 0,15,14
 ShowArea = true
 Outdoor = true
-BattleBack = sand
 Battleback = Safari
 SnapEdges = true
 #-------------------------------
 [009]   # Triton Tundra
+MapPosition = 0,19,14
 ShowArea = true
 Outdoor = true
-BattleBack = snow
 Environment = Snow
 #-------------------------------
 [010]   # Research Base
+MapPosition = 0,15,11
 ShowArea = true
 Outdoor = false
 BattleBack = indoor1
 #-------------------------------
 [011]   # Flora Forest
+MapPosition = 0,19,10
 ShowArea = true
 Outdoor = true
-Environment = ForestGrass
+Environment = Forest
 #-------------------------------
 [012]   # Minerva Marsh
+MapPosition = 0,16,7
 ShowArea = true
 Outdoor = true
 #-------------------------------
 [013] # Rasus Ruins
+MapPosition = 0,11,7
 ShowArea = true
 Outdoor = false
-Environment = Cave
+Battleback = Cave
 #-------------------------------
 [015]   # Vulcanus Volcano
+MapPosition = 0,13,5
 ShowArea = true
 Outdoor = true
 Weather = Sun,100
@@ -64,11 +71,13 @@ Environment = Volcano
 SnapEdges = true
 #-------------------------------
 [016]   # Calypso Cavern
+MapPosition = 0,13,7
 ShowArea = true
 Outdoor = false
 Environment = Cave
 #-------------------------------
 [021]   # Research Base
+MapPosition = 0,15,11
 ShowArea = true
 Outdoor = false
 Battleback = indoor1
