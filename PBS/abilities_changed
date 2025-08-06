@@ -1,0 +1,10 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[SANDVEIL]
+Name = Sand Veil
+Description = Boosts the Pokémon's Defense in a sandstorm.
+#-------------------------------
+[SNOWCLOAK]
+Name = Snow Cloak
+Description = Raises Sp. Defense in a hailstorm.
+#-------------------------------

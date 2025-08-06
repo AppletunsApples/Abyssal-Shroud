@@ -28,10 +28,6 @@ Description = Prevents the use of self-destructing moves.
 Name = Limber
 Description = The Pokémon is protected from paralysis.
 #-------------------------------
-[SANDVEIL]
-Name = Sand Veil
-Description = Boosts the Pokémon's evasion in a sandstorm.
-#-------------------------------
 [STATIC]
 Name = Static
 Description = Contact with the Pokémon may cause paralysis.
@@ -321,11 +317,6 @@ Description = Deals more damage to a foe of the same gender.
 [STEADFAST]
 Name = Steadfast
 Description = Raises Speed each time the Pokémon flinches.
-#-------------------------------
-[SNOWCLOAK]
-Name = Snow Cloak
-Description = Raises evasion in a hailstorm.
-#-------------------------------
 [GLUTTONY]
 Name = Gluttony
 Description = Encourages the early use of a held Berry.

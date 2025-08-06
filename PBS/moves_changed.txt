@@ -1,0 +1,26 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------[COVET]
+Name = Covet
+Type = FAIRY
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = UserTakesTargetItem
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user endearingly approaches the target, then steals the target's held item.
+#-------------------------------
+[ROCKSLIDE]
+Name = Rock Slide
+Type = ROCK
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = FlinchTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch.
+#-------------------------------
