@@ -68,6 +68,7 @@ Other Graphics:
 [*]Loaky's Modern Type Icons - Loaky
 [*]Battle Backgrounds - carchagui
 [*]Volcano Background Base - Rejuvenation dev team
+[*]Pokegear Icons - AnonAlpaca
 
 Tileset Graphics:
 [*]Airport - Aveontrainer, Ekat
