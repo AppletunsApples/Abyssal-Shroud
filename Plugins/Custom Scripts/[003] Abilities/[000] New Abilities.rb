@@ -9,3 +9,10 @@ proc { |ability, battler, battle, switch_in|
                             battler.name, battler.pbTeam(true)))
     }
 )
+
+# In Spirit
+Battle::AbilityEffects::DamageCalcFromUser.add(:INSPIRIT,
+  proc { |ability, user, target, move, mults, power, type|
+    mults[:attack_multiplier] *= 1.5 if type == :GHOST
+  }
+)
