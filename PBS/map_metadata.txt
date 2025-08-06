@@ -31,12 +31,14 @@ ShowArea = true
 Outdoor = true
 Battleback = Safari
 SnapEdges = true
+Weather = Rain,100
 #-------------------------------
 [009]   # Triton Tundra
 MapPosition = 0,19,14
 ShowArea = true
 Outdoor = true
 Environment = Snow
+Weather = Snow,100
 #-------------------------------
 [010]   # Research Base
 MapPosition = 0,15,11
@@ -54,6 +56,7 @@ Environment = Forest
 MapPosition = 0,16,7
 ShowArea = true
 Outdoor = true
+Weather = Sandstorm,100
 #-------------------------------
 [013] # Rasus Ruins
 MapPosition = 0,11,7
