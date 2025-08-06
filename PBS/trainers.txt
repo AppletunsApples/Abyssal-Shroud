@@ -1,14 +1,15 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [PROFESSOR,Lotus]
-LoseText = 
-Pokemon = MUDKIP,10
+LoseText = Your potential is fascinating!
+Pokemon = MUDKIP,5
 #-------------------------------
 [PROFESSOR,Lotus,1]
-LoseText = 
-Pokemon = TREECKO,10
+LoseText = Your potential is fascinating!
+Pokemon = TREECKO,5
 #-------------------------------
 [PROFESSOR,Lotus,2]
-LoseText = 
-Pokemon = FUECOCO,10
+LoseText = Your potential is fascinating!
+Pokemon = FUECOCO,5
 #-------------------------------
+
