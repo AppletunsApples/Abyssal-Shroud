@@ -38,7 +38,7 @@ module Input
 
   def self.update
     update_speedup
-    if $CanToggle && trigger?(Input::F8)
+    if $CanToggle && trigger?(Input::AUX1)
       $GameSpeed += 1
       $GameSpeed = 0 if $GameSpeed >= SPEEDUP_STAGES.size
       $PokemonSystem.battle_speed = $GameSpeed if $PokemonSystem && $PokemonSystem.only_speedup_battles == 1
