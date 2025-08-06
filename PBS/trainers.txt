@@ -15,7 +15,7 @@ LoseText = Your potential is fascinating!
 Pokemon = FUECOCO,5
 Ability = BLAZE
 #-------------------------------
-[WEATHERQUARTET_Sandra]
+[WEATHERQUARTET_Sandra,Sandra]
 LoseText = ???
 Pokemon = SANDSHREW,8
 Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
