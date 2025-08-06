@@ -22,8 +22,8 @@ module APMSettings
     1 => [:GREATBALL, :SUPERPOTION, :ANTIDOTE, :PARALYZEHEAL, :AWAKENING, :BURNHEAL, :ICEHEAL, :REPEL, :ESCAPEROPE],
     3 => [:HYPERPOTION, :SUPERREPEL, :REVIVE],
     3 => [:COMMONCANDY],
-    5 => [:ULTRABALL, :FULLHEAL, :MAXREPEL],
-    7 => [:MAXPOTION],
+    5 => [:ULTRABALL, :FULLHEAL, :MAXREPEL, :MUSCLEBAND, :WISEGLASSES],
+    7 => [:MAXPOTION, :EVIOLITE],
     8 => [:FULLRESTORE]
   }
 
@@ -214,7 +214,7 @@ module APMSettings
 
   ProSeller = {
     # Text when talking to them. This is the default one.
-    IntroText: ["Good Day, welcome how may I serve you?", "Hello, welcome, what can I mean for you?", "Hello, Welcome what can I get for you?"],
+    IntroText: ["Good Day, welcome how may I serve you?", "Hello and welcome. What can I get for you?", "Hello and welcome. What can I get for you?"],
     # Text in the choice menu for buying.
     MenuTextBuy: ["I want to buy!"],
     # Text in the choice menu for selling.
@@ -323,14 +323,20 @@ end
 
 def pbSomeMart
   pbPokemonMart(["2daily",
-    [:FLUTTERBALL, 10, 15], :GREATBALL, :ULTRABALL,
-    [:POTION, 12, 19], :SUPERPOTION, :HYPERPOTION, :MAXPOTION,
+    :FLUTTERBALL, :GREATBALL, :ULTRABALL,
+    :POTION, :SUPERPOTION, :HYPERPOTION, :MAXPOTION,
     :FULLRESTORE, :REVIVE,
     :ANTIDOTE, :PARALYZEHEAL, :AWAKENING, :BURNHEAL, :ICEHEAL,
     :FULLHEAL,
-    :REPEL, :SUPERREPEL, :MAXREPEL,
+    :REPEL, :SUPERREPEL, :MAXREPEL
+  ], speech: "ProSeller", useCat: true, billEnd: true)
+end
+
+def pbBattleMart
+  pbPokemonMart(["2daily",
+    :EVIOLITE, :MUSCLEBAND, :WISEGLASSES,
     :ESCAPEROPE
-  ], speech: "ProSeller", discount: 29, useCat: true, billEnd: true)
+  ], speech: "ProSeller", useCat: true)
 end
 
 def pbStoreWithRandom
