@@ -25,7 +25,7 @@ SnapEdges = true
 ShowArea = true
 Outdoor = true
 BattleBack = sand
-Environment = Rock
+Battleback = Safari
 #-------------------------------
 [009]   # Triton Tundra
 ShowArea = true
