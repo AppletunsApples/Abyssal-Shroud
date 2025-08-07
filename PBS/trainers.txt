@@ -35,14 +35,15 @@ Ability = TORRENT
 #-------------------------------
 [WEATHERQUARTET_Solomon,Solomon]
 LoseText = How annoying!
-Pokemon = NINETALES,32
+Pokemon = TORKOAL,29
 Ability = DROUGHT
-Pokemon = CROCALOR,30
-Pokemon = LURANTIS,30
-Moves = SOLARBEAM,SOLARBLADE
-Ability = LEAFGUARD
-Pokemon = HOUNDOOM,30
+Moves = FLAMECHARGE,SOLARBLADE,ROCKTOMB
+Pokemon = CROCALOR,28
+Ability = BLAZE
+Moves = INCINERATE,CRUNCH,ZENHEADBUGT
+Pokemon = HOUNDOOM,27
 Ability = FLASHFIRE
+Moves = FLAMECHARGE,SNARL,THUNDERFANG
 #-------------------------------
 [VILLAINCHAOS,Chaos]
 LoseText = ???
