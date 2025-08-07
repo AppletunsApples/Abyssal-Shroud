@@ -69,7 +69,7 @@ Other Graphics:
 [*]Battle Backgrounds - carchagui
 [*]Volcano Background Base - Rejuvenation dev team
 [*]Pokegear Icons - AnonAlpaca
-[*]FINAL BOSS -	Shadow56bomb
+[*]FINAL BOSS -	Shadow56bomb & Screen Lady
 
 Tileset Graphics:
 [*]Airport - Aveontrainer, Ekat
@@ -81,7 +81,7 @@ Tileset Graphics:
 [*]Marsh - Rejuvenation dev team
 [*]Ruins exterior & interior - Ekat, Vurtax, HeartlessDragoon
 [*]Volcano - Rejuvenation dev team
-[*]Gates - AnonArceus
+[*]Gates - AnonAlpaca
 
 Trainer Graphics:
 [*]XY Breeders - Aveontrainer
