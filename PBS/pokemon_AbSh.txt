@@ -101,7 +101,7 @@ Color = Blue
 Shape = HeadBase
 Habitat = Grassland
 Category = Multi-Bloom
-Pokedex = Starseed's flowers cause certain Pokémon to lose control, which is why farmers often raise them on separate plots of land.
+Pokedex = Startus's flowers cause certain Pokémon to lose control, which is why farmers often raise them on separate plots of land.
 WildItemUncommon = MIRACLESEED
 WildItemRare = POISONBARB
 #-------------------------------
