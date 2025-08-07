@@ -33,6 +33,17 @@ Pokemon = POLIWHIRL,14
 Moves = HEADBUTT,ICEPUNCH,BUBBLE
 Ability = TORRENT
 #-------------------------------
+[WEATHERQUARTET_Solomon,Solomon]
+LoseText = How annoying!
+Pokemon = NINETALES,32
+Ability = DROUGHT
+Pokemon = CROCALOR,30
+Pokemon = LURANTIS,30
+Moves = SOLARBEAM,SOLARBLADE
+Ability = LEAFGUARD
+Pokemon = HOUNDOOM,30
+Ability = FLASHFIRE
+#-------------------------------
 [VILLAINCHAOS,Chaos]
 LoseText = ???
 Pokemon = CHAOS,50
