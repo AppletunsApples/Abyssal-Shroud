@@ -108,7 +108,7 @@ WildItemRare = POISONBARB
 [CHAOS]
 Name = CHAOS
 Types = QMARKS
-BaseStats = 110,110,110,110,110,110
+BaseStats = 105,105,105,105,105,105
 GenderRatio = Genderless
 GrowthRate = Medium
 BaseExp = 168
