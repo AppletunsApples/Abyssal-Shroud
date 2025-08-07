@@ -1127,7 +1127,7 @@ FormName = East Sea
 Color = Blue
 Pokedex = Its body is covered in a sticky slime. It's very susceptible to dehydration, so it can't spend too much time on land.
 #-------------------------------
-[LOPUNNY,1]
+[LOPUNNY,2]
 FormName = Mega Lopunny
 MegaStone = LOPUNNITE
 Types = NORMAL,FIGHTING
