@@ -21,6 +21,18 @@ Pokemon = SANDSHREW,8
 Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
 Ability = SANDVEIL
 #-------------------------------
+[WEATHERQUARTET_Lorraine,Lorraine]
+LoseText = ???
+Pokemon = MARSHTOMP,12
+Moves = ICEPUNCH,ROCKSMASH,WATERGUN
+Ability = RAINDISH
+Pokemon = LOMBRE,13
+Moves = FAKEOUT,ABSORB,ROCKTOMB
+Ability = SWIFTSWIM
+Pokemon = POLIWHIRL,14
+Moves = HEADBUTT,ICEPUNCH,BUBBLE
+Ability = TORRENT
+#-------------------------------
 [VILLAINCHAOS,Chaos]
 LoseText = ???
 Pokemon = CHAOS,50
