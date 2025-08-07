@@ -19,7 +19,7 @@ Land,21
 #-------------------------------
 [006] # Vulcanus Volcano
 Cave,10
-35,SLUGMA,47,51
+35,MAGBY,47,51
 25,KOFFING,47,50
 20,NUMEL,49,51
 15,CUBONE,48,50
