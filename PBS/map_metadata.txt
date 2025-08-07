@@ -29,7 +29,7 @@ SnapEdges = true
 MapPosition = 0,15,14
 ShowArea = true
 Outdoor = true
-Battleback = Safari
+Battleback = safari_bg
 SnapEdges = true
 Weather = Sandstorm,100
 #-------------------------------
@@ -56,6 +56,7 @@ Environment = Forest
 MapPosition = 0,16,7
 ShowArea = true
 Outdoor = true
+Battleback = swamp_bg
 Weather = Rain,100
 #-------------------------------
 [013] # Rasus Ruins
