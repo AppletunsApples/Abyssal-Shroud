@@ -316,7 +316,7 @@ Evolutions = SKELEDIRGE,Level,36
 [SKELEDIRGE]
 Name = Skeledirge
 Types = FIRE,GHOST
-BaseStats = 100,110,85,55,105,85
+BaseStats = 104,75,100,66,110,75
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
 BaseExp = 265
