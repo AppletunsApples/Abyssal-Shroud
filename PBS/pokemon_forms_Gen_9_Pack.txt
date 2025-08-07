@@ -199,7 +199,7 @@ Category = Mellow
 Pokedex = Though it differs from other Basculin in several respects, including demeanor—this one is gentle—people have categorized it as a regional form given the vast array of shared qualities.
 Generation = 8
 Flags = InheritFormWithEverStone
-Evolutions = BASCULEGION,LevelRecoilDamage,294
+Evolutions = BASCULEGION,HasMove,TAKEDOWN
 #-------------------------------
 [ZORUA,1]
 FormName = Hisuian

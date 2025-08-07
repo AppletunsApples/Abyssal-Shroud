@@ -1579,19 +1579,6 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 30
 Description = The user attacks by borrowing the power of the moon. This may also lower the target's Sp. Atk stat.
 #-------------------------------
-[PLAYROUGH]
-Name = Play Rough
-Type = FAIRY
-Category = Physical
-Power = 90
-Accuracy = 90
-TotalPP = 10
-Target = NearOther
-FunctionCode = LowerTargetAttack1
-Flags = Contact,CanProtect,CanMirrorMove
-EffectChance = 10
-Description = The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
-#-------------------------------
 [STRANGESTEAM]
 Name = Strange Steam
 Type = FAIRY
@@ -2754,18 +2741,6 @@ Flags = Contact,CanProtect,CanMirrorMove,ThawsUser
 EffectChance = 10
 Description = The user cloaks itself in fire and charges at the target. It may also leave the target with a burn.
 #-------------------------------
-[INCINERATE]
-Name = Incinerate
-Type = FIRE
-Category = Special
-Power = 60
-Accuracy = 100
-TotalPP = 15
-Target = AllNearFoes
-FunctionCode = DestroyTargetBerryOrGem
-Flags = CanProtect,CanMirrorMove
-Description = The user attacks the foe with fire. The target's held Berry becomes burnt up and unusable.
-#-------------------------------
 [FLAMECHARGE]
 Name = Flame Charge
 Type = FIRE
@@ -2825,17 +2800,6 @@ TotalPP = 5
 Target = BothSides
 FunctionCode = StartSunWeather
 Description = The user intensifies the sun for five turns, powering up Fire-type moves.
-#-------------------------------
-[WILLOWISP]
-Name = Will-O-Wisp
-Type = FIRE
-Category = Status
-Accuracy = 85
-TotalPP = 15
-Target = NearOther
-FunctionCode = BurnTarget
-Flags = CanProtect,CanMirrorMove
-Description = The user shoots a sinister, bluish-white flame at the target to inflict a burn.
 #-------------------------------
 [SKYATTACK]
 Name = Sky Attack

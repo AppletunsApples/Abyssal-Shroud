@@ -25,3 +25,39 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 30
 Description = Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch.
 #-------------------------------
+[PLAYROUGH]
+Name = Play Rough
+Type = FAIRY
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetAttack1
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
+#-------------------------------
+[INCINERATE]
+Name = Incinerate
+Type = FIRE
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = RemoveTargetItem
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks the foe with fire, preventing that item from being used in the battle.
+#-------------------------------
+[WILLOWISP]
+Name = Will-O-Wisp
+Type = FIRE
+Category = Status
+Accuracy = 85
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTargetAlwaysHitsInSun
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots a sinister, bluish-white flame at the target to inflict a burn.
+#-------------------------------

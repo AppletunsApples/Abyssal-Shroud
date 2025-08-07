@@ -14507,7 +14507,7 @@ Pokedex = Savage, violent Pokémon, red and blue Basculin are always fighting ea
 Generation = 5
 Flags = InheritFormFromMother
 WildItemUncommon = DEEPSEATOOTH
-Evolutions = BASCULEGION,None,
+Evolutions = BASCULEGION,HasMove,TAKEDOWN
 #-------------------------------
 [SANDILE]
 Name = Sandile
