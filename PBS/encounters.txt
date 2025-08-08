@@ -21,7 +21,7 @@ Land,21
 Cave,10
 50,MAGBY,47,51
 25,KOFFING,47,50
-15,NUMEL,48,50
+15,ROLYCOLY,48,50
 6,LARVITAR,48,52
 4,TORKOAL,50,54
 #-------------------------------
