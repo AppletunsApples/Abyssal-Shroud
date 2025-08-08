@@ -34,7 +34,7 @@ Pokemon = SANDSHREW,6
 Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
 Ability = SANDVEIL
 #-------------------------------
-[POKEMONRANGER_M,Moxie]
+[POKEMONRANGER_F,Moxie]
 LoseText = ???
 Pokemon = SANDSHREW,6
 Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
@@ -43,6 +43,42 @@ Ability = SANDVEIL
 [ISLANDNATIVE_F,Olivia]
 LoseText = ???
 Pokemon = SANDSHREW,7
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
+#-------------------------------
+[SCIENTIST,Phil]
+LoseText = ???
+Pokemon = SANDSHREW,7
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
+#-------------------------------
+[DOCTOR,Billie]
+LoseText = ???
+Pokemon = SANDSHREW,7
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
+#-------------------------------
+[NURSE,Killie]
+LoseText = ???
+Pokemon = SANDSHREW,7
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
+#-------------------------------
+[POKEMONRANGER_M,Alex]
+LoseText = ???
+Pokemon = SANDSHREW,6
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
+#-------------------------------
+[SAILOR,Taylor]
+LoseText = ???
+Pokemon = SANDSHREW,6
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
+#-------------------------------
+[SCIENTIST,Mikey]
+LoseText = ???
+Pokemon = SANDSHREW,6
 Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
 Ability = SANDVEIL
 #-------------------------------
