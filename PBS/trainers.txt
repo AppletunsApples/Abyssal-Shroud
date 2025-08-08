@@ -114,7 +114,7 @@ Moves = FLAMECHARGE,SNARL,THUNDERFANG
 #-------------------------------
 [VILLAINCHAOS,Chaos]
 LoseText = ???
-Pokemon = CHAOS,50
+Pokemon = CHAOS,55
 Moves = EXTREMESPEED,PLAYROUGH,ZENHEADBUTT,BULKUP
 #-------------------------------
 [PROFESSOR,Lotus,4]
@@ -138,3 +138,14 @@ Moves = TORCHSONG,PSYBEAM,SHADOWBALL
 Pokemon = DUDUNSPARCE,38
 Moves = RETURN,AIRSLASH,ANCIENTPOWER
 Ability = SERENEGRACE
+#-------------------------------
+[WEATHERQUARTETCORRUPT_Sandra,Sandra]
+LoseText = Hmph, you just got lucky, human...
+Pokemon = TYRANITAR,55
+Moves = EARTHPOWER,CRUNCH,THUNDERPUNCH,ROCKSLIDE
+Ability = SANDSTREAM
+Pokemon = EXCADRILL,53
+Pokemon = CACTURNE,53
+Pokemon = SANDSTRIKE,53
+Pokemon = PALOSSAND,53
+Pokemon = HIPPOWDON,53
