@@ -24,8 +24,8 @@ Ability = BLAZE
 #-------------------------------
 [ISLANDNATIVE_M,Xander]
 LoseText = ???
-Pokemon = SANDSHREW,6
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Pokemon = NINCADA,6
+Moves = SCRATCH,MUDSLAP,FURYCUTTER
 Ability = SANDVEIL
 #-------------------------------
 [POKEMONRANGER_M,Maxie]
@@ -46,17 +46,11 @@ Pokemon = SANDSHREW,7
 Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
 Ability = SANDVEIL
 #-------------------------------
-[SCIENTIST,Phil]
-LoseText = ???
-Pokemon = SANDSHREW,7
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
-#-------------------------------
 [DOCTOR,Billie]
 LoseText = ???
-Pokemon = SANDSHREW,7
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
+Pokemon = DUNSPARCE,7
+Moves = HEADBUTT,ASTONISH,THUNDERWAVE
+Ability = RATTLED
 #-------------------------------
 [NURSE,Killie]
 LoseText = ???

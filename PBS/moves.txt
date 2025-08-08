@@ -4182,19 +4182,6 @@ FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove
 Description = The user strikes the target with a hard bone two to five times in a row.
 #-------------------------------
-[MUDSLAP]
-Name = Mud-Slap
-Type = GROUND
-Category = Special
-Power = 20
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = LowerTargetAccuracy1
-Flags = CanProtect,CanMirrorMove
-EffectChance = 100
-Description = The user hurls mud in the target's face to inflict damage and lower its accuracy.
-#-------------------------------
 [FISSURE]
 Name = Fissure
 Type = GROUND
