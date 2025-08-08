@@ -23,7 +23,6 @@ Name = Nature Flutes
 NamePlural = Nature Flutes
 Pocket = 6
 Price = 0
-FieldUse = None
 Flags = KeyItem
 Description = A mysterious flute connected to the ecosystem.
 #-------------------------------
