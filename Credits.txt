@@ -97,6 +97,7 @@ Public Scripts & Plugins:
 [*]Encounter List UI - ThatWelshOne_,raZ,Marin,Maruno,Nuri Yuri,PurpleZaffre,Savordez,Vendily
 [*]Gen 9 Pack - Caruban
 [*]Infinite Backups - DemICE
+[*]Infinite Repel - Dpierterra
 [*]Hidden Abilities by Percentage - Mashirosakura, Scyl, NettoHikari, Marin, Maq47, StarWolff, Kotaro
 [*]Marin's Map Exporter & Marin's Script Utilities - Marin
 [*]SwSh Style Item Descriptions - Boonzeet
