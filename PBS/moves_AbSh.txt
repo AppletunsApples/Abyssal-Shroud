@@ -11,8 +11,8 @@ FunctionCode = FreezeTargetAlwaysHitsInHail
 Flags = CanProtect,CanMirrorMove
 Description = The user shoots the opponent with chilly winds that inflict frostbite.
 #-------------------------------
-[BURNNTURN]
-Name = Burn'N'Turn
+[BURNANDTURN]
+Name = Burn and Turn
 Type = FIRE
 Category = Special
 Power = 60
