@@ -28,10 +28,6 @@ Generation = 0
 Flags = InheritFormWithEverStone,Styxian
 #-------------------------------
 [BUNEARY,1]
-FormName = IGNORE THIS
-Color = Gray
-#-------------------------------
-[BUNEARY,1]
 FormName = Styxian
 Types = NORMAL
 BaseStats = 50,61,44,90,44,61

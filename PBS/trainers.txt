@@ -1,26 +1,30 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[PROFESSOR,Lotus]
-LoseText = Your potential is fascinating!
-Pokemon = MUDKIP,5
-Ability = TORRENT
+# Savanna
 #-------------------------------
-[PROFESSOR,Lotus,1]
-LoseText = Your potential is fascinating!
-Pokemon = TREECKO,5
-Ability = OVERGROW
+[ISLANDNATIVE_M,Xander]
+LoseText = ???
+Pokemon = SANDSHREW,6
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
 #-------------------------------
-[PROFESSOR,Lotus,2]
-LoseText = Your potential is fascinating!
-Pokemon = FUECOCO,5
-Ability = BLAZE
+[POKEMONRANGER_M,Maxie]
+LoseText = ???
+Pokemon = SANDSHREW,6
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
 #-------------------------------
-[PROFESSOR,Lotus,3]
-LoseText = Your potential is fascinating!
-Pokemon = TREECKO,5
-Ability = OVERGROW
-Pokemon = FUECOCO,5
-Ability = BLAZE
+[POKEMONRANGER_M,Moxie]
+LoseText = ???
+Pokemon = SANDSHREW,6
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
+#-------------------------------
+[ISLANDNATIVE_F,Olivia]
+LoseText = ???
+Pokemon = SANDSHREW,7
+Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Ability = SANDVEIL
 #-------------------------------
 [WEATHERQUARTET_Sandra,Sandra]
 LoseText = ???
