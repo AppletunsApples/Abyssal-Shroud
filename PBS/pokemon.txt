@@ -705,6 +705,7 @@ Pokedex = When it curls up in a ball, it can make any attack bounce off harmless
 Generation = 1
 WildItemUncommon = GRIPCLAW
 Evolutions = SANDSLASH,Level,22
+Flags = Styxian
 #-------------------------------
 [SANDSLASH]
 Name = Sandslash
@@ -732,6 +733,7 @@ Pokedex = It curls up in a ball to protect itself from enemy attacks. It also cu
 Generation = 1
 WildItemUncommon = GRIPCLAW
 Evolutions = SANDSTRIKE,HasMove,SPIKYSHIELD
+Flags = Styxian
 #-------------------------------
 [NIDORANfE]
 Name = Nidoran♀
@@ -6660,6 +6662,7 @@ Category = Wood Gecko
 Pokedex = It makes its nest in a giant tree in the forest. It ferociously guards against anything nearing its territory. It is said to be the protector of the trees.
 Generation = 3
 Evolutions = GROVYLE,Level,16
+Flags = Styxian
 #-------------------------------
 [GROVYLE]
 Name = Grovyle
@@ -6686,6 +6689,7 @@ Category = Wood Gecko
 Pokedex = Leaves grow out of this Pokémon's body. They help obscure a Grovyle from the eyes of its enemies while it is in a thickly overgrown forest.
 Generation = 3
 Evolutions = SCEPTILE,Level,36
+Flags = Styxian
 #-------------------------------
 [SCEPTILE]
 Name = Sceptile
@@ -6816,6 +6820,7 @@ Category = Mud Fish
 Pokedex = On land, it can powerfully lift large boulders by planting its four feet and heaving. It sleeps by burying itself in soil at the water's edge.
 Generation = 3
 Evolutions = MARSHTOMP,Level,16
+Flags = Styxian
 #-------------------------------
 [MARSHTOMP]
 Name = Marshtomp
@@ -6842,6 +6847,7 @@ Category = Mud Fish
 Pokedex = Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud.
 Generation = 3
 Evolutions = SWAMPERT,Level,36
+Flags = Styxian
 #-------------------------------
 [SWAMPERT]
 Name = Swampert

@@ -27,6 +27,7 @@ WildItemCommon = STICKYBARB
 WildItemCommon = STICKYBARB
 WildItemRare = STICKYBARB
 Evolution = FROBU,HasMove,SPIKES
+Flags = Styxian
 #-------------------------------
 [FROBU]
 Name = Frobu
@@ -51,6 +52,7 @@ Shape = MultiWinged
 Habitat = Sea
 Category = Flying Fish
 Pokedex = It glides through the air with its winglike fins, but it is ultimately incapable of true flight. It compensates by swimming at high speed and then leaping out of the water.
+Flags = Styxian
 #-------------------------------
 [STARPIT]
 Name = Starpit
@@ -78,6 +80,7 @@ Category = Single Bloom
 Pokedex = Starpit's appearance is often considered a bad omen among the superstitious that an area is about to become infested with hostile Pokémon.
 WildItemUncommon = MIRACLESEED
 Evolution = STARTUS,Item,LEAFSTONE
+Flags = Styxian
 #-------------------------------
 [STARTUS]
 Name = Startus
@@ -104,6 +107,7 @@ Category = Multi-Bloom
 Pokedex = Startus's flowers cause certain Pokémon to lose control, which is why farmers often raise them on separate plots of land.
 WildItemUncommon = MIRACLESEED
 WildItemRare = POISONBARB
+Flags = Styxian
 #-------------------------------
 [SANDSTRIKE]
 Name = SANDSTRIKE
@@ -130,6 +134,7 @@ Category = Iron Mouse
 Pokedex = .
 Generation = 0
 WildItemUncommon = GRIPCLAW
+Flags = Styxian
 #-------------------------------
 [CHAOS]
 Name = CHAOS
