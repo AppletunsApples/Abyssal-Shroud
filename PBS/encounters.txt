@@ -1,21 +1,23 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [005] # Rasus Ruins
-Land,5
-45,KLINK,38,40
-25,GOLETT,39,41
+Land,10
+40,KLINK,38,40
+20,GOLETT,39,41
 21,TINKATINK,39,44
 10,DUNSPARCE,42,45
-9,FALINKS,40,42
+5,FALINKS,43,46
+4,MURKROW,40,42
 #-------------------------------
 [005,1] # Rasus Ruins
-Land,15
-40,KLINK,38,40
+Land,21
+35,KLINK,38,40
 25,GOLETT,37,41
 21,TINKATINK,39,41
 10,DUNSPARCE,42,45
-9,FALINKS,40,42
 5,FUECOCO,43,46
+5,FALINKS,43,46
+4,MURKROW,40,42
 #-------------------------------
 [006] # Vulcanus Volcano
 Cave,10
@@ -72,7 +74,7 @@ Water,10
 #-------------------------------
 [011,1] # Flora Forest
 Land,16
-40,SEWADDLE,6,9
+50,SEWADDLE,6,9
 30,BUNEARY_1,8,10
 20,IMPIDIMP,8,11
 5,TREECKO,8,12
@@ -86,10 +88,10 @@ Water,10
 #-------------------------------
 [012] # Minerva Marsh
 Land,16
-35,WOOPER_1,6,9
+45,WOOPER_1,6,9
 25,ODDISH,6,9
-20,TYMPOLE,8,10
-15,CROAGUNK,8,11
+15,TYMPOLE,8,10
+10,CROAGUNK,8,11
 5,MURKROW,8,12
 Water,10
 45,WOOPER_1,5,8
@@ -99,9 +101,9 @@ Water,10
 #-------------------------------
 [012,1] # Minerva Marsh
 Land,16
-35,WOOPER_1,6,9
+40,WOOPER_1,6,9
 25,ODDISH,6,9
-20,TYMPOLE,8,10
+15,TYMPOLE,8,10
 12,CROAGUNK,8,11
 5,MURKROW,8,12
 3,MUDKIP,8,12
@@ -114,16 +116,11 @@ Water,10
 [013] # Rasus Ruins
 Cave,10
 40,KLINK,38,40
-25,GOLETT,39,41
+20,GOLETT,39,41
 21,TINKATINK,39,44
 10,DUNSPARCE,42,45
-9,MURKROW,40,42
 5,FALINKS,43,46
-Water,10
-45,GOOMY,5,8
-25,DRATINI,5,8
-20,TYMPOLE,5,8
-10,BASCULIN,5,8
+4,MURKROW,40,42
 #-------------------------------
 [013,1] # Rasus Ruins
 Cave,10
@@ -131,21 +128,16 @@ Cave,10
 25,GOLETT,37,41
 21,TINKATINK,39,41
 10,DUNSPARCE,42,45
-9,MURKROW,40,42
 5,FUECOCO,43,46
 5,FALINKS,43,46
-Water,10
-45,GOOMY,5,8
-25,DRATINI,5,8
-20,TYMPOLE,5,8
-10,BASCULIN,5,8
+4,MURKROW,40,42
 #-------------------------------
 [016] # Calypso Cavern
 Cave,10
-35,KLINK,38,40
-25,GOLETT,37,41
-21,KOFFING,39,41
-15,SOLOSIS,42,45
-9,DUNSPARCE,40,42
-5,LARVITAR,43,46
+40,KLINK,38,40
+30,GOLETT,37,41
+16,KOFFING,39,41
+10,SOLOSIS,42,45
+5,DUNSPARCE,40,42
+4,LARVITAR,43,46
 #-------------------------------
