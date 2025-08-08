@@ -140,7 +140,7 @@ Moves = RETURN,AIRSLASH,ANCIENTPOWER
 Ability = SERENEGRACE
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Sandra,Sandra]
-LoseText = Hmph, you just got lucky, human...
+LoseText = Hmph. You just got lucky, human...
 Pokemon = TYRANITAR,55
 Moves = EARTHPOWER,CRUNCH,THUNDERPUNCH,ROCKSLIDE
 Ability = SANDSTREAM
