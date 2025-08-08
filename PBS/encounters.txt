@@ -19,10 +19,9 @@ Land,21
 #-------------------------------
 [006] # Vulcanus Volcano
 Cave,10
-35,MAGBY,47,51
+50,MAGBY,47,51
 25,KOFFING,47,50
-20,NUMEL,49,51
-15,SOLOSIS,48,50
+15,NUMEL,48,50
 6,LARVITAR,48,52
 4,TORKOAL,50,54
 #-------------------------------
@@ -94,7 +93,7 @@ Land,16
 5,MURKROW,8,12
 Water,10
 45,WOOPER_1,5,8
-25,MURKROW,5,8
+25,DRATINI,5,8
 20,TYMPOLE,5,8
 10,BASCULIN,5,8
 #-------------------------------
@@ -108,7 +107,7 @@ Land,16
 3,MUDKIP,8,12
 Water,10
 45,WOOPER_1,5,8
-25,MURKROW,5,8
+25,DRATINI,5,8
 20,TYMPOLE,5,8
 10,BASCULIN_2,5,8
 #-------------------------------
