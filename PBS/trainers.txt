@@ -26,60 +26,62 @@ Ability = BLAZE
 LoseText = ???
 Pokemon = NINCADA,6
 Moves = SCRATCH,MUDSLAP,FURYCUTTER
-Ability = SANDVEIL
+Ability = SWARM
 #-------------------------------
 [POKEMONRANGER_M,Maxie]
 LoseText = ???
-Pokemon = SANDSHREW,6
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
+Pokemon = STARYU,6
+Moves = PSYWAVE,AQUAJET
+Ability = TELEPATHY
 #-------------------------------
 [POKEMONRANGER_F,Moxie]
 LoseText = ???
-Pokemon = SANDSHREW,6
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
+Pokemon = TYMPOLE,5
+Moves = ACID,ECHOEDVOICE
+Ability = HYDRATION
 #-------------------------------
 [ISLANDNATIVE_F,Olivia]
 LoseText = ???
-Pokemon = SANDSHREW,7
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
+Pokemon = LITLEO,7
+Moves = HEADBUTT,BITE
+Ability = VALOR
 #-------------------------------
 [DOCTOR,Billie]
 LoseText = ???
-Pokemon = DUNSPARCE,7
-Moves = HEADBUTT,ASTONISH,THUNDERWAVE
+Pokemon = DUNSPARCE,6
+Moves = HEADBUTT,ASTONISH
 Ability = RATTLED
+#-------------------------------
+# Tundra
 #-------------------------------
 [NURSE,Killie]
 LoseText = ???
-Pokemon = SANDSHREW,7
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
+Pokemon = FROSMOTH,7
+Moves = BUGBITE,TRIPLEAXEL
+Ability = ICESCALES
 #-------------------------------
-[POKEMONRANGER_M,Alex]
+[SCIENTIST,Carrie]
 LoseText = ???
-Pokemon = SANDSHREW,6
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
+Pokemon = AMAURA,7
+Moves = ANCIENTPOWER,POWDERSNOW
+Ability = REFRIGERATE
 #-------------------------------
 [SAILOR,Taylor]
 LoseText = ???
-Pokemon = SANDSHREW,6
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
+Pokemon = CETODDLE,7
+Moves = ICYWIND,THIEF
+Ability = THICKFAT
 #-------------------------------
-[SCIENTIST,Mikey]
+[FISHERMAN,Mikey]
 LoseText = ???
-Pokemon = SANDSHREW,6
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
+Pokemon = POLIWAG,8
+Moves = HEADBUTT,HYPNOSIS,MUDSHOT
+Ability = SWIFTSWIM
 #-------------------------------
 [WEATHERQUARTET_Sandra,Sandra]
 LoseText = ???
-Pokemon = SANDSHREW,8
-Moves = POISONSTING,RAPIDSPIN,ROCKTOMB
+Pokemon = SANDSHREW,9
+Moves = FURYCUTTER,RAPIDSPIN,ROCKTOMB
 Ability = SANDVEIL
 #-------------------------------
 [WEATHERQUARTET_Lorraine,Lorraine]
