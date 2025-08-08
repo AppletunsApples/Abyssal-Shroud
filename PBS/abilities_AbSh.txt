@@ -10,6 +10,9 @@ Description = Opposing Pokémon activate Perish Song on themselves on sendout.
 #-------------------------------
 [INSPIRIT]
 Name = In Spirit
-Description = Opposing Pokémon activate Perish Song on themselves on sendout.
-Description = Powers up Ghost-type moves.
+Description = Opposing Pokémon activate Peri
+#-------------------------------
+[VALOR]
+Name = Valor
+Description = Boosts Sp. Attack after knocking out any Pokémon.
 #-------------------------------
