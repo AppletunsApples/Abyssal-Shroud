@@ -1,6 +1,26 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Savanna
+[PROFESSOR,Lotus]
+LoseText = Your potential is fascinating!
+Pokemon = MUDKIP,5
+Ability = TORRENT
+#-------------------------------
+[PROFESSOR,Lotus,1]
+LoseText = Your potential is fascinating!
+Pokemon = TREECKO,5
+Ability = OVERGROW
+#-------------------------------
+[PROFESSOR,Lotus,2]
+LoseText = Your potential is fascinating!
+Pokemon = FUECOCO,5
+Ability = BLAZE
+#-------------------------------
+[PROFESSOR,Lotus,3]
+LoseText = Your potential is fascinating!
+Pokemon = TREECKO,5
+Ability = OVERGROW
+Pokemon = FUECOCO,5
+Ability = BLAZE
 #-------------------------------
 [ISLANDNATIVE_M,Xander]
 LoseText = ???
