@@ -108,11 +108,6 @@ Pokemon = HOUNDOOM,27
 Ability = FLASHFIRE
 Moves = FLAMECHARGE,SNARL,THUNDERFANG
 #-------------------------------
-[VILLAINCHAOS,Chaos]
-LoseText = ???
-Pokemon = CHAOS,55
-Moves = EXTREMESPEED,PLAYROUGH,ZENHEADBUTT,BULKUP
-#-------------------------------
 [PROFESSOR,Lotus,4]
 LoseText = I'm so glad I hired you!
 Pokemon = SANDSLASH,36
