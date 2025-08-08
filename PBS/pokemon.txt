@@ -1613,7 +1613,7 @@ Category = Tadpole
 Pokedex = Its body surface is always wet and slick with an oily fluid. Because of this greasy covering, it can easily slip and slide out of the clutches of any enemy in battle.
 Generation = 1
 WildItemUncommon = KINGSROCK
-Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,TradeItem,KINGSROCK
+Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,Item,MOONSTONE
 #-------------------------------
 [POLIWRATH]
 Name = Poliwrath
@@ -2284,7 +2284,7 @@ Habitat = Sea
 Category = Sea Lion
 Pokedex = Seel hunt for prey in frigid, ice-covered seas. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.
 Generation = 1
-Evolutions = DEWGONG,Level,34
+Evolutions = DEWGONG,Item,ICESTONE
 #-------------------------------
 [DEWGONG]
 Name = Dewgong
@@ -3346,7 +3346,7 @@ Category = Spitfire
 Pokedex = In battle, it blows out intense flames from all over its body to intimidate its foe. These fiery bursts create heat waves that ignite grass and trees.
 Generation = 1
 WildItemUncommon = MAGMARIZER
-Evolutions = MAGMORTAR,TradeItem,MAGMARIZER
+Evolutions = MAGMORTAR,Item,FIRESTONE
 #-------------------------------
 [PINSIR]
 Name = Pinsir
