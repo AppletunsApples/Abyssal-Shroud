@@ -55,7 +55,7 @@ Water,10
 35,POLIWAG,5,8
 30,WAILMER,5,8
 20,SEEL,5,8
-15,SHELLDER,5,8
+15,STARYU,5,8
 #-------------------------------
 [011] # Flora Forest
 Land,16
