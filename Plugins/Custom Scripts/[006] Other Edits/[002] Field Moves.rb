@@ -18,11 +18,8 @@ def pbSurf
   return false if !$game_player.can_ride_vehicle_with_follower?
   move = :SURF
   movefinder = $player.get_pokemon_with_move(move)
-  if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_SURF, false) || (!$DEBUG && !movefinder)
-    return false
-  elsif pbCheckHiddenMoveBadge(Settings::BADGE_FOR_SURF, true) || (!$DEBUG && !movefinder)
-    return true
-  end
+  return false if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_SURF, show_messages)
+  return true if pbCheckHiddenMoveBadge(Settings::BADGE_FOR_SURF, show_messages)
   if pbConfirmMessage(_INTL("The water is a deep blue color... Would you like to use Surf on it?"))
     speciesname = (movefinder) ? movefinder.name : $player.name
     pbMessage(_INTL("{1} used {2}!", speciesname, GameData::Move.get(move).name))
