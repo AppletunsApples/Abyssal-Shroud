@@ -12,21 +12,6 @@ MenuHandlers.add(:options_menu, :exp_all_toggle, {
 })
 
 # PokeGear menu
-# Pokedex
-MenuHandlers.add(:pokegear_menu, :pokedex, {
-  "name"      => _INTL("Pokédex"),
-  "icon_name" => "pokedex",
-  "order"     => 9,
-  "effect"    => proc { |menu|
-    pbFadeOutIn do
-      scene = PokemonPokedex_Scene.new
-      screen = PokemonPokedexScreen.new(scene)
-      screen.pbStartScreen
-    end
-    next false
-  }
-})
-
 MenuHandlers.add(:pause_menu, :encounters, {
   "name"      =>  _INTL("Encounters"),
   "order"     => 50,
