@@ -107,7 +107,7 @@ Pokemon = TYMPOLE,14
     Moves = ROCKTOMB,MUDSHOT
     Ability = HYDRATION
 #-------------------------------
-[DOCTOR,Calm]
+[DOCTOR,Caim]
 LoseText = ???
 Pokemon = LEAVANNY,14
     Moves = BUGBITE,LEAFAGE
