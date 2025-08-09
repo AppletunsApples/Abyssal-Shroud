@@ -83,26 +83,26 @@ Pokemon = SANDSHREW,12
     Ability = SANDVEIL
 #-------------------------------
 [SUPERNERD,Mike]
-LoseText = ???
+LoseText = Unfortunate.
 Pokemon = BUNEARY,13
     Form = 1
     Moves = METALCLAW,QUICKATTACK,ROCKSMASH
     Ability = FILTER
 #-------------------------------
 [SCIENTIST,Ike]
-LoseText = ???
+LoseText = How'd you beat me?!
 Pokemon = LOMBRE,14
     Moves = BUBBLE,MEGADRAIN,FAKEOUT
     Ability = SWIFTSWIM
 #-------------------------------
 [ISLANDNATIVE_F,Lyra]
-LoseText = ???
+LoseText = I'm confused about your identity.
 Pokemon = IMPIDIMP,16
     Moves = BITE,FAKEOUT,COVET
     Ability = PRANKSTER
 #-------------------------------
 [POKEMONRANGER_F,Mandy]
-LoseText = ???
+LoseText = Faes are the best!
 Pokemon = TYMPOLE,14
     Moves = ROCKTOMB,MUDSHOT
     Ability = HYDRATION
