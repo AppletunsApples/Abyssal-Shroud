@@ -132,21 +132,21 @@ Pokemon = DRATINI,14
     Ability = SHEDSKIN
 #-------------------------------
 [NURSE,Milly]
-LoseText = ???
+LoseText = I can't believe you defeated both of us!
 Pokemon = CLODSIRE,14
     Moves = DOUBLEKICK,MUDSLAP,TACKLE
     Ability = UNAWARE
 #-------------------------------
 [SUPERNERD,Paul]
-LoseText = ???
+LoseText = A shame really.
 Pokemon = MURKROW,15
     Moves = PLUCK,NIGHTSHADE
     Ability = PRANKSTER
 #-------------------------------
 [ISLANDNATIVE_M,Lin]
-LoseText = ???
+LoseText = I'm very blind then!
 Pokemon = GLOOM,13
-    Moves = ACID,ABSORB
+    Moves = SLUDGE,MEGADRAIN
     Ability = CHLOROPHYLL
 #-------------------------------
 [DOCTOR,Maximus]
