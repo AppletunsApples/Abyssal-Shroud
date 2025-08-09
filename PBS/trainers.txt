@@ -54,25 +54,25 @@ Ability = RATTLED
 #-------------------------------
 # Tundra
 #-------------------------------
+[SUPERNERD,Erik]
+LoseText = ???
+Pokemon = AMAURA,7
+Moves = ANCIENTPOWER,POWDERSNOW
+Ability = REFRIGERATE
+#-------------------------------
 [NURSE,Killie]
 LoseText = ???
 Pokemon = FROSMOTH,7
 Moves = BUGBITE,TRIPLEAXEL
 Ability = ICESCALES
 #-------------------------------
-[SCIENTIST,Carrie]
-LoseText = ???
-Pokemon = AMAURA,7
-Moves = ANCIENTPOWER,POWDERSNOW
-Ability = REFRIGERATE
-#-------------------------------
-[SAILOR,Taylor]
+[SAILOR,Mike]
 LoseText = ???
 Pokemon = CETODDLE,7
 Moves = ICYWIND,THIEF
 Ability = THICKFAT
 #-------------------------------
-[FISHERMAN,Mikey]
+[FISHERMAN,John]
 LoseText = ???
 Pokemon = POLIWAG,8
 Moves = HEADBUTT,HYPNOSIS,MUDSHOT
@@ -80,19 +80,59 @@ Ability = SWIFTSWIM
 #-------------------------------
 [WEATHERQUARTET_Sandra,Sandra]
 LoseText = ???
-Pokemon = SANDSHREW,9
+Pokemon = SANDSHREW,11
 Moves = FURYCUTTER,RAPIDSPIN,ROCKTOMB
 Ability = SANDVEIL
 #-------------------------------
+[SUPERNERD,Mike]
+LoseText = ???
+Pokemon = BUNEARY,12
+Form = 1
+Moves = METALCLAW,QUICKATTACK,ROCKTOMB
+Ability = FILTER
+#-------------------------------
+[SUPERNERD,Mike]
+LoseText = ???
+Pokemon = BUNEARY,12
+Form = 1
+Moves = METALCLAW,QUICKATTACK
+Ability = FILTER
+#-------------------------------
+[SCIENTIST,Ike]
+LoseText = ???
+Pokemon = LOMBRE,11
+Moves = BUBBLE,MEGADRAIN
+Ability = SWIFTSWIM
+#-------------------------------
+[ISLANDNATIVE_F,Lyra]
+LoseText = ???
+Pokemon = IMPIDIMP,12
+Moves = BITE,FAKEOUT,COVET
+Ability = PRANKSTER
+#-------------------------------
+[POKEMONRANGER_F,Mandy]
+LoseText = ???
+Pokemon = TYMPOLE,13
+Moves = ROCKTOMB,MUDSHOT
+Ability = HYDRATION
+#-------------------------------
+[SAILOR,Miles]
+LoseText = ???
+Pokemon = WOOPER,13
+Form = 1
+Moves = ACID,MUDSLAP
+Ability = POISONPOINT
+Item = EVIOLITE
+#-------------------------------
 [WEATHERQUARTET_Lorraine,Lorraine]
 LoseText = ???
-Pokemon = MARSHTOMP,12
+Pokemon = MARSHTOMP,16
 Moves = ICEPUNCH,ROCKSMASH,WATERGUN
 Ability = RAINDISH
-Pokemon = LOMBRE,13
+Pokemon = LOMBRE,14
 Moves = FAKEOUT,ABSORB,ROCKTOMB
 Ability = SWIFTSWIM
-Pokemon = POLIWHIRL,14
+Pokemon = POLIWHIRL,15
 Moves = HEADBUTT,ICEPUNCH,BUBBLE
 Ability = TORRENT
 #-------------------------------
