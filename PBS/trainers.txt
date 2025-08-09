@@ -29,56 +29,56 @@ Moves = SCRATCH,MUDSLAP,FURYCUTTER
 Ability = SWARM
 #-------------------------------
 [POKEMONRANGER_M,Maxie]
-LoseText = ???
+LoseText = Aw. I'm sad I lost but that was fun!
 Pokemon = STARYU,6
-Moves = PSYWAVE,AQUAJET
+Moves = PSYBEAM,RAPIDSPIN
 Ability = TELEPATHY
 #-------------------------------
 [POKEMONRANGER_F,Moxie]
-LoseText = ???
-Pokemon = TYMPOLE,5
+LoseText = Thank you for the fight!
+Pokemon = TYMPOLE,6
 Moves = ACID,ECHOEDVOICE
 Ability = HYDRATION
 #-------------------------------
 [ISLANDNATIVE_F,Olivia]
-LoseText = ???
+LoseText = It's very weird.
 Pokemon = LITLEO,8
 Moves = HEADBUTT,BITE
 Ability = VALOR
 #-------------------------------
 [DOCTOR,Billie]
-LoseText = ???
+LoseText = You won! I guess you aren't so weak.
 Pokemon = DUNSPARCE,8
 Moves = HEADBUTT,ASTONISH
 Ability = RATTLED
 #-------------------------------
 [SUPERNERD,Erik]
-LoseText = ???
-Pokemon = AMAURA,9
+LoseText = Quite a curious one, aren't you?
+Pokemon = AMAURA,10
 Moves = ANCIENTPOWER,POWDERSNOW
 Ability = REFRIGERATE
 #-------------------------------
 [NURSE,Killie]
-LoseText = ???
-Pokemon = FROSMOTH,7
+LoseText = Indeed you do need a healin'.
+Pokemon = FROSMOTH,8
 Moves = BUGBITE,TRIPLEAXEL
 Ability = ICESCALES
 #-------------------------------
 [SAILOR,Mike]
 LoseText = ???
-Pokemon = CETODDLE,7
+Pokemon = CETODDLE,11
 Moves = ICYWIND,THIEF
 Ability = THICKFAT
 #-------------------------------
 [FISHERMAN,John]
 LoseText = ???
-Pokemon = POLIWAG,8
+Pokemon = POLIWAG,10
 Moves = HEADBUTT,HYPNOSIS,MUDSHOT
 Ability = SWIFTSWIM
 #-------------------------------
 [WEATHERQUARTET_Sandra,Sandra]
 LoseText = ???
-Pokemon = SANDSHREW,11
+Pokemon = SANDSHREW,12
 Moves = FURYCUTTER,RAPIDSPIN,ROCKTOMB
 Ability = SANDVEIL
 #-------------------------------
