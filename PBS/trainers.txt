@@ -23,7 +23,7 @@ Pokemon = FUECOCO,5
 Ability = BLAZE
 #-------------------------------
 [ISLANDNATIVE_M,Xander]
-LoseText = ???
+LoseText = Thanks for the spar!
 Pokemon = NINCADA,6
 Moves = SCRATCH,MUDSLAP,FURYCUTTER
 Ability = SWARM
@@ -42,19 +42,19 @@ Ability = HYDRATION
 #-------------------------------
 [ISLANDNATIVE_F,Olivia]
 LoseText = ???
-Pokemon = LITLEO,7
+Pokemon = LITLEO,8
 Moves = HEADBUTT,BITE
 Ability = VALOR
 #-------------------------------
 [DOCTOR,Billie]
 LoseText = ???
-Pokemon = DUNSPARCE,6
+Pokemon = DUNSPARCE,8
 Moves = HEADBUTT,ASTONISH
 Ability = RATTLED
 #-------------------------------
 [SUPERNERD,Erik]
 LoseText = ???
-Pokemon = AMAURA,7
+Pokemon = AMAURA,9
 Moves = ANCIENTPOWER,POWDERSNOW
 Ability = REFRIGERATE
 #-------------------------------
