@@ -322,7 +322,7 @@ end
 # For the different option Arguments, check the guide as it's explained in detail in there.
 
 def pbSomeMart
-  pbPokemonMart(["2daily",
+  pbPokemonMart([
     :FLUTTERBALL, :GREATBALL, :ULTRABALL,
     :POTION, :SUPERPOTION, :HYPERPOTION, :MAXPOTION,
     :FULLRESTORE, :REVIVE,
@@ -333,7 +333,7 @@ def pbSomeMart
 end
 
 def pbBattleMart
-  pbPokemonMart(["2daily",
+  pbPokemonMart([
     :MIRRORHERB, :MENTALHERB, :LEFTOVERS, 
     :WATERSTONE, :MOONSTONE, :DUSKSTONE, :SUNSTONE, :LEAFSTONE,
     :ICESTONE, :AIRBALLOON, :SHELLBELL, :WIDELENS,

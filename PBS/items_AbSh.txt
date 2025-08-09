@@ -3,7 +3,7 @@
 [FLUTTERBALL]
 Name = Flutter Ball
 NamePlural = Flutter Ball
-Pocket = 4
+Pocket = 3
 Price = 200
 BattleUse = OnFoe
 Flags = PokeBall
