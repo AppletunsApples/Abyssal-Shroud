@@ -86,13 +86,6 @@ Ability = SANDVEIL
 LoseText = ???
 Pokemon = BUNEARY,12
 Form = 1
-Moves = METALCLAW,QUICKATTACK,ROCKTOMB
-Ability = FILTER
-#-------------------------------
-[SUPERNERD,Mike]
-LoseText = ???
-Pokemon = BUNEARY,12
-Form = 1
 Moves = METALCLAW,QUICKATTACK
 Ability = FILTER
 #-------------------------------
