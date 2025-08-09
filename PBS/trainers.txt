@@ -52,8 +52,6 @@ Pokemon = DUNSPARCE,6
 Moves = HEADBUTT,ASTONISH
 Ability = RATTLED
 #-------------------------------
-# Tundra
-#-------------------------------
 [SUPERNERD,Erik]
 LoseText = ???
 Pokemon = AMAURA,7
@@ -116,13 +114,11 @@ Pokemon = TYMPOLE,13
 Moves = ROCKTOMB,MUDSHOT
 Ability = HYDRATION
 #-------------------------------
-[SAILOR,Miles]
+[DOCTOR,Calm]
 LoseText = ???
-Pokemon = WOOPER,13
-Form = 1
-Moves = ACID,MUDSLAP
-Ability = POISONPOINT
-Item = EVIOLITE
+Pokemon = LEAVANNY,14
+Moves = BUGBITE,LEAFAGE
+Ability = CHLOROPHYLL
 #-------------------------------
 [WEATHERQUARTET_Lorraine,Lorraine]
 LoseText = ???
@@ -135,6 +131,38 @@ Ability = SWIFTSWIM
 Pokemon = POLIWHIRL,15
 Moves = HEADBUTT,ICEPUNCH,BUBBLE
 Ability = TORRENT
+#-------------------------------
+[SAILOR,Miles]
+LoseText = ???
+Pokemon = WOOPER,13
+Form = 1
+Moves = ACID,MUDSLAP
+Ability = POISONPOINT
+Item = EVIOLITE
+#-------------------------------
+[NURSE,Milly]
+LoseText = ???
+Pokemon = CLODSIRE,14
+Moves = DOUBLEKICK,MUDSLAP,TACKLE
+Ability = UNAWARE
+#-------------------------------
+[SAILOR,Miles]
+LoseText = ???
+Pokemon = DRATINI,14
+Moves = TACKLE,THUNDERWAVE,BUBBLE
+Ability = SHEDSKIN
+#-------------------------------
+[SUPERNERD,Paul]
+LoseText = ???
+Pokemon = MURKROW,15
+Moves = PLUCK,NIGHTSHADE
+Ability = PRANKSTER
+#-------------------------------
+[ISLANDNATIVE_M,Lin]
+LoseText = ???
+Pokemon = GLOOM,13
+Moves = ACID,ABSORB
+Ability = CHLOROPHYLL
 #-------------------------------
 [WEATHERQUARTET_Solomon,Solomon]
 LoseText = How annoying!
