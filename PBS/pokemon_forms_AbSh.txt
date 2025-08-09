@@ -41,7 +41,7 @@ Color = Gray
 Pokedex = .
 Generation = 0
 WildItemUncommon = METALCOAT
-Evolutions = LOPUNNY,Level,18
+Evolutions = LOPUNNY,Level,16
 Flags = InheritFormWithEverStone,Styxian
 #-------------------------------
 [LOPUNNY,1]
