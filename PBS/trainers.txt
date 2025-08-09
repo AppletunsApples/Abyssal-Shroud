@@ -149,54 +149,92 @@ Pokemon = GLOOM,13
     Moves = SLUDGE,MEGADRAIN
     Ability = CHLOROPHYLL
 #-------------------------------
+[POKEMONRANGER_M,Karen]
+LoseText = You're stronger than you look!
+Pokemon = DUOSION,16
+    Moves = PSYBEAM,TACKLE
+    Ability = REGENERATOR
+Pokemon = KOFFING,15
+    Moves = SLUDGE,POISONGAS
+    Ability = REGENERATOR
+#-------------------------------
+[DOCTOR,Lef]
+LoseText = I enjoyed that. Thanks!
+Pokemon = BOLDORE,15
+    Moves = TACKLE,POWERGEM
+    Ability = SANDSTREAM
+#-------------------------------
+[POKEMONRANGER_M,Manny]
+LoseText = You're stronger than you look!
+Pokemon = MAGMAR,14
+    Moves = TRAILBLAZE,TACKLE
+    Ability = FLAMEBODY
+#-------------------------------
+[ISLANDNATIVE_F,Sammy]
+LoseText = I'm so lost.
+Pokemon = TINKATUFF,16
+    Moves = COVET,FAKEOUT,METALCLAW
+    Ability = CLEARBODY
+#-------------------------------
+[ISLANDNATIVE_M,Lenny]
+LoseText = I'm very blind then!
+Pokemon = TORKOAL,17
+    Moves = TACKLE,RAPIDSPIN
+    Ability = CHLOROPHYLL
+#-------------------------------
+[SAILOR,Ann]
+LoseText = It couldn't be because of the heat, could it?
+Pokemon = CARKOL,19
+    Moves = FLAMECHARGE,RAPIDSPIN,SOLARBLADE
+    Ability = STEAMENGINE
+#-------------------------------
 [DOCTOR,Maximus]
 LoseText = ???
+Pokemon = MAGBY,18
+    Moves = FLAMECHARGE,TRAILBLAZE
+    Ability = FLAMEBODY
 Pokemon = MAGBY,20
     Moves = FLAMECHARGE,ROCKTOMB
     Ability = FLAMEBODY
 #-------------------------------
 [WEATHERQUARTET_Solomon,Solomon]
 LoseText = How annoying!
-Pokemon = TORKOAL,29
+Pokemon = TORKOAL,24
     Moves = FLAMECHARGE,SOLARBLADE,ROCKTOMB
     Ability = DROUGHT
-Pokemon = CROCALOR,28
+Pokemon = CROCALOR,22
     Moves = INCINERATE,CRUNCH,ZENHEADBUTT
     Ability = BLAZE
-Pokemon = HOUNDOOM,27
+Pokemon = HOUNDOOM,22
     Moves = FLAMECHARGE,SNARL,THUNDERFANG
     Ability = FLASHFIRE
 #-------------------------------
 [PROFESSOR,Lotus,4]
 LoseText = I'm so glad I hired you!
-Pokemon = SANDSLASH,36
-    Moves = XSCISSOR,BULLDOZE,METALCLAW,ROCKSMASH
+Pokemon = SANDSLASH,25
+    Moves = XSCISSOR,ROCKTOMB,METALCLAW
     Ability = SHARPNESS
     Item = EVIOLITE
-Pokemon = SWAMPERT,37
+Pokemon = SWAMPERT,24
     Form = 1
-    Moves = BRICKBREAK,MUDSHOT,MUDDYWATER
+    Moves = BRICKBREAK,MUDSHOT,BUBBLEBEAM
     Ability = TORRENT
-Pokemon = SCEPTILE,37
+Pokemon = SCEPTILE,24
     Form = 1
-    Moves = LEAFBLADE,CRUNCH,ROCKSMASH
+    Moves = MEGADRAIN,BITE,ROCKSMASH
     Ability = OVERGROW
-Pokemon = SKELEDIRGE,37
+Pokemon = SKELEDIRGE,24
     Form = 1
-    Moves = TORCHSONG,PSYBEAM,SHADOWBALL
+    Moves = FLAMECHARGE,SNARL,PSYBEAM
     Ability = BLAZE
-Pokemon = DUDUNSPARCE,38
-    Moves = RETURN,AIRSLASH,ANCIENTPOWER
-    Ability = SERENEGRACE
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Sandra,Sandra]
 LoseText = Hmph. You just got lucky, human...
-Pokemon = TYRANITAR,55
+Pokemon = TYRANITAR,26
     Moves = EARTHPOWER,CRUNCH,THUNDERPUNCH,ROCKSLIDE
     Ability = SANDSTREAM
-Pokemon = EXCADRILL,53
-Pokemon = CACTURNE,53
-Pokemon = SANDSTRIKE,53
-Pokemon = PALOSSAND,53
-Pokemon = HIPPOWDON,53
+Pokemon = EXCADRILL,27
+Pokemon = CACTURNE,27
+Pokemon = SANDSTRIKE,27
+Pokemon = PALOSSAND,28
 #-------------------------------
