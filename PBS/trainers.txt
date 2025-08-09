@@ -164,6 +164,12 @@ Pokemon = GLOOM,13
 Moves = ACID,ABSORB
 Ability = CHLOROPHYLL
 #-------------------------------
+[DOCTOR,Maximus]
+LoseText = ???
+Pokemon = MAGBY,20
+Moves = FLAMECHARGE,ROCKTOMB
+Ability = FLAMEBODY
+#-------------------------------
 [WEATHERQUARTET_Solomon,Solomon]
 LoseText = How annoying!
 Pokemon = TORKOAL,29
