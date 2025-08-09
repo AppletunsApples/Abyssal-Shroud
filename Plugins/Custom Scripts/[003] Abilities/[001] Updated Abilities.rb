@@ -1,11 +1,13 @@
-Battle::AbilityEffects::AccuracyCalcFromTarget.add(:SANDVEIL,
-  proc { |ability, mods, user, target, move, type|
-    mods[:defense_multiplier] *= 1.25 if target.effectiveWeather == :Sandstorm
+Battle::AbilityEffects::DamageCalcFromTarget.add(:SANDVEIL,
+  proc { |ability, mods, weather, user, target, type|
+    next unless weather == :Sandstorm
+    mults[:defense_multiplier] *= 1.25
   }
 )
 
-Battle::AbilityEffects::AccuracyCalcFromTarget.add(:SNOWCLOAK,
-  proc { |ability, mods, user, target, move, type|
-    mods[:special_defense_multiplier] *= 1.25 if target.effectiveWeather == :Hail
+Battle::AbilityEffects::DamageCalcFromTarget.add(:SNOWCLOAK,
+  proc { |ability, mods, weather, user, target, type|
+  next unless weather == :Hail
+    mods[:special_defense_multiplier] *= 1.25
   }
 )
