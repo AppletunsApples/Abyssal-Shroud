@@ -60,7 +60,7 @@ Pokemon = AMAURA,10
 #-------------------------------
 [NURSE,Killie]
 LoseText = Indeed you do need a healin'.
-Pokemon = FROSMOTH,8
+Pokemon = FROSMOTH,9
     Moves = BUGBITE,TRIPLEAXEL
     Ability = ICESCALES
 #-------------------------------
@@ -72,13 +72,13 @@ Pokemon = CETODDLE,11
 #-------------------------------
 [FISHERMAN,John]
 LoseText = How couldn't you?!
-Pokemon = POLIWAG,10
+Pokemon = POLIWAG,12
     Moves = HEADBUTT,HYPNOSIS,MUDSHOT
     Ability = SWIFTSWIM
 #-------------------------------
 [WEATHERQUARTET_Sandra,Sandra]
 LoseText = ???
-Pokemon = SANDSHREW,12
+Pokemon = SANDSHREW,13
     Moves = FURYCUTTER,RAPIDSPIN,ROCKTOMB
     Ability = SANDVEIL
 #-------------------------------
