@@ -3,207 +3,200 @@
 [PROFESSOR,Lotus]
 LoseText = Your potential is fascinating!
 Pokemon = MUDKIP,5
-Ability = TORRENT
+    Ability = TORRENT
 #-------------------------------
 [PROFESSOR,Lotus,1]
 LoseText = Your potential is fascinating!
 Pokemon = TREECKO,5
-Ability = OVERGROW
+    Ability = OVERGROW
 #-------------------------------
 [PROFESSOR,Lotus,2]
 LoseText = Your potential is fascinating!
 Pokemon = FUECOCO,5
-Ability = BLAZE
+    Ability = BLAZE
 #-------------------------------
 [PROFESSOR,Lotus,3]
 LoseText = Your potential is fascinating!
 Pokemon = TREECKO,5
-Ability = OVERGROW
+    Ability = OVERGROW
 Pokemon = FUECOCO,5
-Ability = BLAZE
+    Ability = BLAZE
 #-------------------------------
 [ISLANDNATIVE_M,Xander]
 LoseText = Thanks for the spar!
 Pokemon = NINCADA,6
-Moves = SCRATCH,MUDSLAP,FURYCUTTER
-Ability = SWARM
+    Moves = SCRATCH,MUDSLAP,FURYCUTTER
+    Ability = SWARM
 #-------------------------------
 [POKEMONRANGER_M,Maxie]
 LoseText = Aw. I'm sad I lost but that was fun!
 Pokemon = STARYU,6
-Moves = PSYBEAM,RAPIDSPIN
-Ability = TELEPATHY
+    Moves = PSYBEAM,RAPIDSPIN
+    Ability = TELEPATHY
 #-------------------------------
 [POKEMONRANGER_F,Moxie]
 LoseText = Thank you for the fight!
 Pokemon = TYMPOLE,6
-Moves = ACID,ECHOEDVOICE
-Ability = HYDRATION
+    Moves = ACID,ECHOEDVOICE
+    Ability = HYDRATION
 #-------------------------------
 [ISLANDNATIVE_F,Olivia]
 LoseText = It's very weird.
 Pokemon = LITLEO,8
-Moves = HEADBUTT,BITE
-Ability = VALOR
+    Moves = HEADBUTT,BITE
+    Ability = VALOR
 #-------------------------------
-[DOCTOR,Billie]
+[DOCTOR,Billy]
 LoseText = You won! I guess you aren't so weak.
 Pokemon = DUNSPARCE,8
-Moves = HEADBUTT,ASTONISH
-Ability = RATTLED
+    Moves = HEADBUTT,ASTONISH
+    Ability = RATTLED
 #-------------------------------
 [SUPERNERD,Erik]
 LoseText = Quite a curious one, aren't you?
 Pokemon = AMAURA,10
-Moves = ANCIENTPOWER,POWDERSNOW
-Ability = REFRIGERATE
+    Moves = ANCIENTPOWER,POWDERSNOW
+    Ability = REFRIGERATE
 #-------------------------------
 [NURSE,Killie]
 LoseText = Indeed you do need a healin'.
 Pokemon = FROSMOTH,8
-Moves = BUGBITE,TRIPLEAXEL
-Ability = ICESCALES
+    Moves = BUGBITE,TRIPLEAXEL
+    Ability = ICESCALES
 #-------------------------------
 [SAILOR,Mike]
 LoseText = The water here in this tundra are beautiful.
 Pokemon = CETODDLE,11
-Moves = ICYWIND,THIEF
-Ability = THICKFAT
+    Moves = ICYWIND,THIEF
+    Ability = THICKFAT
 #-------------------------------
 [FISHERMAN,John]
 LoseText = How couldn't you?!
 Pokemon = POLIWAG,10
-Moves = HEADBUTT,HYPNOSIS,MUDSHOT
-Ability = SWIFTSWIM
+    Moves = HEADBUTT,HYPNOSIS,MUDSHOT
+    Ability = SWIFTSWIM
 #-------------------------------
 [WEATHERQUARTET_Sandra,Sandra]
 LoseText = ???
 Pokemon = SANDSHREW,12
-Moves = FURYCUTTER,RAPIDSPIN,ROCKTOMB
-Ability = SANDVEIL
+    Moves = FURYCUTTER,RAPIDSPIN,ROCKTOMB
+    Ability = SANDVEIL
 #-------------------------------
 [SUPERNERD,Mike]
 LoseText = ???
 Pokemon = BUNEARY,12
-Form = 1
-Moves = METALCLAW,QUICKATTACK
-Ability = FILTER
+    Form = 1
+    Moves = METALCLAW,QUICKATTACK
+    Ability = FILTER
 #-------------------------------
 [SCIENTIST,Ike]
 LoseText = ???
 Pokemon = LOMBRE,11
-Moves = BUBBLE,MEGADRAIN
-Ability = SWIFTSWIM
+    Moves = BUBBLE,MEGADRAIN
+    Ability = SWIFTSWIM
 #-------------------------------
 [ISLANDNATIVE_F,Lyra]
 LoseText = ???
 Pokemon = IMPIDIMP,12
-Moves = BITE,FAKEOUT,COVET
-Ability = PRANKSTER
+    Moves = BITE,FAKEOUT,COVET
+    Ability = PRANKSTER
 #-------------------------------
 [POKEMONRANGER_F,Mandy]
 LoseText = ???
 Pokemon = TYMPOLE,13
-Moves = ROCKTOMB,MUDSHOT
-Ability = HYDRATION
+    Moves = ROCKTOMB,MUDSHOT
+    Ability = HYDRATION
 #-------------------------------
 [DOCTOR,Calm]
 LoseText = ???
 Pokemon = LEAVANNY,14
-Moves = BUGBITE,LEAFAGE
-Ability = CHLOROPHYLL
+    Moves = BUGBITE,LEAFAGE
+    Ability = CHLOROPHYLL
 #-------------------------------
 [WEATHERQUARTET_Lorraine,Lorraine]
 LoseText = ???
 Pokemon = MARSHTOMP,16
-Moves = ICEPUNCH,ROCKSMASH,WATERGUN
-Ability = RAINDISH
+    Moves = ICEPUNCH,ROCKSMASH,WATERGUN
+    Ability = RAINDISH
 Pokemon = LOMBRE,14
-Moves = FAKEOUT,ABSORB,ROCKTOMB
-Ability = SWIFTSWIM
+    Moves = FAKEOUT,ABSORB,ROCKTOMB
+    Ability = SWIFTSWIM
 Pokemon = POLIWHIRL,15
-Moves = HEADBUTT,ICEPUNCH,BUBBLE
-Ability = TORRENT
-#-------------------------------
-[SAILOR,Miles]
-LoseText = ???
-Pokemon = WOOPER,13
-Form = 1
-Moves = ACID,MUDSLAP
-Ability = POISONPOINT
-Item = EVIOLITE
-#-------------------------------
-[NURSE,Milly]
-LoseText = ???
-Pokemon = CLODSIRE,14
-Moves = DOUBLEKICK,MUDSLAP,TACKLE
-Ability = UNAWARE
+    Moves = HEADBUTT,ICEPUNCH,BUBBLE
+    Ability = TORRENT
 #-------------------------------
 [SAILOR,Miles]
 LoseText = ???
 Pokemon = DRATINI,14
-Moves = TACKLE,THUNDERWAVE,BUBBLE
-Ability = SHEDSKIN
+    Moves = TACKLE,THUNDERWAVE,BUBBLE
+    Ability = SHEDSKIN
+#-------------------------------
+[NURSE,Milly]
+LoseText = ???
+Pokemon = CLODSIRE,14
+    Moves = DOUBLEKICK,MUDSLAP,TACKLE
+    Ability = UNAWARE
 #-------------------------------
 [SUPERNERD,Paul]
 LoseText = ???
 Pokemon = MURKROW,15
-Moves = PLUCK,NIGHTSHADE
-Ability = PRANKSTER
+    Moves = PLUCK,NIGHTSHADE
+    Ability = PRANKSTER
 #-------------------------------
 [ISLANDNATIVE_M,Lin]
 LoseText = ???
 Pokemon = GLOOM,13
-Moves = ACID,ABSORB
-Ability = CHLOROPHYLL
+    Moves = ACID,ABSORB
+    Ability = CHLOROPHYLL
 #-------------------------------
 [DOCTOR,Maximus]
 LoseText = ???
 Pokemon = MAGBY,20
-Moves = FLAMECHARGE,ROCKTOMB
-Ability = FLAMEBODY
+    Moves = FLAMECHARGE,ROCKTOMB
+    Ability = FLAMEBODY
 #-------------------------------
 [WEATHERQUARTET_Solomon,Solomon]
 LoseText = How annoying!
 Pokemon = TORKOAL,29
-Ability = DROUGHT
-Moves = FLAMECHARGE,SOLARBLADE,ROCKTOMB
+    Moves = FLAMECHARGE,SOLARBLADE,ROCKTOMB
+    Ability = DROUGHT
 Pokemon = CROCALOR,28
-Ability = BLAZE
-Moves = INCINERATE,CRUNCH,ZENHEADBUTT
+    Moves = INCINERATE,CRUNCH,ZENHEADBUTT
+    Ability = BLAZE
 Pokemon = HOUNDOOM,27
-Ability = FLASHFIRE
-Moves = FLAMECHARGE,SNARL,THUNDERFANG
+    Moves = FLAMECHARGE,SNARL,THUNDERFANG
+    Ability = FLASHFIRE
 #-------------------------------
 [PROFESSOR,Lotus,4]
 LoseText = I'm so glad I hired you!
 Pokemon = SANDSLASH,36
-Moves = XSCISSOR,BULLDOZE,METALCLAW,ROCKSMASH
-Ability = SHARPNESS
-Item = EVIOLITE
+    Moves = XSCISSOR,BULLDOZE,METALCLAW,ROCKSMASH
+    Ability = SHARPNESS
+    Item = EVIOLITE
 Pokemon = SWAMPERT,37
-Form = 1
-Moves = BRICKBREAK,MUDSHOT,MUDDYWATER
-Ability = TORRENT
+    Form = 1
+    Moves = BRICKBREAK,MUDSHOT,MUDDYWATER
+    Ability = TORRENT
 Pokemon = SCEPTILE,37
-Form = 1
-Ability = OVERGROW
-Moves = LEAFBLADE,CRUNCH,ROCKSMASH
+    Form = 1
+    Moves = LEAFBLADE,CRUNCH,ROCKSMASH
+    Ability = OVERGROW
 Pokemon = SKELEDIRGE,37
-Form = 1
-Ability = BLAZE
-Moves = TORCHSONG,PSYBEAM,SHADOWBALL
+    Form = 1
+    Moves = TORCHSONG,PSYBEAM,SHADOWBALL
+    Ability = BLAZE
 Pokemon = DUDUNSPARCE,38
-Moves = RETURN,AIRSLASH,ANCIENTPOWER
-Ability = SERENEGRACE
+    Moves = RETURN,AIRSLASH,ANCIENTPOWER
+    Ability = SERENEGRACE
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Sandra,Sandra]
 LoseText = Hmph. You just got lucky, human...
 Pokemon = TYRANITAR,55
-Moves = EARTHPOWER,CRUNCH,THUNDERPUNCH,ROCKSLIDE
-Ability = SANDSTREAM
+    Moves = EARTHPOWER,CRUNCH,THUNDERPUNCH,ROCKSLIDE
+    Ability = SANDSTREAM
 Pokemon = EXCADRILL,53
 Pokemon = CACTURNE,53
 Pokemon = SANDSTRIKE,53
 Pokemon = PALOSSAND,53
 Pokemon = HIPPOWDON,53
+#-------------------------------
