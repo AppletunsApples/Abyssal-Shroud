@@ -1,14 +1,14 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [0]
-Filename = mapRegion0.png
 Name = Styx Island
-Point = 15,11,Styx Base,Research Station,013,019,,,
-Point = 15,14,Selene Savanna,,036,030,,,
-Point = 19,14,Triton Tundra,,028,018,,,
-Point = 17,10,Flora Forest,,028,024,,,
-Point = 16,7,Minerva Marsh,,011,013,,,
-Point = 13,7,Calypso Cavern,,011,008,,,
-Point = 13,5,Vulcanus Volcano,,049,066,,089,
-Point = 12,7,Rasus Ruins,,073,016,,,
-Point = 11,7,Rasus Ruins,,,,,,
+Filename = mapRegion0.png
+Point = 15,11,Styx Base,Research Station,13,19
+Point = 15,14,Selene Savanna,,36,30
+Point = 19,14,Triton Tundra,,28,18
+Point = 17,10,Flora Forest,,28,24
+Point = 16,7,Minerva Marsh,,11,13
+Point = 13,7,Calypso Cavern,,11,8
+Point = 13,5,Vulcanus Volcano,,49,66,,89
+Point = 12,7,Rasus Ruins,,73,16
+Point = 11,7,Rasus Ruins
