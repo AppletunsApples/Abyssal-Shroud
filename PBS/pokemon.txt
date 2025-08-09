@@ -6767,7 +6767,7 @@ Habitat = Grassland
 Category = Young Fowl
 Pokedex = It lashes out with 10 kicks per second. Its strong fighting instinct compels it to keep up its offensive until the opponent gives up.
 Generation = 3
-Evolutions = BLAZIKEN,Level,36
+Evolutions = BLAZIKEN,Level,32
 #-------------------------------
 [BLAZIKEN]
 Name = Blaziken
@@ -6846,7 +6846,7 @@ Habitat = WatersEdge
 Category = Mud Fish
 Pokedex = Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud.
 Generation = 3
-Evolutions = SWAMPERT,Level,36
+Evolutions = SWAMPERT,Level,32
 Flags = Styxian
 #-------------------------------
 [SWAMPERT]
