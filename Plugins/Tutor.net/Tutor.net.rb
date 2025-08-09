@@ -913,9 +913,9 @@ def pbTutorNetAdd(move,cost=0,currency="$")
 		$player.tutorlist=[]
 	end
 	if !$player.tutornet
-		Kernel.pbMessage(_INTL("By the way are you aware of Tutor.net? It's a PokéGear app we tutors have set up to make our services more accessible. Here, let me help you make an account."))
-		pbSEPlay("Voltorb flip gain coins",volume=80,pitch=80)
-		Kernel.pbMessage(_INTL("All done! Just boot up the Tutor.net app from your PokéGear app at any time now!"))
+		#Kernel.pbMessage(_INTL("By the way are you aware of Tutor.net? It's a PokéGear app we tutors have set up to make our services more accessible. Here, let me help you make an account."))
+		#pbSEPlay("Voltorb flip gain coins",volume=80,pitch=80)
+		Kernel.pbMessage(_INTL("Just boot up the Tutor.net app to use tutor moves from your PokéGear app at any time now!"))
 		!$player.tutornet=true
 	end
 	for i in 0...$player.tutorlist.length  
