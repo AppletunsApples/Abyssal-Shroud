@@ -7,7 +7,7 @@ Pocket = 3
 Price = 300
 BattleUse = OnFoe
 Flags = PokeBall
-Description = A Ball with an increaed catch rate on Pokémon unique to Styx Island.
+Description = A Ball with an increased catch rate on Pokémon unique to Styx Island.
 #-------------------------------
 [PLANETICKET]
 Name = Plane Ticket

@@ -3,85 +3,94 @@
 [001]   # Intro
 Name = Intro
 #-------------------------------
-[004]   # Styx Main Base
+[004]   # Research Base
+Name = Research Base
 MapPosition = 0,15,11
-Battleback = indoor1
 #-------------------------------
-[005] # Rasus Ruins
-MapPosition = 0,12,7
-ShowArea = true
+[005]   # Rasus Ruins
+Name = Rasus Ruins
 Outdoor = true
+ShowArea = true
+MapPosition = 0,12,7
 SnapEdges = true
-Battleback = forest
 #-------------------------------
 [006]   # Vulcanus Volcano
-Outdoor = false
-Environment = Volcano
+Name = Vulcanus Volcano
+ShowArea = true
 SnapEdges = true
+BattleBack = volcano
+Environment = Volcano
 #-------------------------------
 [007]   # Styx Airport
 Name = Styx Airport
-ShowArea = true
 Outdoor = true
+ShowArea = true
 SnapEdges = true
 #-------------------------------
 [008]   # Selene Savanna
-MapPosition = 0,15,14
-ShowArea = true
+Name = Selene Savanna
 Outdoor = true
-Battleback = safari
-SnapEdges = true
+ShowArea = true
 Weather = Sandstorm,100
+MapPosition = 0,15,14
+SnapEdges = true
+BattleBack = safari
 #-------------------------------
 [009]   # Triton Tundra
-MapPosition = 0,19,14
-ShowArea = true
+Name = Triton Tundra
 Outdoor = true
-Environment = Snow
+ShowArea = true
 Weather = Snow,100
+MapPosition = 0,19,14
+BattleBack = snow
+Environment = Snow
 #-------------------------------
 [010]   # Research Base
-MapPosition = 0,15,11
+Name = Research Base
 ShowArea = true
-Outdoor = false
+MapPosition = 0,15,11
 BattleBack = indoor1
 #-------------------------------
 [011]   # Flora Forest
-MapPosition = 0,19,10
-ShowArea = true
+Name = Flora Forest
 Outdoor = true
+ShowArea = true
+MapPosition = 0,19,10
+BattleBack = forest
 Environment = Forest
 #-------------------------------
 [012]   # Minerva Marsh
-MapPosition = 0,16,7
-ShowArea = true
+Name = Minerva Marsh
 Outdoor = true
-Battleback = swamp
-Weather = Rain,100
-#-------------------------------
-[013] # Rasus Ruins
-MapPosition = 0,11,7
 ShowArea = true
-Outdoor = false
-Battleback = Cave
+Weather = Rain,100
+MapPosition = 0,16,7
+BattleBack = swamp
+#-------------------------------
+[013]   # Rasus Ruins
+Name = Rasus Ruins
+ShowArea = true
+MapPosition = 0,11,7
 #-------------------------------
 [015]   # Vulcanus Volcano
-MapPosition = 0,13,5
-ShowArea = true
+Name = Vulcanus Volcano
 Outdoor = true
-Weather = Sun,100
+ShowArea = true
 Bicycle = true
-Environment = Volcano
+Weather = Sun,100
+MapPosition = 0,13,5
 SnapEdges = true
+BattleBack = volcano
+Environment = Volcano
 #-------------------------------
 [016]   # Calypso Cavern
-MapPosition = 0,13,7
+Name = Calypso Cavern
 ShowArea = true
-Outdoor = false
+MapPosition = 0,13,7
+BattleBack = cave
 Environment = Cave
 #-------------------------------
 [021]   # Research Base
-MapPosition = 0,15,11
+Name = Research Base
 ShowArea = true
-Outdoor = false
-Battleback = indoor1
+MapPosition = 0,15,11
