@@ -1,4 +1,5 @@
-  def pbDrawTrainerCardFront
+class PokemonTrainerCard_Scene
+def pbDrawTrainerCardFront
     overlay = @sprites["overlay"].bitmap
     overlay.clear
     baseColor   = Color.new(255, 255, 255)
@@ -34,11 +35,12 @@
       gray_y  = region * 2 * 32
       gold_y  = gray_y + 32
       if $player.badges[i + 9]
-        imagePositions.push(["Graphics/UI/Trainer Card/icon_badges", x, 250, i * 32, gold_y, 32, 32]) if $player.badges[i + 9]
+        imagePositions.push(["Graphics/UI/Trainer Card/icon_badges", x, 310, i * 32, gold_y, 32, 32]) if $player.badges[i + 9]
       elsif $player.badges[i]
-        imagePositions.push(["Graphics/UI/Trainer Card/icon_badges", x, 290, i * 32, gray_y, 32, 32])
+        imagePositions.push(["Graphics/UI/Trainer Card/icon_badges", x, 310, i * 32, gray_y, 32, 32])
       end
-      x += 54
+      x += 48
     end
     pbDrawImagePositions(overlay, imagePositions)
   end
+end
