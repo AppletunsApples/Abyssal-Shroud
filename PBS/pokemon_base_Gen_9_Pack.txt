@@ -312,7 +312,7 @@ Habitat = RoughTerrain
 Category = Fire Croc
 Pokedex = The combination of Crocalor’s fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon’s head.
 Generation = 9
-Evolutions = SKELEDIRGE,Level,36
+Evolutions = SKELEDIRGE,Level,32
 Flags = Styxian
 #-------------------------------
 [SKELEDIRGE]

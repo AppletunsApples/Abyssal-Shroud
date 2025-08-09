@@ -121,7 +121,7 @@ Pokemon = MARSHTOMP,16
 Pokemon = LOMBRE,15
     Moves = FAKEOUT,ABSORB,ROCKTOMB
     Ability = SWIFTSWIM
-Pokemon = POLIWHIRL,17
+Pokemon = POLIWHIRL,15
     Moves = HEADBUTT,ICEPUNCH,BUBBLE
     Ability = TORRENT
 #-------------------------------
