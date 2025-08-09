@@ -11,7 +11,7 @@
 #===============================================================================
 
 module WildHiddenAbilityPercentage #Hi, I change Wild Encounter Abilities
-  Chance = rand(7) < 1
+  Chance = rand(3) < 1
 end
 
 module GiftHiddenAbilityPercentage #Hi, I change Gift Abilities
