@@ -65,13 +65,13 @@ Moves = BUGBITE,TRIPLEAXEL
 Ability = ICESCALES
 #-------------------------------
 [SAILOR,Mike]
-LoseText = ???
+LoseText = The water here in this tundra are beautiful.
 Pokemon = CETODDLE,11
 Moves = ICYWIND,THIEF
 Ability = THICKFAT
 #-------------------------------
 [FISHERMAN,John]
-LoseText = ???
+LoseText = How couldn't you?!
 Pokemon = POLIWAG,10
 Moves = HEADBUTT,HYPNOSIS,MUDSHOT
 Ability = SWIFTSWIM
