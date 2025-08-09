@@ -3079,7 +3079,7 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [LOPUNNY,1]
-BackSprite = 0,42
+BackSprite = 0,17
 FrontSprite = 0,15
 ShadowX = 0
 ShadowSize = 1

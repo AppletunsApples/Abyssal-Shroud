@@ -1,18 +1,55 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [SCEPTILE,1]
-BackSprite = 0,46
+BackSprite = 0,15
 FrontSprite = 6,18
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [SKELEDIRGE,1]
-BackSprite = 0,44
-FrontSprite = -10,25
+BackSprite = 0,18
+FrontSprite = -10,9
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [SWAMPERT,1]
-BackSprite = 0,48
+BackSprite = 0,15
 FrontSprite = -2,22
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[STARTUS]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[STARPIT]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SNUNI]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CHAOS]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[BUNEARY,1]
+BackSprite = 0,29
+FrontSprite = -3,33
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[SANDSTRIKE]
+BackSprite = 0,6
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 2

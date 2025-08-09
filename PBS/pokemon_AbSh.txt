@@ -110,7 +110,7 @@ WildItemRare = POISONBARB
 Flags = Styxian
 #-------------------------------
 [SANDSTRIKE]
-Name = SANDSTRIKE
+Name = Sandstrike
 Types = GROUND,STEEL
 BaseStats = 90,120,125,30,30,75
 GenderRatio = Female50Percent
