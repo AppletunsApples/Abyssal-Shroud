@@ -74,9 +74,9 @@ Water,10
 #-------------------------------
 [011,1] # Flora Forest
 Land,16
-50,SEWADDLE,6,9
-30,BUNEARY_1,8,10
-20,IMPIDIMP,8,11
+45,SEWADDLE,6,9
+35,BUNEARY_1,8,10
+10,IMPIDIMP,8,11
 5,TREECKO,8,12
 5,LOTAD,8,12
 #STARTUS
