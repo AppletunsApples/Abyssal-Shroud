@@ -230,11 +230,11 @@ Pokemon = SKELEDIRGE,22
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Sandra,Sandra]
 LoseText = Hmph. You just got lucky, human...
-Pokemon = TYRANITAR,26
-    Moves = DIG,ROCKSLIDE,ROCKSMASH,BITE
+Pokemon = GIGALITH,25
+    Moves = HEAVYSLAM,ROCKSLIDE,ROCKSMASH,BITE
     Ability = SANDSTREAM
 Pokemon = EXCADRILL,27
-    Moves = ROCKTOMB,METALCLAW,DIG
+    Moves = ROCKTOMB,METALCLAW,DIG,ROCKSMASH
     Ability = SANDRUSH
 Pokemon = SANDSTRIKE,27
     Moves = ROCKTOMB,SMARTSTRIKE,XSCISSOR
