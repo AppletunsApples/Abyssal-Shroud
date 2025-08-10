@@ -42,8 +42,8 @@ Pokemon = TYMPOLE,6
 #-------------------------------
 [ISLANDNATIVE_F,Olivia]
 LoseText = It's very weird.
-Pokemon = LITLEO,8
-    Moves = HEADBUTT,BITE
+Pokemon = LITLEO,7
+    Moves = HEADBUTT,BITE,ECHOEDVOICE
     Ability = VALOR
 #-------------------------------
 [DOCTOR,Billy]
@@ -60,7 +60,7 @@ Pokemon = AMAURA,10
 #-------------------------------
 [NURSE,Killie]
 LoseText = Indeed you do need a healin'.
-Pokemon = FROSMOTH,9
+Pokemon = FROSMOTH,8
     Moves = BUGBITE,TRIPLEAXEL
     Ability = ICESCALES
 #-------------------------------
