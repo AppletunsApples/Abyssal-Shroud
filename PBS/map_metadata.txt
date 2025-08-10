@@ -65,7 +65,7 @@ Outdoor = true
 ShowArea = true
 Weather = Rain,100
 MapPosition = 0,16,7
-BattleBack = swamp
+BattleBack = forest
 #-------------------------------
 [013]   # Rasus Ruins
 Name = Rasus Ruins
