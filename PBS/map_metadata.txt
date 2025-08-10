@@ -86,8 +86,9 @@ Environment = Volcano
 [016]   # Calypso Cavern
 Name = Calypso Cavern
 ShowArea = true
+SnapEdges = true
 MapPosition = 0,13,7
-BattleBack = cave
+BattleBack = cave1
 Environment = Cave
 #-------------------------------
 [021]   # Research Base

@@ -199,15 +199,15 @@ Pokemon = MAGBY,20
 #-------------------------------
 [WEATHERQUARTET_Solomon,Solomon]
 LoseText = How annoying!
-Pokemon = TORKOAL,24
-    Moves = FLAMECHARGE,SOLARBLADE,ROCKTOMB
-    Ability = DROUGHT
 Pokemon = CROCALOR,22
     Moves = INCINERATE,CRUNCH,ZENHEADBUTT
     Ability = BLAZE
 Pokemon = HOUNDOOM,22
     Moves = FLAMECHARGE,SNARL,THUNDERFANG
     Ability = FLASHFIRE
+Pokemon = TORKOAL,24
+    Moves = FLAMECHARGE,SOLARBLADE,ROCKTOMB
+    Ability = DROUGHT
 #-------------------------------
 [PROFESSOR,Lotus,4]
 LoseText = I'm so glad I hired you!
