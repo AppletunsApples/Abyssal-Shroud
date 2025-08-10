@@ -358,13 +358,6 @@ def pbSomeShelf2
   ], discount: 26, currency: "Coins")
 end
 
-def pbTmShelf
-  pbShelfMart(
-    ["daily",
-      [:TM01, 3], :TM02, :TM03, :TM04, :TM05, :TM06, :TM07, :ESCAPEROPE
-    ], currency: "coins")
-end
-
 def pbSomeSpeciesMart
   pbSpeciesMart(
     "pokemonStore", speech: "PokeSeller", discount: 27, currency: "money",
