@@ -115,15 +115,15 @@ Pokemon = LEAVANNY,14
 #-------------------------------
 [WEATHERQUARTET_Lorraine,Lorraine]
 LoseText = ???
-Pokemon = MARSHTOMP,16
-    Moves = ICEPUNCH,ROCKSMASH,WATERGUN
-    Ability = RAINDISH
-Pokemon = LOMBRE,15
-    Moves = FAKEOUT,ABSORB,ROCKTOMB
-    Ability = SWIFTSWIM
-Pokemon = POLIWHIRL,15
-    Moves = HEADBUTT,ICEPUNCH,BUBBLE
+Pokemon = MARSHTOMP,15
+    Moves = ICEPUNCH,ROCKTOMB,WATERGUN
     Ability = TORRENT
+Pokemon = LOMBRE,13
+    Moves = FAKEOUT,ABSORB,ROCKTOMB,ROCKSMASH
+    Ability = SWIFTSWIM
+Pokemon = POLIWAG,14
+    Moves = HEADBUTT,ICEPUNCH,BUBBLE
+    Ability = SWIFTSWIM
 #-------------------------------
 [SAILOR,Miles]
 LoseText = ???
