@@ -149,7 +149,7 @@ Pokemon = GLOOM,13
     Moves = SLUDGE,MEGADRAIN
     Ability = CHLOROPHYLL
 #-------------------------------
-[POKEMONRANGER_F,Karmen]
+[ISLANDNATIVE_F,Karmen]
 LoseText = I was supposed to be hidden!
 Pokemon = POLIWHIRL,17
     Moves = BUBBLE,HYPNOSIS,DOUBLESLAP
