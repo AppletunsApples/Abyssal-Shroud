@@ -285,7 +285,7 @@ Habitat = RoughTerrain
 Category = Fire Croc
 Pokedex = It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.
 Generation = 9
-Evolutions = CROCALOR,Level,16
+Evolutions = CROCALOR,Level,15
 Flags = Styxian
 #-------------------------------
 [CROCALOR]
@@ -312,7 +312,7 @@ Habitat = RoughTerrain
 Category = Fire Croc
 Pokedex = The combination of Crocalor’s fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon’s head.
 Generation = 9
-Evolutions = SKELEDIRGE,Level,32
+Evolutions = SKELEDIRGE,Level,27
 Flags = Styxian
 #-------------------------------
 [SKELEDIRGE]

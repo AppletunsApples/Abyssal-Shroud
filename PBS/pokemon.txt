@@ -704,7 +704,7 @@ Category = Mouse
 Pokedex = When it curls up in a ball, it can make any attack bounce off harmlessly. Its hide has turned tough and solid as a result of living in the desert.
 Generation = 1
 WildItemUncommon = GRIPCLAW
-Evolutions = SANDSLASH,Level,22
+Evolutions = SANDSLASH,Level,20
 Flags = Styxian
 #-------------------------------
 [SANDSLASH]
@@ -719,7 +719,7 @@ CatchRate = 90
 Happiness = 50
 Abilities = SHARPNESS,SANDRUSH
 HiddenAbilities = SANDVEIL
-Moves = 1,SCRATCH,1,CRUSHCLAW,1,SANDATTACK,1,POISONSTING,1,DEFENSECURL,9,ROLLOUT,12,FURYCUTTER,15,RAPIDSPIN,18,BULLDOZE,21,SWIFT,26,FURYSWIPES,28,SANDTOMB,32,SLASH,37,SPIKYSHIELD,41,DIG,46,GYROBALL,51,SWORDSDANCE,56,SANDSTORM,61,EARTHQUAKE
+Moves = 1,SCRATCH,1,CRUSHCLAW,1,SANDATTACK,1,POISONSTING,1,DEFENSECURL,9,ROLLOUT,12,FURYCUTTER,15,RAPIDSPIN,18,BULLDOZE,21,SWIFT,26,FURYSWIPES,27,SMARTSTRIKE,30,SANDTOMB,32,SLASH,38,DIG,46,GYROBALL,51,SWORDSDANCE,56,SANDSTORM,61,EARTHQUAKE
 TutorMoves = AERIALACE,AGILITY,AMNESIA,BODYSLAM,BRICKBREAK,BULLDOZE,CURSE,DIG,DOUBLEEDGE,DRILLRUN,EARTHPOWER,EARTHQUAKE,ENDEAVOR,ENDURE,FACADE,FALSESWIPE,FLING,FOCUSBLAST,FOCUSPUNCH,GIGAIMPACT,GUNKSHOT,GYROBALL,HIGHHORSEPOWER,HYPERBEAM,KNOCKOFF,LEECHLIFE,LOWKICK,METALCLAW,MUDSHOT,MUDSLAP,POISONJAB,PROTECT,REST,ROCKSLIDE,ROCKTOMB,SANDSTORM,SANDTOMB,SCORCHINGSANDS,SHADOWCLAW,SLEEPTALK,SMACKDOWN,SPIKES,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,SUBSTITUTE,SUNNYDAY,SUPERFANG,SWIFT,SWORDSDANCE,TAKEDOWN,THIEF,THROATCHOP,XSCISSOR
 EggGroups = Field
 HatchSteps = 5120
@@ -732,7 +732,7 @@ Category = Mouse
 Pokedex = It curls up in a ball to protect itself from enemy attacks. It also curls up to prevent heatstroke during the daytime when temperatures rise sharply.
 Generation = 1
 WildItemUncommon = GRIPCLAW
-Evolutions = SANDSTRIKE,HasMove,SPIKYSHIELD
+Evolutions = SANDSTRIKE,HasMove,SMARTSTRIKE
 Flags = Styxian
 #-------------------------------
 [NIDORANfE]
@@ -6661,7 +6661,7 @@ Habitat = Forest
 Category = Wood Gecko
 Pokedex = It makes its nest in a giant tree in the forest. It ferociously guards against anything nearing its territory. It is said to be the protector of the trees.
 Generation = 3
-Evolutions = GROVYLE,Level,16
+Evolutions = GROVYLE,Level,15
 Flags = Styxian
 #-------------------------------
 [GROVYLE]
@@ -6688,7 +6688,7 @@ Habitat = Forest
 Category = Wood Gecko
 Pokedex = Leaves grow out of this Pokémon's body. They help obscure a Grovyle from the eyes of its enemies while it is in a thickly overgrown forest.
 Generation = 3
-Evolutions = SCEPTILE,Level,36
+Evolutions = SCEPTILE,Level,27
 Flags = Styxian
 #-------------------------------
 [SCEPTILE]
@@ -6819,7 +6819,7 @@ Habitat = WatersEdge
 Category = Mud Fish
 Pokedex = On land, it can powerfully lift large boulders by planting its four feet and heaving. It sleeps by burying itself in soil at the water's edge.
 Generation = 3
-Evolutions = MARSHTOMP,Level,16
+Evolutions = MARSHTOMP,Level,15
 Flags = Styxian
 #-------------------------------
 [MARSHTOMP]
@@ -6846,7 +6846,7 @@ Habitat = WatersEdge
 Category = Mud Fish
 Pokedex = Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud.
 Generation = 3
-Evolutions = SWAMPERT,Level,32
+Evolutions = SWAMPERT,Level,27
 Flags = Styxian
 #-------------------------------
 [SWAMPERT]
