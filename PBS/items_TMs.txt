@@ -719,3 +719,12 @@ FieldUse = TM
 Move = EARTHQUAKE
 Description = The user sets off an earthquake that strikes every Pokémon around it.
 #-------------------------------
+[TM81]
+Name = TM81
+NamePlural = TM81s
+Pocket = 4
+Price = 3500
+FieldUse = TM
+Move = HEATWAVE
+Description = The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.
+#-------------------------------
