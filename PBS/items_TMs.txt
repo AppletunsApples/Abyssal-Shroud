@@ -683,9 +683,9 @@ FieldUse = TM
 Move = PLAYROUGH
 Description = The user plays rough with the target and attacks it. This may also lower the target's Attack stat.
 #-------------------------------
-[TM67]
-Name = TM67
-NamePlural = TM67s
+[TM77]
+Name = TM77
+NamePlural = TM77s
 Pocket = 4
 Price = 100
 FieldUse = TM
