@@ -1,16 +1,3 @@
-# Options Menu
-# EXP All
-MenuHandlers.add(:options_menu, :exp_all_toggle, {
-  "name"        => _INTL("Exp. All"),
-  "order"       => 61,
-  "type"        => EnumOption,
-  "parameters"  => [_INTL("On"), _INTL("Off")],
-  "description" => _INTL("Choose whether the entire party gains exp from battle or not."),
-  "condition"   => proc { next $player },
-  "get_proc"    => proc { next $player.has_exp_all ? 0 : 1},
-  "set_proc"    => proc { |value, _sceme| $player.has_exp_all = (value == 0)}
-})
-
 # PokeGear menu
 MenuHandlers.add(:pause_menu, :encounters, {
   "name"      =>  _INTL("Encounters"),
