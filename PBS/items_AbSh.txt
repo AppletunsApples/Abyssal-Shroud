@@ -12,7 +12,7 @@ Description = A Ball with an increased catch rate on Pokémon unique to Styx Isl
 [PLANETICKET]
 Name = Plane Ticket
 NamePlural = Plane Tickets
-Pocket = 6
+Pocket = 7
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
@@ -21,7 +21,7 @@ Description = A ticket that allows you to fly to Styx Island through its airplan
 [NATUREFLUTE]
 Name = Nature Flutes
 NamePlural = Nature Flutes
-Pocket = 6
+Pocket = 7
 Price = 0
 Flags = KeyItem
 Description = A mysterious flute connected to the ecosystem.

@@ -312,7 +312,7 @@ Description = A large and rare bamboo shoot. It's extremely popular with a certa
 [ROTOMPHONE]
 Name = Rotom Phone
 NamePlural = Rotom Phones
-Pocket = 6
+Pocket = 7
 Price = 0
 Flags = KeyItem
 Description = The latest model of smartphone. A Rotom lives within it, and it can be used to run all sorts of handy apps.
@@ -320,7 +320,7 @@ Description = The latest model of smartphone. A Rotom lives within it, and it ca
 [SCARLETBOOK]
 Name = Scarlet Book
 NamePlural = Scarlet Books
-Pocket = 6
+Pocket = 7
 Price = 0
 Flags = KeyItem
 Description = A record of the Heath's expedition on the Great Crater of Paldea. It has the name "Sada" written on it.
@@ -328,7 +328,7 @@ Description = A record of the Heath's expedition on the Great Crater of Paldea. 
 [VIOLETBOOK]
 Name = Violet Book
 NamePlural = Violet Books
-Pocket = 6
+Pocket = 7
 Price = 0
 Flags = KeyItem
 Description = A record of the Heath's expedition on the Great Crater of Paldea. It has the name "Turo" written on it.
@@ -465,7 +465,7 @@ Description = A carved wooden mask to be held by Ogerpon. It allows Ogerpon to w
 [TEALMASK]
 Name = Teal Mask
 NamePlural = Teal Masks
-Pocket = 6
+Pocket = 7
 Price = 0
 Flags = KeyItem,Fling_60
 Description = A teal mask patterned after the face of an ogre. Dropped by Ogerpon after visiting the Festival of Masks.
@@ -486,7 +486,7 @@ Description = A peculiar metal that can make certain species of Pokémon evolve.
 [INDIGODISK]
 Name = Indigo Disk
 NamePlural = Indigo Disks
-Pocket = 6
+Pocket = 7
 Price = 0
 Flags = KeyItem
 Description = A mysterious disk with an indigo shine to it, given by the Top Champion. It seems to be tied to Area Zero.
@@ -494,7 +494,7 @@ Description = A mysterious disk with an indigo shine to it, given by the Top Cha
 [MYTHICALPECHABERRY]
 Name = Mythical Pecha Berry
 NamePlural = Mythical Pecha Berries
-Pocket = 6
+Pocket = 7
 Price = 0
 Flags = KeyItem
 Description = A Pecha Berry of the highest quality. It's one of every a few years berry that carefully tended by an expert.
@@ -502,7 +502,7 @@ Description = A Pecha Berry of the highest quality. It's one of every a few year
 [SYNCHROMACHINE]
 Name = Synchro Machine
 NamePlural = Synchro Machines
-Pocket = 6
+Pocket = 7
 Price = 0
 Flags = KeyItem
 Description = A device that synchronizes your mind and feelings with your Pokémon's as one. It's still a prototype—hence.
@@ -510,7 +510,7 @@ Description = A device that synchronizes your mind and feelings with your Pokém
 [METEORITE]
 Name = Meteorite
 NamePlural = Meteorites
-Pocket = 6
+Pocket = 7
 Price = 0
 FieldUse = OnPokemon
 Flags = KeyItem
@@ -519,7 +519,7 @@ Description = A rock that fell to earth from space. It allows a certain species 
 [BRIARSBOOK]
 Name = Briar's Book
 NamePlural = Briar's Books
-Pocket = 6
+Pocket = 7
 Price = 0
 Flags = KeyItem
 Description = A proof copy of the exploration notes, along with Briar's thoughts covering the Area Zero Underdepths.
