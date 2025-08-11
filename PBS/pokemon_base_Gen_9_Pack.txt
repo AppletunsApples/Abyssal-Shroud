@@ -1251,7 +1251,7 @@ Habitat = RoughTerrain
 Category = Tumbleweed
 Pokedex = A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.
 Generation = 9
-Evolutions = BRAMBLEGHAST,LevelWalk,1000
+Evolutions = BRAMBLEGHAST,Level,23
 #-------------------------------
 [BRAMBLEGHAST]
 Name = Brambleghast
