@@ -29,7 +29,7 @@ Flags = InheritFormWithEverStone,Styxian
 #-------------------------------
 [BUNEARY,1]
 FormName = Styxian
-Types = NORMAL
+Types = NORMAL,STEEL
 BaseStats = 50,61,44,90,44,61
 Abilities = LIMBER,TECHNICIAN
 HiddenAbilities = FILTER
