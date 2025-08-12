@@ -14269,7 +14269,7 @@ Category = Leaf-Wrapped
 Pokedex = It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.
 Generation = 5
 WildItemUncommon = MENTALHERB
-Evolutions = LEAVANNY,Happiness,
+Evolutions = LEAVANNY,Level,23
 #-------------------------------
 [LEAVANNY]
 Name = Leavanny

@@ -49,7 +49,7 @@ ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [SANDSTRIKE]
-BackSprite = 0,6
+BackSprite = 0,15
 FrontSprite = 0,17
 ShadowX = 0
 ShadowSize = 2
