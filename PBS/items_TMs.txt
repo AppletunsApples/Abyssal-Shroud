@@ -624,6 +624,7 @@ Description = The user creates a bizarre area in which slower Pokémon get to mo
 [TM70]
 Name = TM70
 NamePlural = TM70s
+Pocket = 5
 Price = 1000
 FieldUse = TM
 Move = ROCKSMASH
