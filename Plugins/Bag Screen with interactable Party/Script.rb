@@ -933,7 +933,7 @@ class PokemonBag_Scene
       for i in 0...Settings::MAX_PARTY_SIZE
         @sprites["pokemon#{i}"].text = annotations[i] if  annotations
       end
-    elsif @bag.last_viewed_pocket == 4 && item #TMs Pocket
+    elsif @bag.last_viewed_pocket == 5 && item #TMs Pocket
       annotations = nil
       annotations = []
       if itm.is_machine?
