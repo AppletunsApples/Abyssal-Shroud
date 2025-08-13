@@ -4,8 +4,8 @@
 Name = Diamond Dust
 Description = The Pokémon summons a beautiful aurora of snow.
 #-------------------------------
-[JUDGEMENTDAY]
-Name = Judgement Day
+[JUDGMENTDAY]
+Name = Judgment Day
 Description = Opposing Pokémon activate Perish Song on themselves on sendout.
 #-------------------------------
 [INSPIRIT]
