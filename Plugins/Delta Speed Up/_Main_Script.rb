@@ -10,7 +10,7 @@ end
 SPEEDUP_STAGES = [1, 2, 3]
 $GameSpeed = 0
 $CanToggle = true
-$RefreshEventsForTurbo = false
+$RefreshEventsForTurbo = true
 #===============================================================================#
 # Set $CanToggle depending on the saved setting
 #===============================================================================#
