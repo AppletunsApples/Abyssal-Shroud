@@ -23,9 +23,9 @@ Land,21
 Cave,10
 50,MAGBY,47,51
 25,KOFFING,47,50
-15,ROLYCOLY,48,50
-6,LARVITAR,48,52
-4,TORKOAL,50,54
+11,ROLYCOLY,48,50
+9,VULPIX,48,52
+4,LARVITAR,50,54
 #-------------------------------
 [008] # Selene Savanna
 Land,21
