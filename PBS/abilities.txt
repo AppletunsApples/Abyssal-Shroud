@@ -771,7 +771,7 @@ Description = Switches out if its HP becomes half or less.
 #-------------------------------
 [WATERCOMPACTION]
 Name = Water Compaction
-Description = Sharply ups Defense when hit by a Water-type move.
+Description = Sharply boosts Defense when hit by a Water-type move.
 #-------------------------------
 [MERCILESS]
 Name = Merciless
