@@ -2890,7 +2890,7 @@ Category = Poison Gas
 Pokedex = Getting up close to a Koffing will give you a chance to observe, through its thin skin, the toxic gases swirling inside. It blows up at the slightest stimulation.
 Generation = 1
 WildItemUncommon = SMOKEBALL
-Evolutions = WEEZING,Level,35
+Evolutions = WEEZING,Level,26
 #-------------------------------
 [WEEZING]
 Name = Weezing
@@ -14269,7 +14269,7 @@ Category = Leaf-Wrapped
 Pokedex = It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.
 Generation = 5
 WildItemUncommon = MENTALHERB
-Evolutions = LEAVANNY,Level,23
+Evolutions = LEAVANNY,Level,25
 #-------------------------------
 [LEAVANNY]
 Name = Leavanny
@@ -14888,7 +14888,7 @@ Habitat = Sea
 Category = Prototurtle
 Pokedex = About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey.
 Generation = 5
-Evolutions = CARRACOSTA,Level,37
+Evolutions = CARRACOSTA,Level,32
 #-------------------------------
 [CARRACOSTA]
 Name = Carracosta
@@ -14940,7 +14940,7 @@ Habitat = RoughTerrain
 Category = First Bird
 Pokedex = Revived from a fossil, this Pokémon is thought to be the ancestor of all bird Pokémon.
 Generation = 5
-Evolutions = ARCHEOPS,Level,37
+Evolutions = ARCHEOPS,Level,32
 #-------------------------------
 [ARCHEOPS]
 Name = Archeops
@@ -15227,7 +15227,7 @@ Habitat = Urban
 Category = Cell
 Pokedex = Because their bodies are enveloped in a special liquid, they can survive in any environment.
 Generation = 5
-Evolutions = DUOSION,Level,32
+Evolutions = DUOSION,Level,20
 #-------------------------------
 [DUOSION]
 Name = Duosion
@@ -15253,7 +15253,7 @@ Habitat = Urban
 Category = Mitosis
 Pokedex = When their brains, now divided in two, are thinking the same thoughts, these Pokémon exhibit their maximum power.
 Generation = 5
-Evolutions = REUNICLUS,Level,41
+Evolutions = REUNICLUS,Level,36
 #-------------------------------
 [REUNICLUS]
 Name = Reuniclus
