@@ -185,8 +185,8 @@ Pokemon = TINKATUFF,16
 [ISLANDNATIVE_M,Lenny]
 LoseText = I'm very blind then!
 Pokemon = TORKOAL,17
-    Moves = TACKLE,RAPIDSPIN
-    Ability = CHLOROPHYLL
+    Moves = EMBER,ROCKTOMB,RAPIDSPIN
+    Ability = DROUGHT
 #-------------------------------
 [SAILOR,Ann]
 LoseText = It couldn't be because of the heat, could it?
