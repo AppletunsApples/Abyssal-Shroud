@@ -72,4 +72,4 @@ BattleBGM = VS Sandra (Possessed)
 Name = Villain
 Gender = Female
 BaseMoney = 0
-BattleBGM = VS Sandra (Possessed)
+BattleBGM = VS Final Boss (First Phase)

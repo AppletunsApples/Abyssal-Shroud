@@ -293,26 +293,26 @@ Pokemon = DUDUNSPARCE,26
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Sandra,Sandra]
 LoseText = Hmph. This won't change anything at all...
-Pokemon = GIGALITH,51
+Pokemon = GIGALITH,61
     Moves = HEAVYSLAM,ROCKTOMB,ROCKSMASH,BITE
     Ability = SANDSTREAM
-Pokemon = SCEPTILE,51
+Pokemon = SCEPTILE,61
     Moves = MEGADRAIN,BITE,ROCKSMASH,ROCKSLIDE
     Form = 1
     Ability = SANDRUSH
-Pokemon = EXCADRILL,53
+Pokemon = EXCADRILL,63
     Moves = ROCKTOMB,SMARTSTRIKE,ROCKSMASH,AERIALACE
     Ability = SANDRUSH
-Pokemon = SANDSTRIKE,53
+Pokemon = SANDSTRIKE,63
     Moves = ROCKSLIDE,SMARTSTRIKE,XSCISSOR,SPIKYSHIELD
     Ability = SANDVEIL
-Pokemon = PALOSSAND,53
+Pokemon = PALOSSAND,63
     Moves = MEGADRAIN,EARTHPOWER,SLUDGEBOMB
     Ability = WATERCOMPACTION
     Item = SITRUSBERRY
-Pokemon = TYRANITAR,55
+Pokemon = TYRANITAR,65
     Moves = ROCKSLIDE,SHADOWCLAW,EARTHQUAKE,CRUNCH
-    Ability = SANDSTREAM
+    Ability = UNNERVE
     Item = TYRANITARITE
 #-------------------------------
 [PROFESSOR,Lotus,7]
