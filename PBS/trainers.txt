@@ -292,24 +292,28 @@ Pokemon = DUDUNSPARCE,26
     Ability = SERENEGRACE
 #-------------------------------
 [WEATHERQUARTETCORRUPT_Sandra,Sandra]
-LoseText = Hmph. You just got lucky, human...
-Pokemon = GIGALITH,27
+LoseText = Hmph. This won't change anything at all...
+Pokemon = GIGALITH,51
     Moves = HEAVYSLAM,ROCKTOMB,ROCKSMASH,BITE
     Ability = SANDSTREAM
-Pokemon = SCEPTILE,28
+Pokemon = SCEPTILE,51
     Moves = MEGADRAIN,BITE,ROCKSMASH,ROCKSLIDE
     Form = 1
     Ability = SANDRUSH
-Pokemon = EXCADRILL,28
+Pokemon = EXCADRILL,53
     Moves = ROCKTOMB,SMARTSTRIKE,ROCKSMASH,AERIALACE
     Ability = SANDRUSH
-Pokemon = SANDSTRIKE,27
+Pokemon = SANDSTRIKE,53
     Moves = ROCKSLIDE,SMARTSTRIKE,XSCISSOR,SPIKYSHIELD
     Ability = SANDVEIL
-Pokemon = PALOSSAND,29
+Pokemon = PALOSSAND,53
     Moves = MEGADRAIN,EARTHPOWER,SLUDGEBOMB
     Ability = WATERCOMPACTION
     Item = SITRUSBERRY
+Pokemon = TYRANITAR,55
+    Moves = ROCKSLIDE,SHADOWCLAW,EARTHQUAKE,CRUNCH
+    Ability = SANDSTREAM
+    Item = TYRANITARITE
 #-------------------------------
 [PROFESSOR,Lotus,7]
 LoseText = Your skills never cease to surprise me!
