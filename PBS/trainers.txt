@@ -65,13 +65,13 @@ Pokemon = FROSMOTH,8
     Ability = ICESCALES
 #-------------------------------
 [SAILOR,Mike]
-LoseText = The water here in this tundra are beautiful.
+LoseText = Well, the water here in this tundra is breathtaking, after all...
 Pokemon = CETODDLE,11
     Moves = ICYWIND,THIEF
     Ability = THICKFAT
 #-------------------------------
 [FISHERMAN,John]
-LoseText = How couldn't you?!
+LoseText = Not a fish fan, eh?
 Pokemon = POLIWAG,12
     Moves = HEADBUTT,HYPNOSIS,MUDSHOT
     Ability = SWIFTSWIM
@@ -83,7 +83,7 @@ Pokemon = SANDSHREW,12
     Ability = SANDVEIL
 #-------------------------------
 [SUPERNERD,Mike]
-LoseText = Unfortunate.
+LoseText = I guess I have a lot to learn on battle theories.
 Pokemon = BUNEARY,13
     Form = 1
     Moves = METALCLAW,QUICKATTACK,ROCKSMASH
@@ -96,25 +96,25 @@ Pokemon = LOMBRE,14
     Ability = SWIFTSWIM
 #-------------------------------
 [ISLANDNATIVE_F,Lyra]
-LoseText = I'm confused about your identity.
+LoseText = That... didn't clarify anything for me at all! Hah...
 Pokemon = IMPIDIMP,16
     Moves = BITE,FAKEOUT,COVET
     Ability = PRANKSTER
 #-------------------------------
 [POKEMONRANGER_F,Mandy]
-LoseText = Faes are the best!
+LoseText = Faes are still perfect in my heart, no matter how much I lose!
 Pokemon = TYMPOLE,14
     Moves = ROCKTOMB,MUDSHOT
     Ability = HYDRATION
 #-------------------------------
 [DOCTOR,Caim]
-LoseText = ???
+LoseText = Great to see more strong trainers coming here!
 Pokemon = LEAVANNY,14
     Moves = BUGBITE,LEAFAGE
     Ability = CHLOROPHYLL
 #-------------------------------
 [WEATHERQUARTET_Lorraine,Lorraine]
-LoseText = ???
+LoseText = You've fought well, good on you!
 Pokemon = MARSHTOMP,15
     Moves = ICEPUNCH,ROCKTOMB,WATERGUN
     Ability = TORRENT
@@ -126,7 +126,7 @@ Pokemon = POLIWAG,14
     Ability = SWIFTSWIM
 #-------------------------------
 [SAILOR,Miles]
-LoseText = ???
+LoseText = Ack! I was caught up in the fun, and got stomped!
 Pokemon = DRATINI,14
     Moves = TACKLE,THUNDERWAVE,BUBBLE
     Ability = SHEDSKIN
@@ -138,24 +138,24 @@ Pokemon = CLODSIRE,14
     Ability = UNAWARE
 #-------------------------------
 [SUPERNERD,Paul]
-LoseText = A shame really.
+LoseText = A shame, truly.
 Pokemon = MURKROW,15
     Moves = PLUCK,NIGHTSHADE
     Ability = PRANKSTER
 #-------------------------------
 [ISLANDNATIVE_M,Lin]
-LoseText = I'm very blind then!
+LoseText = Goodness! That was wrong...
 Pokemon = GLOOM,13
     Moves = SLUDGE,MEGADRAIN
     Ability = CHLOROPHYLL
 #-------------------------------
 [ISLANDNATIVE_F,Karmen]
-LoseText = I was supposed to be hidden!
+LoseText = I guess you weren't a fan of Hide and Seek...
 Pokemon = POLIWHIRL,17
     Moves = BUBBLE,HYPNOSIS,DOUBLESLAP
     Ability = HYDRATION
 #-------------------------------
-[POKEMONRANGER_M,Karen]
+[POKEMONRANGER_F,Karen]
 LoseText = You're stronger than you look!
 Pokemon = DUOSION,16
     Moves = PSYBEAM,TACKLE
@@ -177,13 +177,13 @@ Pokemon = MAGMAR,14
     Ability = FLAMEBODY
 #-------------------------------
 [ISLANDNATIVE_F,Sammy]
-LoseText = I'm so lost.
+LoseText = I'm so lost...
 Pokemon = TINKATUFF,16
     Moves = COVET,FAKEOUT,METALCLAW
     Ability = CLEARBODY
 #-------------------------------
 [ISLANDNATIVE_M,Lenny]
-LoseText = I'm very blind then!
+LoseText = My lord! I have let you down...
 Pokemon = TORKOAL,17
     Moves = EMBER,ROCKTOMB,RAPIDSPIN
     Ability = DROUGHT
@@ -204,7 +204,7 @@ Pokemon = MAGBY,20
     Ability = FLAMEBODY
 #-------------------------------
 [WEATHERQUARTET_Solomon,Solomon]
-LoseText = How annoying!
+LoseText = Curses...
 Pokemon = CROCALOR,22
     Moves = INCINERATE,CRUNCH,ZENHEADBUTT
     Ability = BLAZE
