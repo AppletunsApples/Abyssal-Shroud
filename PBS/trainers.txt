@@ -29,7 +29,7 @@ Pokemon = SANDYGAST,6
     Ability = WATERCOMPACTION
 #-------------------------------
 [POKEMONRANGER_M,Maxie]
-LoseText = Aw. I'm sad I lost but that was fun!
+LoseText = Aw... I'm sad I lost, but that was fun!
 Pokemon = STARYU,6
     Moves = PSYBEAM,RAPIDSPIN
     Ability = TELEPATHY
@@ -41,7 +41,7 @@ Pokemon = TYMPOLE,6
     Ability = HYDRATION
 #-------------------------------
 [ISLANDNATIVE_F,Olivia]
-LoseText = It's very weird.
+LoseText = So strong! Training is just one thing I can't keep up with nowadays...
 Pokemon = LITLEO,7
     Moves = HEADBUTT,BITE,ECHOEDVOICE
     Ability = VALOR
@@ -53,13 +53,13 @@ Pokemon = DUNSPARCE,8
     Ability = RATTLED
 #-------------------------------
 [SUPERNERD,Erik]
-LoseText = Quite a curious one, aren't you?
+LoseText = Hehehe! You sure are the investigative type!
 Pokemon = AMAURA,10
     Moves = ANCIENTPOWER,POWDERSNOW
     Ability = REFRIGERATE
 #-------------------------------
 [NURSE,Killie]
-LoseText = Indeed you do need a healin'.
+LoseText = You need a healin', alright.
 Pokemon = FROSMOTH,8
     Moves = BUGBITE,TRIPLEAXEL
     Ability = ICESCALES
