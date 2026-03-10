@@ -225,25 +225,6 @@ Pokemon = SWAMPERT,26
     Form = 1
     Moves = BRICKBREAK,MUDSHOT,BUBBLEBEAM
     Ability = TORRENT
-Pokemon = SCEPTILE,26
-    Form = 1
-    Moves = MEGADRAIN,BITE,ROCKSMASH
-    Ability = OVERGROW
-Pokemon = SKELEDIRGE,27
-    Form = 1
-    Moves = FLAMECHARGE,SNARL,PSYBEAM
-    Ability = BLAZE
-#-------------------------------
-[PROFESSOR,Lotus,4]
-LoseText = I'm so glad I hired you!
-Pokemon = SANDSLASH,25
-    Moves = XSCISSOR,ROCKTOMB,METALCLAW
-    Ability = SHARPNESS
-    Item = EVIOLITE
-Pokemon = SWAMPERT,26
-    Form = 1
-    Moves = BRICKBREAK,MUDSHOT,BUBBLEBEAM
-    Ability = TORRENT
 Pokemon = SKELEDIRGE,27
     Form = 1
     Moves = FLAMECHARGE,SNARL,PSYBEAM
