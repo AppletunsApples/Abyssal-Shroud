@@ -25,8 +25,8 @@ Pokemon = FUECOCO,5
 [ISLANDNATIVE_M,Xander]
 LoseText = Thanks for the spar!
 Pokemon = SANDYGAST,6
-    Moves = MUDSLAP,ROCKTOMB,ASTONISH
-    Ability = WATERCOMPACTION
+    Moves = ROCKTOMB,ASTONISH
+    Ability = SANDVEIL
 #-------------------------------
 [POKEMONRANGER_M,Maxie]
 LoseText = Aw... I'm sad I lost, but that was fun!
