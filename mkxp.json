@@ -59,7 +59,7 @@
     // This acts as a company/creator name, and this folder could contain save
     // folders for multiple games made by the same company/creator.
     //
-    // "dataPathOrg": "PKMN Abyssal Shroud",
+    "dataPathOrg": "Team Bunny Rabbit",
 
     // SoundFont to use for midi playback (via fluidsynth).
     //
