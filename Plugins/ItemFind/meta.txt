@@ -1,5 +1,5 @@
 Name         = Item Find
-Version      = 2.0
-Credits      = Boonzeet, IndianAnimator
+Version      = 2.1
+Website      = https://reliccastle.com/resources/371/
 Essentials   = 21.1
-Link         = https://reliccastle.com/resources/371/
+Credits      = Boonzeet
