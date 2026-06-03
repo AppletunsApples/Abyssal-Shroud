@@ -365,7 +365,7 @@ class Battle::Move::HitTenTimes < Battle::Move
   def multiHitMove?; return true; end
 
   def pbNumHits(user, targets)
-    return 4 + rand(7) if user.hasActiveItem?(:LOADEDDICE)
+    return 4 + @battle.pbRandom(7) if user.hasActiveItem?(:LOADEDDICE)
     return 10
   end
 

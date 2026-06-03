@@ -2,12 +2,13 @@
 # Item Find
 # v2.0
 # By Boonzeet
+# With fixes from TechSkylander1518 
 #-------------------------------------------------------------------------------
 # A script to show a helpful message with item name, icon and description
 # when an item is found for the first time.
 #-------------------------------------------------------------------------------
 
-WINDOWSKIN_NAME = "speech hgss 20" # set for custom windowskin
+WINDOWSKIN_NAME = "" # set for custom windowskin
 
 #-------------------------------------------------------------------------------
 # Save data registry
@@ -37,7 +38,7 @@ class PokemonItemFind_Scene
     
     colors = getDefaultTextColors(@sprites["background"].windowskin)
 
-    @sprites["itemicon"] = ItemIconSprite.new(48, Graphics.height - 48, nil, @viewport)
+    @sprites["itemicon"] = ItemIconSprite.new(42, Graphics.height - 48, nil, @viewport)
     @sprites["itemicon"].visible = false
     @sprites["itemicon"].z = @viewport.z + 2
 	
@@ -147,7 +148,6 @@ end
 
 alias pbPickBerry_itemfind pbPickBerry
 def pbPickBerry(berry, qty = 1)
-  ret = pbPickBerry_itemfind(berry, qty)
-  $item_log.register(berry) if $bag.has?(berry)
-  return ret
+  pbPickBerry_itemfind(berry,qty)
+  $item_log.register(berry) if $PokemonBag.pbHasItem?(berry)
 end
