@@ -62,7 +62,7 @@ Land,21
 Water,10
 45,POLIWAG,1
 30,SEEL,1
-25,STARYU,1
+25,SLOWPOKE,1
 #-------------------------------
 [011] # Flora Forest
 Land,16
@@ -75,7 +75,7 @@ Land,16
 Water,10
 50,TYMPOLE,1
 30,BASCULIN,1
-20,DRATINI,1
+20,SLOWPOKE,1
 #-------------------------------
 [011,1] # Flora Forest
 Land,16
@@ -146,5 +146,5 @@ Cave,10
 Water,10
 45,POLIWAG,1
 35,TIRTOUGA,1
-20,STARYU,1
+20,SLOWPOKE,1
 #-------------------------------
