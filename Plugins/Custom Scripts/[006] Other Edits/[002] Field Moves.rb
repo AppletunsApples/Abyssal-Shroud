@@ -14,8 +14,7 @@ def pbSurf
 end
 
 def pbCanFly?(pkmn = nil, show_messages = false)
-  return false if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_FLY, true)
-  return false if !$DEBUG && !pkmn && !$player.get_pokemon_with_move(:FLY)
+  return false if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_FLY, show_messages)
   if !$game_player.can_map_transfer_with_follower?
     pbMessage(_INTL("It can't be used when you have someone with you.")) if show_messages
     return false
