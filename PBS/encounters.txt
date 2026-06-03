@@ -25,6 +25,15 @@ Cave,10
 9,ROLYCOLY,1
 4,LARVITAR,1
 #-------------------------------
+[006,1] # Vulcanus Volcano
+Cave,10
+45,MAGBY,1
+25,KOFFING_1,1
+11,ARON_1,1
+9,ROLYCOLY,1
+5,FUECOCO,1
+4,LARVITAR,1
+#-------------------------------
 [008] # Selene Savanna
 Land,21
 40,BRAMBLIN,1
