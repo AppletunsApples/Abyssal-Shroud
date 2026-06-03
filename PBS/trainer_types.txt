@@ -125,8 +125,9 @@ BaseMoney = 48
 #-------------------------------
 [PROFESSOR]
 Name = Professor
-Gender = Male
+Gender = Female
 BaseMoney = 100
+BattleBGM = VS Secret Boss
 #-------------------------------
 [ROCKER]
 Name = Rocker
