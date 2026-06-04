@@ -537,8 +537,10 @@ Description = A pretty, heart-shaped scale that is extremely rare. It glows fain
 [SLOWPOKETAIL]
 Name = Slowpoke Tail
 NamePlural = Slowpoke Tails
-Pocket = 1
-Price = 10000
+Pocket = 5
+Price = 3000
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
 Description = A very tasty tail of something. It can be sold at a high price to shops.
 #-------------------------------
 [RAREBONE]

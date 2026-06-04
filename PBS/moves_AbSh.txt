@@ -63,7 +63,7 @@ Description = After making its attack, the user rushes back to switch places wit
 Name = Hydro Hop
 Type = FIRE
 Category = Physical
-Power = 55
+Power = 50
 Accuracy = 100
 TotalPP = 20
 Target = NearOther
@@ -71,3 +71,17 @@ FunctionCode = RaiseUserSpeed1
 Flags = Contact,CanProtect,CanMirrorMove
 EffectChance = 100
 Description = The user cloaks hops past water a few times. Building up more power, it raises the user's Speed stat.
+#-------------------------------
+[VENOMJOLT]
+Name = Venom Jolt
+Type = POISON
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+Priority = 1
+FunctionCode = PoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user strikes the target with a jolt of venom. This move always goes first and may poison the target.
+#-------------------------------

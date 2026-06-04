@@ -1,4 +1,6 @@
 #-------------------------------
+# Convergents
+#-------------------------------
 [SNUNI]
 Name = Snuni
 Types = WATER,DARK
@@ -54,8 +56,8 @@ Category = Flying Fish
 Pokedex = It glides through the air with its winglike fins, but it is ultimately incapable of true flight. It compensates by swimming at high speed and then leaping out of the water.
 Flags = Styxian
 #-------------------------------
-[STARPIT]
-Name = Starpit
+[STARDEM]
+Name = Stardem
 Types = GRASS
 BaseStats = 30,45,55,85,70,55
 GenderRatio = Genderless
@@ -82,8 +84,8 @@ WildItemUncommon = MIRACLESEED
 Evolution = STARTUS,Item,LEAFSTONE
 Flags = Styxian
 #-------------------------------
-[STARTUS]
-Name = Startus
+[STARCUS]
+Name = Starcus
 Types = GRASS,POISON
 BaseStats = 60,75,85,115,100,85
 GenderRatio = Genderless
@@ -108,6 +110,8 @@ Pokedex = Startus's flowers cause certain Pokémon to lose control, which is why
 WildItemUncommon = MIRACLESEED
 WildItemRare = POISONBARB
 Flags = Styxian
+#-------------------------------
+# Crossgens
 #-------------------------------
 [SANDSTRIKE]
 Name = Sandstrike
@@ -136,6 +140,88 @@ Generation = 0
 WildItemUncommon = GRIPCLAW
 Flags = Styxian
 #-------------------------------
+[SCUFFROG]
+Name = Scuffrog
+Types = POISON,FIGHTING
+BaseStats = 83,121,45,110,131,45
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 172
+EVs = SPECIAL_ATTACK,2
+CatchRate = 75
+Happiness = 50
+Abilities = ANTICIPATION,DRYSKIN
+HiddenAbilities = MERCILESS
+Moves = 1,SPIKYSHIELD,1,CRUSHCLAW,1,SANDATTACK,1,METALCLAW,1,POISONSTING,1,DEFENSECURL,0,SMARTSTRIKE,9,ROLLOUT,12,FURYCUTTER,15,RAPIDSPIN,18,BULLDOZE,21,SWIFT,24,METALCLAW,26,SMARTSTRIKE,28,SANDTOMB,33,CRUSHCLAW,38,DIG,43,IRONHEAD,46,GYROBALL,51,SWORDSDANCE,56,SANDSTORM,61,EARTHQUAKE
+TutorMoves = AERIALACE,AGILITY,AMNESIA,BODYSLAM,BRICKBREAK,BULLDOZE,CURSE,DIG,DOUBLEEDGE,DRILLRUN,EARTHPOWER,EARTHQUAKE,ENDEAVOR,ENDURE,FACADE,FALSESWIPE,FLING,FOCUSBLAST,FOCUSPUNCH,GIGAIMPACT,GUNKSHOT,GYROBALL,HIGHHORSEPOWER,HYPERBEAM,IRONHEAD,KNOCKOFF,LEECHLIFE,LOWKICK,METALCLAW,MUDSHOT,MUDSLAP,POISONJAB,PROTECT,REST,ROCKSMASH,ROCKSLIDE,ROCKTOMB,SANDSTORM,SANDTOMB,SCORCHINGSANDS,SHADOWCLAW,SLEEPTALK,SMACKDOWN,SMARTSTRIKE,SPIKES,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,SUBSTITUTE,SUNNYDAY,SUPERFANG,SWIFT,SWORDSDANCE,TAKEDOWN,THIEF,THROATCHOP,XSCISSOR
+EggGroups = Humanlike
+HatchSteps = 5120
+Height = 2.0
+Weight = 88.0
+Color = Blue
+Shape = Bipedal
+Habitat = Forest
+Category = Toxic Strike
+Pokedex = ???
+Generation = 0
+WildItemUncommon = BLACKSLUDGE
+Flags = Styxian
+#-------------------------------
+[DRATORRENT]
+Name = Dratorrent
+Types = DRAGON
+BaseStats = 93,115,100,75,119,100
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 147
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+CatchRate = 45
+Happiness = 35
+Abilities = DRIZZLE
+HiddenAbilities = MULTISCALE
+Moves = 1,SPIKYSHIELD,1,CRUSHCLAW,1,SANDATTACK,1,METALCLAW,1,POISONSTING,1,DEFENSECURL,0,SMARTSTRIKE,9,ROLLOUT,12,FURYCUTTER,15,RAPIDSPIN,18,BULLDOZE,21,SWIFT,24,METALCLAW,26,SMARTSTRIKE,28,SANDTOMB,33,CRUSHCLAW,38,DIG,43,IRONHEAD,46,GYROBALL,51,SWORDSDANCE,56,SANDSTORM,61,EARTHQUAKE
+EggGroups = Water1,Dragon
+HatchSteps = 10240
+Height = 6.3
+Weight = 21.2
+Color = Blue
+Shape = Serpentine
+Habitat = WatersEdge
+Category = Dragon
+Pokedex = ???
+Generation = 0
+Flags = Styxian
+WildItemUncommon = DRAGONSCALE
+#-------------------------------
+[SLOWMO]
+Name = Slowmo
+Types = WATER,PSYCHIC
+BaseStats = 95,75,95,30,100,95
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 172
+EVs = DEFENSE,1,SPECIAL_DEFENSE,1
+CatchRate = 75
+Happiness = 50
+Abilities = OBLIVIOUS,OWNTEMPO
+HiddenAbilities = REGENERATOR
+Moves = 1,SPIKYSHIELD,1,CRUSHCLAW,1,SANDATTACK,1,METALCLAW,1,POISONSTING,1,DEFENSECURL,0,SMARTSTRIKE,9,ROLLOUT,12,FURYCUTTER,15,RAPIDSPIN,18,BULLDOZE,21,SWIFT,24,METALCLAW,26,SMARTSTRIKE,28,SANDTOMB,33,CRUSHCLAW,38,DIG,43,IRONHEAD,46,GYROBALL,51,SWORDSDANCE,56,SANDSTORM,61,EARTHQUAKE
+TutorMoves = AERIALACE,AGILITY,AMNESIA,BODYSLAM,BRICKBREAK,BULLDOZE,CURSE,DIG,DOUBLEEDGE,DRILLRUN,EARTHPOWER,EARTHQUAKE,ENDEAVOR,ENDURE,FACADE,FALSESWIPE,FLING,FOCUSBLAST,FOCUSPUNCH,GIGAIMPACT,GUNKSHOT,GYROBALL,HIGHHORSEPOWER,HYPERBEAM,IRONHEAD,KNOCKOFF,LEECHLIFE,LOWKICK,METALCLAW,MUDSHOT,MUDSLAP,POISONJAB,PROTECT,REST,ROCKSMASH,ROCKSLIDE,ROCKTOMB,SANDSTORM,SANDTOMB,SCORCHINGSANDS,SHADOWCLAW,SLEEPTALK,SMACKDOWN,SMARTSTRIKE,SPIKES,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,SUBSTITUTE,SUNNYDAY,SUPERFANG,SWIFT,SWORDSDANCE,TAKEDOWN,THIEF,THROATCHOP,XSCISSOR
+EggGroups = Water1,Dragon
+HatchSteps = 5120
+Height = 1.6
+Weight = 78.5
+Color = Pink
+Shape = BipedalTail
+Habitat = WatersEdge
+Category = Dopey
+Pokedex = ???
+Generation = 0
+WildItemUncommon = DRAGONSCALE
+Flags = Styxian
+#-------------------------------
+# Other
+#-------------------------------
 [CHAOS]
 Name = CHAOS
 Types = QMARKS
@@ -157,5 +243,5 @@ Color = Blue
 Shape = MultiWinged
 Habitat = Sea
 Category = Flying Fish
-Pokedex = .
+Pokedex = Chaos incarnate. What else is there to say?
 #-------------------------------

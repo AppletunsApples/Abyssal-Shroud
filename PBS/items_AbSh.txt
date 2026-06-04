@@ -19,10 +19,20 @@ Flags = KeyItem
 Description = A ticket that allows you to fly to Styx Island through its airplane.
 #-------------------------------
 [NATUREFLUTE]
-Name = Nature Flutes
+Name = Nature Flute
 NamePlural = Nature Flutes
 Pocket = 7
 Price = 0
 Flags = KeyItem
 Description = A mysterious flute connected to the ecosystem.
+#-------------------------------
+[DRAGONPEARL]
+Name = Dragon Pearl
+NamePlural = Dragon Pearls
+Pocket = 1
+Price = 3000
+SellPrice = 1000
+BPPrice = 5
+Flags = Fling_80
+Description = A shiny pearl that gives off draconic energy. It is loved by a certain Pokémon.
 #-------------------------------
