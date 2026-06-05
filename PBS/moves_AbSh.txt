@@ -86,11 +86,11 @@ Flags = Contact,CanProtect,CanMirrorMove,Punching
 Description = The user strikes the target with a jolt of venom. This move always goes first and may poison the target.
 #-------------------------------
 [SCYTHINGSTRIKES]
-Name = Triple Axel
-Type = ICE
+Name = Scything Strikes
+Type = STEEL
 Category = Physical
 Power = 20
-Accuracy = 90
+Accuracy = 95
 TotalPP = 10
 Target = NearOther
 FunctionCode = HitThreeTimesPowersUpWithEachHit
