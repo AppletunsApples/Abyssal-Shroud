@@ -85,3 +85,15 @@ FunctionCode = PoisonTarget
 Flags = Contact,CanProtect,CanMirrorMove,Punching
 Description = The user strikes the target with a jolt of venom. This move always goes first and may poison the target.
 #-------------------------------
+[SCYTHINGSTRIKES]
+Name = Triple Axel
+Type = ICE
+Category = Physical
+Power = 20
+Accuracy = 90
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitThreeTimesPowersUpWithEachHit
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A consecutive three-strike attack that becomes more powerful with each successful hit.
+#-------------------------------
