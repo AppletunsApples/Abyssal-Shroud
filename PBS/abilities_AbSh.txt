@@ -8,6 +8,10 @@ Description = Lowers the Speed of all Pokémon except the user.
 Name = In Spirit
 Description = Powers up Ghost-type moves.
 #-------------------------------
+[REAPERSDUE]
+Name = Reaper's Due
+Description = Boosts the power of its moves with every fainted ally.
+#-------------------------------
 [VALOR]
 Name = Valor
 Description = Boosts Sp. Attack after knocking out any Pokémon.
