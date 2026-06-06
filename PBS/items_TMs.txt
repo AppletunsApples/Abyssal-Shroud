@@ -729,3 +729,12 @@ FieldUse = TM
 Move = HEATWAVE
 Description = The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.
 #-------------------------------
+[TM82]
+Name = TM82
+NamePlural = TM82s
+Pocket = 5
+Price = 3500
+FieldUse = TM
+Move = SKITTERSMACK
+Description = The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.
+#-------------------------------
