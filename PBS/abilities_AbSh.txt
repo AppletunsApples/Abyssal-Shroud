@@ -1,12 +1,8 @@
 # See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[DIAMONDDUST]
-Name = Diamond Dust
-Description = The Pokémon summons a beautiful aurora of snow.
-#-------------------------------
-[JUDGMENTDAY]
-Name = Judgment Day
-Description = Opposing Pokémon activate Perish Song on themselves on sendout.
+[GODOFRUIN]
+Name = God of Ruin
+Description = Lowers the Speed of all Pokémon except the user.
 #-------------------------------
 [INSPIRIT]
 Name = In Spirit
