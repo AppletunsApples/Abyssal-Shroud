@@ -26,7 +26,7 @@ Battle::AbilityEffects::OnEndOfUsingMove.add(:VALOR,
 #===============================================================================
 Battle::AbilityEffects::DamageCalcFromUser.add(:REAPERSDUE,
   proc { |ability, user, target, move, mults, baseDmg, type|
-    bonus = user.effects[PBEffects::ReapersDue]
+    bonus = user.effects[PBEffects::SupremeOverlord]
     next if bonus <= 0
     mults[:power_multiplier] *= (1 + (0.1 * bonus))
   }
@@ -38,7 +38,7 @@ Battle::AbilityEffects::OnSwitchIn.add(:REAPERSDUE,
     next if numFainted <= 0
     battle.pbShowAbilitySplash(battler)
     battle.pbDisplay(_INTL("{1} gained strength from who it due!", battler.pbThis))
-    battler.effects[PBEffects::ReapersDue] = numFainted
+    battler.effects[PBEffects::SupremeOverlord] = numFainted
     battle.pbHideAbilitySplash(battler)
   }
 )
