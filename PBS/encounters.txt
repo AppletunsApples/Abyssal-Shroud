@@ -20,16 +20,16 @@ Land,21
 [006] # Vulcanus Volcano
 Cave,10
 50,MAGBY,1
-25,KOFFING_1,1
-11,ARON_1,1
+25,KOFFING_2,1
+11,ARON_2,1
 9,ROLYCOLY,1
 4,LARVITAR,1
 #-------------------------------
 [006,1] # Vulcanus Volcano
 Cave,10
 45,MAGBY,1
-25,KOFFING_1,1
-11,ARON_1,1
+25,KOFFING_2,1
+11,ARON_2,1
 9,ROLYCOLY,1
 5,FUECOCO,1
 4,LARVITAR,1
@@ -126,21 +126,13 @@ Cave,10
 5,FALINKS,1
 4,MURKROW,1
 #-------------------------------
-[005,1] # Rasus Ruins
-Cave,21
-45,KLINK,1
-31,TINKATINK_1,1
-10,DUNSPARCE,1
-5,FUECOCO,1
-5,FALINKS,1
-4,MURKROW,1
-#-------------------------------
 [016] # Calypso Cavern
 Cave,10
 40,KLINK,1
-30,KOFFING_1,1
-16,ARCHEN,1
+25,KOFFING_2,1
 10,SOLOSIS,1
+8,ARCHEN,1
+8,TYRUNT,1
 5,DUNSPARCE,1
 4,LARVITAR,1
 Water,10

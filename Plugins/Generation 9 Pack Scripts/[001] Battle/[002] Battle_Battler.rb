@@ -29,6 +29,7 @@ class Battle::Battler
     @effects[PBEffects::SuccessiveMove]  = nil
     @effects[PBEffects::SupremeOverlord] = 0
     @effects[PBEffects::Syrupy]          = 0
+    @effects[PBEffects::ReapersDue]      = 0
     @effects[PBEffects::SyrupyUser]      = -1
     @battle.allBattlers.each do |b|
       next if b.effects[PBEffects::SyrupyUser] != @index

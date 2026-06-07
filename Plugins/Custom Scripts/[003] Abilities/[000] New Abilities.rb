@@ -15,3 +15,26 @@ Battle::AbilityEffects::OnEndOfUsingMove.add(:VALOR,
     user.pbRaiseStatStageByAbility(:SPECIAL_ATTACK, numFainted, user)
   }
 )
+
+
+#===============================================================================
+# Reaper's Due
+#===============================================================================
+Battle::AbilityEffects::DamageCalcFromUser.add(:REAPERSDUE,
+  proc { |ability, user, target, move, mults, baseDmg, type|
+    bonus = user.effects[PBEffects::ReapersDue]
+    next if bonus <= 0
+    mults[:power_multiplier] *= (1 + (0.1 * bonus))
+  }
+)
+
+Battle::AbilityEffects::OnSwitchIn.add(:REAPERSDUE,
+  proc { |ability, battler, battle, switch_in|
+    numFainted = [5, battler.num_fainted_allies].min
+    next if numFainted <= 0
+    battle.pbShowAbilitySplash(battler)
+    battle.pbDisplay(_INTL("{1} gained strength from the fallen!", battler.pbThis))
+    battler.effects[PBEffects::ReapersDue] = numFainted
+    battle.pbHideAbilitySplash(battler)
+  }
+)

@@ -332,7 +332,7 @@ class Battle::Move
   alias paldea_pbCalcDamageMultipliers pbCalcDamageMultipliers
   def pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers)
     # "of Ruin" abilities
-    [:TABLETSOFRUIN, :SWORDOFRUIN, :VESSELOFRUIN, :BEADSOFRUIN].each_with_index do |ability, i|
+    [:TABLETSOFRUIN, :SWORDOFRUIN, :VESSELOFRUIN, :BEADSOFRUIN, :GODOFRUIN].each_with_index do |ability, i|
       next if !@battle.pbCheckGlobalAbility(ability)
       category = (i < 2) ? physicalMove? : specialMove?
       category = !category if i.odd? && @battle.field.effects[PBEffects::WonderRoom] > 0

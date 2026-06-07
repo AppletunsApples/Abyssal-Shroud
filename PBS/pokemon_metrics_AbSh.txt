@@ -18,13 +18,13 @@ FrontSprite = -2,22
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
-[STARTUS]
+[STARDEM]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
-[STARPIT]
+[STARCUS]
 BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0

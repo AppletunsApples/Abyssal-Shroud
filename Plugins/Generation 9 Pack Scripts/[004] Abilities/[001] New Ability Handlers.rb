@@ -399,6 +399,7 @@ Battle::AbilityEffects::OnSwitchIn.add(:TABLETSOFRUIN,
     when :SWORDOFRUIN   then stat_name = GameData::Stat.get(:DEFENSE).name
     when :VESSELOFRUIN  then stat_name = GameData::Stat.get(:SPECIAL_ATTACK).name
     when :BEADSOFRUIN   then stat_name = GameData::Stat.get(:SPECIAL_DEFENSE).name
+    when :GODOFRUIN     then stat_name = GameData::Stat.get(:SPEED).name
     end
     battle.pbShowAbilitySplash(battler)
     battle.pbDisplay(_INTL("{1}'s {2} weakened the {3} of all surrounding Pokémon!", battler.pbThis, battler.abilityName, stat_name))
@@ -406,7 +407,7 @@ Battle::AbilityEffects::OnSwitchIn.add(:TABLETSOFRUIN,
   }
 )
 
-Battle::AbilityEffects::OnSwitchIn.copy(:TABLETSOFRUIN, :SWORDOFRUIN, :VESSELOFRUIN, :BEADSOFRUIN)
+Battle::AbilityEffects::OnSwitchIn.copy(:TABLETSOFRUIN, :SWORDOFRUIN, :VESSELOFRUIN, :BEADSOFRUIN, :GODOFRUIN)
 
 #===============================================================================
 # Orichalcum Pulse

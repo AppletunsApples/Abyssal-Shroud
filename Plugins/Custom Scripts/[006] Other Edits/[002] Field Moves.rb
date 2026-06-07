@@ -1,5 +1,5 @@
 def pbSurf
-  return false if !$game_player.can_ride_vehicle_with_follower?\
+  return false if !$game_player.can_ride_vehicle_with_follower?
   return true if $DEBUG
   return false if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_SURF, true)
   if pbConfirmMessage(_INTL("The water is a deep blue color... Would you like to use Surf on it?"))
