@@ -23,7 +23,6 @@ module PBEffects
   Syrupy          = 414 # Used to track the remaining number of turns until Syrup Bomb's effect wares off.
   SyrupyUser      = 415 # Used to track the Syrup Bomb user so the effect ends if they leave the field.
   BurningBulwark  = 416 # Used for the effect of Burning Bulwark.
-  ReapersDue      = 417 # Used to trigger the effects of the Reaper's Due ability.
 end
 
 #-------------------------------------------------------------------------------
@@ -44,5 +43,4 @@ module Battle::DebugVariables
   BATTLER_EFFECTS[PBEffects::Syrupy]          = { name: "Syrupy turns remaining",                        default: 0 }
   BATTLER_EFFECTS[PBEffects::SyrupyUser]      = { name: "Battler syruped self",                          default: -1 }
   BATTLER_EFFECTS[PBEffects::BurningBulwark]  = { name: "Burning Bulwark applies this round",            default: false }
-  BATTLER_EFFECTS[PBEffects::ReapersDue]      = { name: "Reaper's Due multiplier 1 + 0.1*x (0-5)",   default: 0, max: 5 }
 end
