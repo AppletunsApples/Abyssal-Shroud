@@ -1,11 +1,15 @@
+#===============================================================================
 # In Spirit
+#===============================================================================
 Battle::AbilityEffects::DamageCalcFromUser.add(:INSPIRIT,
   proc { |ability, user, target, move, mults, power, type|
     mults[:attack_multiplier] *= 1.5 if type == :GHOST
   }
 )
 
+#===============================================================================
 # Valor
+#===============================================================================
 Battle::AbilityEffects::OnEndOfUsingMove.add(:VALOR,
   proc { |ability, user, targets, move, battle|
     next if battle.pbAllFainted?(user.idxOpposingSide)
