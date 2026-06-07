@@ -15,7 +15,6 @@ MapPosition = 0,12,7
 SnapEdges = true
 #-------------------------------
 [006]   # Vulcanus Volcano
-Name = Vulcanus Volcano
 ShowArea = true
 SnapEdges = true
 BattleBack = volcano
@@ -73,7 +72,6 @@ ShowArea = true
 MapPosition = 0,11,7
 #-------------------------------
 [015]   # Vulcanus Volcano
-Name = Vulcanus Volcano
 Outdoor = true
 ShowArea = true
 Bicycle = true
