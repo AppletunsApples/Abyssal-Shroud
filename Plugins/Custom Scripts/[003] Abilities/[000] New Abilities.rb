@@ -37,7 +37,7 @@ Battle::AbilityEffects::OnSwitchIn.add(:REAPERSDUE,
     numFainted = [5, battler.num_fainted_allies].min
     next if numFainted <= 0
     battle.pbShowAbilitySplash(battler)
-    battle.pbDisplay(_INTL("{1} gained strength from the fallen!", battler.pbThis))
+    battle.pbDisplay(_INTL("{1} gained strength from who it due!", battler.pbThis))
     battler.effects[PBEffects::ReapersDue] = numFainted
     battle.pbHideAbilitySplash(battler)
   }
