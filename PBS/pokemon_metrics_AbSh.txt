@@ -48,6 +48,12 @@ FrontSprite = -3,33
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
+[LOPUNNY,1]
+BackSprite = 0,21
+FrontSprite = 0,15
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
 [SANDSTRIKE]
 BackSprite = 0,15
 FrontSprite = 0,17

@@ -4,11 +4,9 @@
 Name = Intro
 #-------------------------------
 [004]   # Research Base
-Name = Research Base
 MapPosition = 0,15,11
 #-------------------------------
 [005]   # Rasus Ruins
-Name = Rasus Ruins
 Outdoor = true
 ShowArea = true
 MapPosition = 0,12,7
@@ -21,13 +19,11 @@ BattleBack = volcano
 Environment = Volcano
 #-------------------------------
 [007]   # Styx Airport
-Name = Styx Airport
 Outdoor = true
 ShowArea = true
 SnapEdges = true
 #-------------------------------
 [008]   # Selene Savanna
-Name = Selene Savanna
 Outdoor = true
 ShowArea = true
 Weather = Sandstorm,100
@@ -36,7 +32,6 @@ SnapEdges = true
 BattleBack = safari
 #-------------------------------
 [009]   # Triton Tundra
-Name = Triton Tundra
 Outdoor = true
 ShowArea = true
 Weather = Snow,100
@@ -45,13 +40,11 @@ BattleBack = snow
 Environment = Snow
 #-------------------------------
 [010]   # Research Base
-Name = Research Base
 ShowArea = true
 MapPosition = 0,15,11
 BattleBack = indoor1
 #-------------------------------
 [011]   # Flora Forest
-Name = Flora Forest
 Outdoor = true
 ShowArea = true
 MapPosition = 0,19,10
@@ -59,7 +52,6 @@ BattleBack = forest
 Environment = Forest
 #-------------------------------
 [012]   # Minerva Marsh
-Name = Minerva Marsh
 Outdoor = true
 ShowArea = true
 Weather = Rain,100
@@ -67,7 +59,6 @@ MapPosition = 0,16,7
 BattleBack = forest
 #-------------------------------
 [013]   # Rasus Ruins
-Name = Rasus Ruins
 ShowArea = true
 MapPosition = 0,11,7
 #-------------------------------
@@ -82,7 +73,6 @@ BattleBack = volcano
 Environment = Volcano
 #-------------------------------
 [016]   # Calypso Cavern
-Name = Calypso Cavern
 ShowArea = true
 SnapEdges = true
 MapPosition = 0,13,7
@@ -90,6 +80,5 @@ BattleBack = cave1
 Environment = Cave
 #-------------------------------
 [021]   # Research Base
-Name = Research Base
 ShowArea = true
 MapPosition = 0,15,11
